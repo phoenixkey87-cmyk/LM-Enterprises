@@ -54,6 +54,70 @@
             color: #4fc3f7;
         }
 
+        /* About Section */
+        .about-section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .about-container {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 3rem;
+            align-items: center;
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 20px;
+            padding: 2.5rem;
+        }
+
+        .about-photo {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 16px;
+            border: 2px solid #1e3a5f;
+        }
+
+        .about-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #4fc3f7;
+            margin-bottom: 1rem;
+        }
+
+        .about-content p {
+            font-size: 0.95rem;
+            color: #b0bec5;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .about-content .stat-row {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .about-content .stat {
+            text-align: center;
+        }
+
+        .about-content .stat .number {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #4fc3f7;
+        }
+
+        .about-content .stat .label {
+            font-size: 0.75rem;
+            color: #78909c;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
         /* Hero */
         .hero {
             text-align: center;
@@ -398,6 +462,21 @@
 
         /* Responsive */
         @media (max-width: 900px) {
+            .about-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .about-photo {
+                height: 300px;
+                max-width: 350px;
+                margin: 0 auto;
+            }
+
+            .about-content .stat-row {
+                justify-content: center;
+            }
+
             .services-grid {
                 grid-template-columns: 1fr 1fr;
             }
@@ -458,6 +537,40 @@
             international adventures, and stress-free vacation planning. 
             Let me handle the details while you enjoy the journey.
         </p>
+    </section>
+
+    <!-- About the Owner -->
+    <section class="about-section">
+        <div class="about-container">
+            <img src="images/keysha-bali.jpg" alt="Keysha in Bali" class="about-photo">
+            <div class="about-content">
+                <h2>Meet Your Travel Agent</h2>
+                <p>
+                    I'm Keysha Strickland — traveler, planner, and the founder of Phoenix Travel. 
+                    I've explored over a dozen countries and I bring that firsthand experience 
+                    to every trip I plan for my clients.
+                </p>
+                <p>
+                    Whether it's a birthday celebration in Southeast Asia, a girls' trip to the Caribbean, 
+                    or a cultural deep-dive in Africa, I handle all the details so you can focus 
+                    on making memories.
+                </p>
+                <div class="stat-row">
+                    <div class="stat">
+                        <div class="number">14+</div>
+                        <div class="label">Countries</div>
+                    </div>
+                    <div class="stat">
+                        <div class="number">50+</div>
+                        <div class="label">Trips Planned</div>
+                    </div>
+                    <div class="stat">
+                        <div class="number">5+</div>
+                        <div class="label">Years</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Services -->
@@ -542,6 +655,30 @@
             <div class="destination-card">
                 <div class="flag">&#127474;&#127485;</div>
                 <h4>Mexico</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127465;&#127476;</div>
+                <h4>Dominican Republic</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127477;&#127479;</div>
+                <h4>Puerto Rico</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127470;&#127465;</div>
+                <h4>Bali</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127478;&#127462;</div>
+                <h4>Qatar</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127466;&#127481;</div>
+                <h4>Ethiopia</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127464;&#127462;</div>
+                <h4>Canada</h4>
             </div>
         </div>
     </section>
