@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Travel | LM Enterprises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0f1a;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .nav {
+            padding: 1.5rem 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .nav .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav .logo span {
+            color: #4fc3f7;
+        }
+
+        .nav .back-link {
+            color: #78909c;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .nav .back-link:hover {
+            color: #4fc3f7;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(79, 195, 247, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #4fc3f7, #0288d1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .subtitle {
+            font-size: 1.15rem;
+            color: #b0bec5;
+            font-weight: 300;
+            line-height: 1.7;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #78909c;
+            font-size: 0.95rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .service-item {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .service-item:hover {
+            border-color: #4fc3f7;
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(79, 195, 247, 0.1);
+        }
+
+        .service-item .icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #4fc3f7;
+        }
+
+        .service-item p {
+            font-size: 0.85rem;
+            color: #90a4ae;
+            line-height: 1.6;
+        }
+
+        /* Destinations */
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        .destination-card {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .destination-card:hover {
+            border-color: #4fc3f7;
+            transform: translateY(-3px);
+        }
+
+        .destination-card .flag {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .destination-card h4 {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #e0e0e0;
+        }
+
+        /* How It Works */
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            position: relative;
+        }
+
+        .steps::before {
+            content: '';
+            position: absolute;
+            top: 2.5rem;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(90deg, #4fc3f7, #0288d1);
+            opacity: 0.3;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #4fc3f7, #0288d1);
+            color: #0a0f1a;
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #e0e0e0;
+            margin-bottom: 0.3rem;
+        }
+
+        .step p {
+            font-size: 0.82rem;
+            color: #78909c;
+            line-height: 1.5;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(145deg, #0d1b2a, #132238);
+            border-top: 1px solid #1e3a5f;
+            border-bottom: 1px solid #1e3a5f;
+        }
+
+        .cta-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .cta-section p {
+            color: #90a4ae;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.9rem 2.2rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #4fc3f7, #0288d1);
+            color: #0a0f1a;
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 8px 25px rgba(79, 195, 247, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #4fc3f7;
+            color: #4fc3f7;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(79, 195, 247, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Contact Info */
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            text-align: center;
+        }
+
+        .contact-item .label {
+            font-size: 0.75rem;
+            color: #546e7a;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.3rem;
+        }
+
+        .contact-item .value {
+            font-size: 0.9rem;
+            color: #4fc3f7;
+        }
+
+        .contact-item a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #1e293b;
+            color: #546e7a;
+            font-size: 0.85rem;
+        }
+
+        .footer a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .destinations-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .steps {
+                grid-template-columns: 1fr 1fr;
+                gap: 1.5rem;
+            }
+
+            .steps::before {
+                display: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .destinations-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .steps {
+                grid-template-columns: 1fr;
+            }
+
+            .nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .contact-info {
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">LM <span>Enterprises</span></a>
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-icon">&#9992;</div>
+        <h1>Phoenix Travel</h1>
+        <p class="subtitle">
+            Your full-service travel agency specializing in curated group trips, 
+            international adventures, and stress-free vacation planning. 
+            Let me handle the details while you enjoy the journey.
+        </p>
+    </section>
+
+    <!-- Services -->
+    <section class="section">
+        <h2 class="section-title">What I Offer</h2>
+        <p class="section-subtitle">Personalized travel services tailored to your needs</p>
+
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="icon">&#127758;</div>
+                <h3>Group Trip Planning</h3>
+                <p>Coordinated group experiences with payment plans, itineraries, and companion bookings to keep costs low.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#9992;&#65039;</div>
+                <h3>Flight Bookings</h3>
+                <p>Southwest Companion Pass savings, competitive fares, and strategic routing to get you there for less.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#127960;</div>
+                <h3>Hotel & Lodging</h3>
+                <p>Curated accommodations from boutique hotels to all-inclusive resorts, matched to your style and budget.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#128203;</div>
+                <h3>Custom Itineraries</h3>
+                <p>Day-by-day travel plans with excursions, dining recommendations, and local experiences.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#128176;</div>
+                <h3>Payment Plans</h3>
+                <p>Flexible payment schedules so you can lock in your trip today and pay over time via Venmo or Cash App.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#127881;</div>
+                <h3>Special Occasions</h3>
+                <p>Birthday trips, anniversaries, bachelorette parties, and milestone celebrations planned to perfection.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Destinations -->
+    <section class="section">
+        <h2 class="section-title">Destinations We've Explored</h2>
+        <p class="section-subtitle">Past and upcoming adventures with Phoenix Travel</p>
+
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <div class="flag">&#127483;&#127475;</div>
+                <h4>Vietnam</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127466;&#127480;</div>
+                <h4>Spain</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127463;&#127487;</div>
+                <h4>Belize</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127464;&#127476;</div>
+                <h4>Colombia</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127468;&#127481;</div>
+                <h4>Guatemala</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127462;&#127484;</div>
+                <h4>Aruba</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127481;&#127487;</div>
+                <h4>Tanzania</h4>
+            </div>
+            <div class="destination-card">
+                <div class="flag">&#127474;&#127485;</div>
+                <h4>Mexico</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-subtitle">From idea to itinerary in four simple steps</p>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Tell Me Your Vision</h4>
+                <p>Share your destination ideas, dates, budget, and travel style.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>Get a Custom Plan</h4>
+                <p>I'll put together an itinerary and payment breakdown tailored to you.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Lock It In</h4>
+                <p>Secure your spot with a deposit and follow a flexible payment schedule.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h4>Pack & Go</h4>
+                <p>Everything's handled. Show up, enjoy the trip, make memories.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <h2>Ready to Plan Your Next Trip?</h2>
+        <p>Let's talk about where you want to go. No commitment, just a conversation.</p>
+        <div class="cta-buttons">
+            <a href="mailto:phoenixtravel@email.com" class="btn btn-primary">Get in Touch</a>
+            <a href="https://instagram.com/phoenixtravel" class="btn btn-secondary">Follow on Instagram</a>
+        </div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="label">Cash App</div>
+                <div class="value"><a href="https://cash.app/$PhoenixTravel">$PhoenixTravel</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="label">Venmo</div>
+                <div class="value"><a href="https://venmo.com/keystrickland">@keystrickland</a></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Phoenix Travel | <a href="index.html">LM Enterprises</a> | Keysha Strickland</p>
+    </footer>
+</body>
+</html>

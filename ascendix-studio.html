@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascendix Studio | Web Design Services | LM Enterprises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0f1a;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .nav {
+            padding: 1.5rem 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .nav .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav .logo span {
+            color: #00e676;
+        }
+
+        .nav .back-link {
+            color: #78909c;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .nav .back-link:hover {
+            color: #00e676;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 230, 118, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #00e676, #00c853);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .tagline {
+            font-size: 1rem;
+            color: #78909c;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: 1.6rem;
+            color: #e0e0e0;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .desc {
+            font-size: 1rem;
+            color: #90a4ae;
+            font-weight: 300;
+            max-width: 550px;
+            margin: 0 auto;
+        }
+
+        /* Packages Section */
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            color: #00e676;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #78909c;
+            font-size: 0.95rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Pricing Cards */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            align-items: stretch;
+        }
+
+        .pricing-card {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 20px;
+            padding: 2.5rem 2rem;
+            position: relative;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 50px rgba(0, 230, 118, 0.1);
+        }
+
+        .pricing-card.featured {
+            border-color: #00e676;
+            box-shadow: 0 0 30px rgba(0, 230, 118, 0.1);
+        }
+
+        .pricing-card.featured::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #00e676, #00c853);
+            border-radius: 20px 20px 0 0;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #00e676, #00c853);
+            color: #0a0f1a;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card .plan-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #00e676;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .pricing-card .price {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 0.2rem;
+        }
+
+        .pricing-card .price-note {
+            font-size: 0.8rem;
+            color: #546e7a;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card .plan-desc {
+            font-size: 0.9rem;
+            color: #90a4ae;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .pricing-card .features {
+            list-style: none;
+            margin-bottom: 2rem;
+            flex-grow: 1;
+        }
+
+        .pricing-card .features li {
+            padding: 0.5rem 0;
+            font-size: 0.88rem;
+            color: #b0bec5;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .pricing-card .features li::before {
+            content: '\2713';
+            color: #00e676;
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .pricing-card .select-btn {
+            display: block;
+            text-align: center;
+            padding: 0.9rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: auto;
+        }
+
+        .pricing-card .select-btn.outline {
+            border: 2px solid #2e7d32;
+            color: #00e676;
+            background: transparent;
+        }
+
+        .pricing-card .select-btn.outline:hover {
+            background: rgba(0, 230, 118, 0.1);
+            border-color: #00e676;
+        }
+
+        .pricing-card.featured .select-btn {
+            background: linear-gradient(135deg, #00e676, #00c853);
+            color: #0a0f1a;
+            border: none;
+        }
+
+        .pricing-card.featured .select-btn:hover {
+            box-shadow: 0 8px 25px rgba(0, 230, 118, 0.4);
+            transform: translateY(-2px);
+        }
+
+        /* Add-ons Section */
+        .addons-section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .addon-category {
+            margin-bottom: 2.5rem;
+        }
+
+        .addon-category h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #00e676;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid #1e3a5f;
+            margin-bottom: 1rem;
+        }
+
+        .addon-list {
+            list-style: none;
+        }
+
+        .addon-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #0d1b2a;
+        }
+
+        .addon-list li:last-child {
+            border-bottom: none;
+        }
+
+        .addon-name {
+            font-size: 0.9rem;
+            color: #b0bec5;
+        }
+
+        .addon-price {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+
+        /* CTA */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(145deg, #0d1b2a, #132238);
+            border-top: 1px solid #1e3a5f;
+            border-bottom: 1px solid #1e3a5f;
+        }
+
+        .cta-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .cta-section p {
+            color: #90a4ae;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-section .btn {
+            display: inline-block;
+            padding: 0.9rem 2.5rem;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            background: linear-gradient(135deg, #00e676, #00c853);
+            color: #0a0f1a;
+            transition: all 0.3s ease;
+        }
+
+        .cta-section .btn:hover {
+            box-shadow: 0 8px 25px rgba(0, 230, 118, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .deposit-note {
+            margin-top: 1.5rem;
+            font-size: 0.82rem;
+            color: #546e7a;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #1e293b;
+            color: #546e7a;
+            font-size: 0.85rem;
+        }
+
+        .footer a {
+            color: #00e676;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                max-width: 450px;
+                margin: 0 auto;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .hero {
+                padding: 3rem 1.5rem 2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.3rem;
+            }
+
+            .section, .addons-section {
+                padding: 3rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">LM <span>Enterprises</span></a>
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Ascendix Studio</h1>
+        <p class="tagline">Web Design Services</p>
+        <p class="subtitle">Clear Pricing. No Surprises.</p>
+        <p class="desc">Choose a package that fits your project, then add only what you need.</p>
+    </section>
+
+    <!-- Packages -->
+    <section class="section">
+        <h2 class="section-title">Packages</h2>
+        <p class="section-subtitle">Professional web design at every level</p>
+
+        <div class="pricing-grid">
+            <!-- Starter -->
+            <div class="pricing-card">
+                <div class="plan-name">Starter</div>
+                <div class="price">$299</div>
+                <div class="price-note">one-time</div>
+                <p class="plan-desc">One page. One purpose. A clean, mobile-ready landing page built to convert.</p>
+                <ul class="features">
+                    <li>1-page landing page</li>
+                    <li>Mobile responsive design</li>
+                    <li>Contact form</li>
+                    <li>Basic SEO setup</li>
+                    <li>1 revision round</li>
+                    <li>Delivered in 5 business days</li>
+                </ul>
+                <a href="mailto:keystrickland@email.com?subject=Ascendix Studio - Starter Package" class="select-btn outline">Get Started</a>
+            </div>
+
+            <!-- Growth (Featured) -->
+            <div class="pricing-card featured">
+                <span class="badge">Most Popular</span>
+                <div class="plan-name">Growth</div>
+                <div class="price">$799</div>
+                <div class="price-note">one-time</div>
+                <p class="plan-desc">Everything you need to launch. A full website for businesses ready to make a real impression.</p>
+                <ul class="features">
+                    <li>Up to 5 pages</li>
+                    <li>Mobile responsive design</li>
+                    <li>Contact & inquiry forms</li>
+                    <li>On-page SEO</li>
+                    <li>Google Analytics setup</li>
+                    <li>2 revision rounds</li>
+                    <li>Delivered in 10 business days</li>
+                </ul>
+                <a href="mailto:keystrickland@email.com?subject=Ascendix Studio - Growth Package" class="select-btn">Choose Growth</a>
+            </div>
+
+            <!-- Pro -->
+            <div class="pricing-card">
+                <div class="plan-name">Pro</div>
+                <div class="price">$1,499</div>
+                <div class="price-note">one-time</div>
+                <p class="plan-desc">Built to scale with your business. Custom design and advanced features for growing brands.</p>
+                <ul class="features">
+                    <li>Up to 10 pages</li>
+                    <li>Custom UI design</li>
+                    <li>Blog or portfolio section</li>
+                    <li>Advanced SEO</li>
+                    <li>Speed optimization</li>
+                    <li>3 revision rounds</li>
+                    <li>Delivered in 15 business days</li>
+                </ul>
+                <a href="mailto:keystrickland@email.com?subject=Ascendix Studio - Pro Package" class="select-btn outline">Choose Pro</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add-ons -->
+    <section class="addons-section">
+        <h2 class="section-title">Add-Ons</h2>
+        <p class="section-subtitle">Add any of the following to your chosen package. Mix and match as needed.</p>
+
+        <div class="addon-category">
+            <h3>Images & Media</h3>
+            <ul class="addon-list">
+                <li>
+                    <span class="addon-name">Stock photo sourcing (up to 15)</span>
+                    <span class="addon-price">$75</span>
+                </li>
+                <li>
+                    <span class="addon-name">Custom image optimization & formatting</span>
+                    <span class="addon-price">$50</span>
+                </li>
+                <li>
+                    <span class="addon-name">Hero banner / header graphic design</span>
+                    <span class="addon-price">$150</span>
+                </li>
+                <li>
+                    <span class="addon-name">Full custom photo shoot coordination</span>
+                    <span class="addon-price">$400</span>
+                </li>
+                <li>
+                    <span class="addon-name">Video background or embed integration</span>
+                    <span class="addon-price">$100</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="addon-category">
+            <h3>Payments & E-commerce</h3>
+            <ul class="addon-list">
+                <li>
+                    <span class="addon-name">Stripe or PayPal payment integration</span>
+                    <span class="addon-price">$199</span>
+                </li>
+                <li>
+                    <span class="addon-name">Product listing page (up to 10 products)</span>
+                    <span class="addon-price">$299</span>
+                </li>
+                <li>
+                    <span class="addon-name">Full e-commerce shop (up to 25 products)</span>
+                    <span class="addon-price">$599</span>
+                </li>
+                <li>
+                    <span class="addon-name">Booking / appointment system</span>
+                    <span class="addon-price">$249</span>
+                </li>
+                <li>
+                    <span class="addon-name">Donation or tip jar button</span>
+                    <span class="addon-price">$99</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="addon-category">
+            <h3>Functionality</h3>
+            <ul class="addon-list">
+                <li>
+                    <span class="addon-name">Email newsletter signup (Mailchimp, etc.)</span>
+                    <span class="addon-price">$75</span>
+                </li>
+                <li>
+                    <span class="addon-name">Live chat widget setup</span>
+                    <span class="addon-price">$50</span>
+                </li>
+                <li>
+                    <span class="addon-name">Custom pop-up or lead capture form</span>
+                    <span class="addon-price">$100</span>
+                </li>
+                <li>
+                    <span class="addon-name">Password-protected member area</span>
+                    <span class="addon-price">$199</span>
+                </li>
+                <li>
+                    <span class="addon-name">Multi-language support</span>
+                    <span class="addon-price">$299</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="addon-category">
+            <h3>Hosting & Domain</h3>
+            <ul class="addon-list">
+                <li>
+                    <span class="addon-name">Domain registration (1 year)</span>
+                    <span class="addon-price">$15</span>
+                </li>
+                <li>
+                    <span class="addon-name">Web hosting setup (1 year)</span>
+                    <span class="addon-price">$120</span>
+                </li>
+                <li>
+                    <span class="addon-name">SSL certificate installation</span>
+                    <span class="addon-price">$49</span>
+                </li>
+                <li>
+                    <span class="addon-name">Domain + Hosting bundle (1 year)</span>
+                    <span class="addon-price">$120</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="addon-category">
+            <h3>Ongoing Support</h3>
+            <ul class="addon-list">
+                <li>
+                    <span class="addon-name">Monthly maintenance (updates + backups)</span>
+                    <span class="addon-price">$79/mo</span>
+                </li>
+                <li>
+                    <span class="addon-name">Content updates (per session)</span>
+                    <span class="addon-price">$60</span>
+                </li>
+                <li>
+                    <span class="addon-name">Emergency bug fix</span>
+                    <span class="addon-price">$99</span>
+                </li>
+                <li>
+                    <span class="addon-name">Monthly SEO report + tweaks</span>
+                    <span class="addon-price">$149/mo</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <h2>Ready to Build Your Website?</h2>
+        <p>Tell me about your project and I'll recommend the right package for you. Custom quotes available for larger projects.</p>
+        <a href="mailto:keystrickland@email.com?subject=Ascendix Studio - Project Inquiry" class="btn">Start Your Project</a>
+        <p class="deposit-note">All prices in USD &bull; A 50% deposit is required to begin work</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Ascendix Studio | <a href="index.html">LM Enterprises</a> | Keysha Strickland</p>
+    </footer>
+</body>
+</html>
