@@ -118,8 +118,8 @@
 
         .services-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2.5rem;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
         }
 
         /* Service Card */
@@ -155,6 +155,10 @@
             background: linear-gradient(90deg, #00e676, #00c853);
         }
 
+        .service-card.notary::before {
+            background: linear-gradient(90deg, #ffa726, #ff8f00);
+        }
+
         .service-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
@@ -168,6 +172,11 @@
         .service-card.web:hover {
             border-color: #00e676;
             box-shadow: 0 20px 60px rgba(0, 230, 118, 0.15);
+        }
+
+        .service-card.notary:hover {
+            border-color: #ffa726;
+            box-shadow: 0 20px 60px rgba(255, 167, 38, 0.15);
         }
 
         .service-icon {
@@ -188,6 +197,10 @@
 
         .service-card.web h3 {
             color: #00e676;
+        }
+
+        .service-card.notary h3 {
+            color: #ffa726;
         }
 
         .service-card .tagline {
@@ -233,6 +246,15 @@
             box-shadow: 0 8px 25px rgba(0, 230, 118, 0.4);
         }
 
+        .service-card.notary .cta-btn {
+            background: linear-gradient(135deg, #ffa726, #ff8f00);
+            color: #0a0f1a;
+        }
+
+        .service-card.notary:hover .cta-btn {
+            box-shadow: 0 8px 25px rgba(255, 167, 38, 0.4);
+        }
+
         /* Features list */
         .features-list {
             list-style: none;
@@ -263,6 +285,10 @@
 
         .service-card.web .features-list li::before {
             background: #00e676;
+        }
+
+        .service-card.notary .features-list li::before {
+            background: #ffa726;
         }
 
         /* Footer */
@@ -306,7 +332,7 @@
             }
 
             .service-card {
-                padding: 2.5rem 2rem;
+                padding: 2rem 1.5rem;
             }
 
             .header {
@@ -329,9 +355,9 @@
             <a href="mailto:keystrickland@charter.net">keystrickland@charter.net</a>
         </div>
         <p class="subtitle">
-            Two ventures. One mission: delivering exceptional service. 
-            Whether you're planning your next getaway or building your online presence, 
-            I've got you covered.
+            Three ventures. One mission: delivering exceptional service. 
+            Whether you're planning your next getaway, building your online presence, 
+            or need documents notarized, I've got you covered.
         </p>
     </section>
 
@@ -372,6 +398,24 @@
                     <li>E-commerce & payment integration</li>
                 </ul>
                 <span class="cta-btn">View Packages</span>
+            </a>
+
+            <!-- Notary Services -->
+            <a href="notary-services.html" class="service-card notary">
+                <div class="service-icon">&#128221;</div>
+                <h3>Notary Services</h3>
+                <p class="tagline">Mobile notary & loan signing agent</p>
+                <p class="description">
+                    Commissioned notary public serving the St. Louis and St. Charles area. 
+                    Mobile service available — I come to you.
+                </p>
+                <ul class="features-list">
+                    <li>General notarizations</li>
+                    <li>Loan signings & refinances</li>
+                    <li>Real estate closings</li>
+                    <li>Mobile service available</li>
+                </ul>
+                <span class="cta-btn">Learn More</span>
             </a>
         </div>
     </section>

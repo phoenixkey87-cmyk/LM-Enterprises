@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notary Services | LM Enterprises | Keysha Strickland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0f1a;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .nav {
+            padding: 1.5rem 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .nav .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav .logo span {
+            color: #ffa726;
+        }
+
+        .nav .back-link {
+            color: #78909c;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .nav .back-link:hover {
+            color: #ffa726;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(255, 167, 38, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffa726, #ff8f00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .subtitle {
+            font-size: 1.15rem;
+            color: #b0bec5;
+            font-weight: 300;
+            line-height: 1.7;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .hero .service-area {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.6rem 1.5rem;
+            background: rgba(255, 167, 38, 0.1);
+            border: 1px solid rgba(255, 167, 38, 0.3);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            color: #ffa726;
+            font-weight: 500;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #78909c;
+            font-size: 0.95rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .service-item {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .service-item:hover {
+            border-color: #ffa726;
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(255, 167, 38, 0.1);
+        }
+
+        .service-item .icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-item h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #ffa726;
+        }
+
+        .service-item p {
+            font-size: 0.85rem;
+            color: #90a4ae;
+            line-height: 1.6;
+        }
+
+        /* How It Works */
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            position: relative;
+        }
+
+        .steps::before {
+            content: '';
+            position: absolute;
+            top: 2.5rem;
+            left: 15%;
+            right: 15%;
+            height: 2px;
+            background: linear-gradient(90deg, #ffa726, #ff8f00);
+            opacity: 0.3;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ffa726, #ff8f00);
+            color: #0a0f1a;
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #e0e0e0;
+            margin-bottom: 0.3rem;
+        }
+
+        .step p {
+            font-size: 0.82rem;
+            color: #78909c;
+            line-height: 1.5;
+        }
+
+        /* Why Choose Me */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.2rem;
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 12px;
+        }
+
+        .benefit-item .check {
+            color: #ffa726;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .benefit-item h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #e0e0e0;
+            margin-bottom: 0.2rem;
+        }
+
+        .benefit-item p {
+            font-size: 0.82rem;
+            color: #78909c;
+            line-height: 1.5;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(145deg, #0d1b2a, #132238);
+            border-top: 1px solid #1e3a5f;
+            border-bottom: 1px solid #1e3a5f;
+        }
+
+        .cta-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .cta-section p {
+            color: #90a4ae;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.9rem 2.2rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #ffa726, #ff8f00);
+            color: #0a0f1a;
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 8px 25px rgba(255, 167, 38, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #ffa726;
+            color: #ffa726;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 167, 38, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Contact Info */
+        .contact-details {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            text-align: center;
+        }
+
+        .contact-item .label {
+            font-size: 0.75rem;
+            color: #546e7a;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.3rem;
+        }
+
+        .contact-item .value {
+            font-size: 0.9rem;
+            color: #ffa726;
+        }
+
+        .contact-item a {
+            color: #ffa726;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #1e293b;
+            color: #546e7a;
+            font-size: 0.85rem;
+        }
+
+        .footer a {
+            color: #ffa726;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .steps {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .steps::before {
+                display: none;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .contact-details {
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">LM <span>Enterprises</span></a>
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-icon">&#128221;</div>
+        <h1>Notary Services</h1>
+        <p class="subtitle">
+            Commissioned Notary Public, Mobile Notary, and Loan Signing Agent 
+            serving the St. Louis and St. Charles metro area. 
+            Professional, reliable, and available when you need me.
+        </p>
+        <span class="service-area">Serving St. Louis & St. Charles, MO</span>
+    </section>
+
+    <!-- Services -->
+    <section class="section">
+        <h2 class="section-title">Services Offered</h2>
+        <p class="section-subtitle">Comprehensive notary services for individuals and businesses</p>
+
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="icon">&#128196;</div>
+                <h3>General Notarizations</h3>
+                <p>Acknowledgments, jurats, oaths, affirmations, and copy certifications for any legal document.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#127968;</div>
+                <h3>Loan Signings</h3>
+                <p>Certified loan signing agent for refinances, purchases, HELOCs, and reverse mortgages.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#128273;</div>
+                <h3>Real Estate Closings</h3>
+                <p>Title and escrow document signings for buyers, sellers, and title companies.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#127760;</div>
+                <h3>Apostille Services</h3>
+                <p>Document authentication for international use, coordinated through the Missouri Secretary of State.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#128101;</div>
+                <h3>I-9 Verifications</h3>
+                <p>Employment eligibility verification for remote employees and HR departments.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon">&#128666;</div>
+                <h3>Mobile Notary</h3>
+                <p>I come to you — home, office, hospital, or any convenient location in the service area.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Documents -->
+    <section class="section">
+        <h2 class="section-title">Documents I Notarize</h2>
+        <p class="section-subtitle">Common documents — but not limited to these</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-item">
+                <span class="check">&#10003;</span>
+                <div>
+                    <h4>Power of Attorney</h4>
+                    <p>General, durable, medical, and limited POA documents</p>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <span class="check">&#10003;</span>
+                <div>
+                    <h4>Wills & Trusts</h4>
+                    <p>Last will and testament, living trusts, and estate documents</p>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <span class="check">&#10003;</span>
+                <div>
+                    <h4>Affidavits & Sworn Statements</h4>
+                    <p>Legal declarations, statutory declarations, and sworn affidavits</p>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <span class="check">&#10003;</span>
+                <div>
+                    <h4>Vehicle Titles & Bill of Sale</h4>
+                    <p>Car title transfers, boat titles, and vehicle sale documents</p>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <span class="check">&#10003;</span>
+                <div>
+                    <h4>Medical & Healthcare Directives</h4>
+                    <p>Living wills, healthcare proxies, and HIPAA authorizations</p>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <span class="check">&#10003;</span>
+                <div>
+                    <h4>Business Documents</h4>
+                    <p>Contracts, articles of incorporation, partnership agreements, and operating agreements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-subtitle">Simple, fast, and professional</p>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Contact Me</h4>
+                <p>Call or email with your document details and preferred time and location.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>I Come to You</h4>
+                <p>I'll meet you at your home, office, or a location convenient for you.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Sign & Done</h4>
+                <p>Documents are notarized on the spot. Quick, easy, and legally binding.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <h2>Need a Document Notarized?</h2>
+        <p>I'm available for same-day and next-day appointments. Call or email to schedule.</p>
+        <div class="cta-buttons">
+            <a href="tel:3143074921" class="btn btn-primary">Call 314-307-4921</a>
+            <a href="mailto:keystrickland@charter.net" class="btn btn-secondary">Send an Email</a>
+        </div>
+        <div class="contact-details">
+            <div class="contact-item">
+                <div class="label">Phone</div>
+                <div class="value"><a href="tel:3143074921">314-307-4921</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="label">Email</div>
+                <div class="value"><a href="mailto:keystrickland@charter.net">keystrickland@charter.net</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="label">Service Area</div>
+                <div class="value">St. Louis & St. Charles, MO</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 LM Enterprises | <a href="index.html">Home</a> | Keysha Strickland</p>
+    </footer>
+</body>
+</html>
