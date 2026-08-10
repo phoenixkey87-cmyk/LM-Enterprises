@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | LM Enterprises | Keysha Strickland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0f1a;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .nav {
+            padding: 1.5rem 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        .nav .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav .logo span {
+            color: #4fc3f7;
+        }
+
+        .nav .back-link {
+            color: #78909c;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .nav .back-link:hover {
+            color: #4fc3f7;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem 2rem;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(79, 195, 247, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            background: linear-gradient(135deg, #4fc3f7, #00e676);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .subtitle {
+            font-size: 1.05rem;
+            color: #b0bec5;
+            font-weight: 300;
+            max-width: 550px;
+            margin: 0 auto;
+        }
+
+        /* Section */
+        .section {
+            padding: 3rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #78909c;
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Reviews Grid */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .review-card {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 16px;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .review-card .stars {
+            color: #ffa726;
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+            letter-spacing: 2px;
+        }
+
+        .review-card .quote {
+            font-size: 0.9rem;
+            color: #b0bec5;
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 1.2rem;
+        }
+
+        .review-card .quote::before {
+            content: '\201C';
+            font-size: 2rem;
+            color: #4fc3f7;
+            line-height: 0;
+            vertical-align: -0.5rem;
+            margin-right: 0.3rem;
+        }
+
+        .review-card .reviewer {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .review-card .reviewer-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #4fc3f7, #0288d1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+            color: #0a0f1a;
+        }
+
+        .review-card .reviewer-info h4 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+
+        .review-card .reviewer-info p {
+            font-size: 0.75rem;
+            color: #546e7a;
+        }
+
+        .service-tag {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 0.3rem;
+        }
+
+        .service-tag.travel {
+            background: rgba(79, 195, 247, 0.15);
+            color: #4fc3f7;
+        }
+
+        .service-tag.web {
+            background: rgba(0, 230, 118, 0.15);
+            color: #00e676;
+        }
+
+        .service-tag.notary {
+            background: rgba(255, 167, 38, 0.15);
+            color: #ffa726;
+        }
+
+        /* Review Form */
+        .form-section {
+            padding: 4rem 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .review-form {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 20px;
+            padding: 2.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #b0bec5;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            background: #0a0f1a;
+            border: 1px solid #1e3a5f;
+            border-radius: 10px;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #4fc3f7;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-group select {
+            appearance: none;
+            cursor: pointer;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        /* Star Rating Input */
+        .star-rating {
+            display: flex;
+            gap: 0.3rem;
+            direction: rtl;
+            justify-content: flex-end;
+        }
+
+        .star-rating input {
+            display: none;
+        }
+
+        .star-rating label {
+            font-size: 1.8rem;
+            color: #2e3a4a;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .star-rating input:checked ~ label,
+        .star-rating label:hover,
+        .star-rating label:hover ~ label {
+            color: #ffa726;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(135deg, #4fc3f7, #00e676);
+            color: #0a0f1a;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .submit-btn:hover {
+            box-shadow: 0 8px 25px rgba(79, 195, 247, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* Success Message */
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 230, 118, 0.1);
+            border: 1px solid rgba(0, 230, 118, 0.3);
+            border-radius: 12px;
+            margin-top: 1.5rem;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        .success-message h3 {
+            color: #00e676;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .success-message p {
+            color: #90a4ae;
+            font-size: 0.85rem;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #1e293b;
+            color: #546e7a;
+            font-size: 0.85rem;
+        }
+
+        .footer a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .review-form {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">LM <span>Enterprises</span></a>
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Client Reviews</h1>
+        <p class="subtitle">See what our clients are saying about their experience working with LM Enterprises.</p>
+    </section>
+
+    <!-- Existing Reviews -->
+    <section class="section">
+        <h2 class="section-title">What Clients Say</h2>
+        <p class="section-subtitle">Real feedback from real clients</p>
+
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="quote">Keysha planned the most incredible group trip to Vietnam. Every detail was taken care of — flights, hotels, excursions. All I had to do was show up and enjoy.</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">BT</div>
+                    <div class="reviewer-info">
+                        <h4>Brianna T.</h4>
+                        <span class="service-tag travel">Phoenix Travel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="quote">She made the payment plan so easy and stress-free. I was able to pay over time and still get an amazing vacation. Highly recommend Phoenix Travel!</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">DW</div>
+                    <div class="reviewer-info">
+                        <h4>Dwayna W.</h4>
+                        <span class="service-tag travel">Phoenix Travel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="quote">I needed documents notarized last minute and Keysha came right to my office. Professional, fast, and so easy to work with. Will definitely use again.</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">MJ</div>
+                    <div class="reviewer-info">
+                        <h4>Marcus J.</h4>
+                        <span class="service-tag notary">Notary Services</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="quote">Ascendix Studio built my business website and it looks amazing. Clean, modern, and my clients love it. Great communication throughout the process.</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">TL</div>
+                    <div class="reviewer-info">
+                        <h4>Tasha L.</h4>
+                        <span class="service-tag web">Ascendix Studio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leave a Review Form -->
+    <section class="form-section">
+        <h2 class="section-title">Leave a Review</h2>
+        <p class="section-subtitle">Had a great experience? Let others know!</p>
+
+        <form class="review-form" id="reviewForm" onsubmit="submitReview(event)">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="First name, Last initial" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Used</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="Phoenix Travel">Phoenix Travel</option>
+                        <option value="Ascendix Studio">Ascendix Studio</option>
+                        <option value="Notary Services">Notary Services</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Your Rating</label>
+                <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" required>
+                    <label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&#9733;</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="review">Your Review</label>
+                <textarea id="review" name="review" placeholder="Tell us about your experience..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Review</button>
+        </form>
+
+        <div class="success-message" id="successMessage">
+            <h3>Thank you for your review!</h3>
+            <p>Your feedback has been submitted and will be posted after approval.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 LM Enterprises | <a href="index.html">Home</a> | Keysha Strickland</p>
+    </footer>
+
+    <script>
+        function submitReview(event) {
+            event.preventDefault();
+            
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                service: document.getElementById('service').value,
+                rating: document.querySelector('input[name="rating"]:checked')?.value,
+                review: document.getElementById('review').value
+            };
+
+            // Send review via email (using mailto as a simple approach)
+            const subject = encodeURIComponent('New Review - ' + formData.service);
+            const body = encodeURIComponent(
+                'Name: ' + formData.name + '\n' +
+                'Service: ' + formData.service + '\n' +
+                'Rating: ' + formData.rating + '/5 stars\n' +
+                'Review: ' + formData.review
+            );
+            
+            window.location.href = 'mailto:keystrickland@charter.net?subject=' + subject + '&body=' + body;
+
+            // Show success message
+            document.getElementById('reviewForm').style.display = 'none';
+            document.getElementById('successMessage').classList.add('show');
+        }
+    </script>
+</body>
+</html>
