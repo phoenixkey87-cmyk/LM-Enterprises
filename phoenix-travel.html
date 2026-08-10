@@ -182,6 +182,40 @@
             padding: 1.5rem;
             text-align: center;
             transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .destination-card.has-image {
+            padding: 0;
+            min-height: 160px;
+        }
+
+        .destination-card.has-image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .destination-card.has-image .overlay {
+            position: relative;
+            z-index: 1;
+            background: rgba(10, 15, 26, 0.5);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
         }
 
         .destination-card:hover {
@@ -465,13 +499,19 @@
         <p class="section-subtitle">Past and upcoming adventures with Phoenix Travel</p>
 
         <div class="destinations-grid">
-            <div class="destination-card">
-                <div class="flag">&#127483;&#127475;</div>
-                <h4>Vietnam</h4>
+            <div class="destination-card has-image">
+                <img src="images/vietnam.webp" alt="Vietnam">
+                <div class="overlay">
+                    <div class="flag">&#127483;&#127475;</div>
+                    <h4>Vietnam</h4>
+                </div>
             </div>
-            <div class="destination-card">
-                <div class="flag">&#127466;&#127480;</div>
-                <h4>Spain</h4>
+            <div class="destination-card has-image">
+                <img src="images/spain.png" alt="Spain">
+                <div class="overlay">
+                    <div class="flag">&#127466;&#127480;</div>
+                    <h4>Spain</h4>
+                </div>
             </div>
             <div class="destination-card">
                 <div class="flag">&#127463;&#127487;</div>
@@ -496,21 +536,6 @@
             <div class="destination-card">
                 <div class="flag">&#127474;&#127485;</div>
                 <h4>Mexico</h4>
-            </div>
-        </div>
-
-        <div style="margin-top: 2.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-            <div style="border-radius: 16px; overflow: hidden; border: 1px solid #1e3a5f;">
-                <img src="images/vietnam.webp" alt="Ha Long Bay, Vietnam" style="width: 100%; height: 220px; object-fit: cover; display: block;">
-                <div style="padding: 0.8rem 1.2rem; background: linear-gradient(145deg, #111827, #1a2332); text-align: center;">
-                    <p style="color: #4fc3f7; font-weight: 600; font-size: 0.9rem; margin: 0;">Ha Long Bay, Vietnam</p>
-                </div>
-            </div>
-            <div style="border-radius: 16px; overflow: hidden; border: 1px solid #1e3a5f;">
-                <img src="images/spain.png" alt="Spain" style="width: 100%; height: 220px; object-fit: cover; display: block;">
-                <div style="padding: 0.8rem 1.2rem; background: linear-gradient(145deg, #111827, #1a2332); text-align: center;">
-                    <p style="color: #4fc3f7; font-weight: 600; font-size: 0.9rem; margin: 0;">Spain</p>
-                </div>
             </div>
         </div>
     </section>
