@@ -50,15 +50,44 @@
             margin: 0 auto;
         }
 
+        .hero-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: top;
+            border: 4px solid #1e3a5f;
+            box-shadow: 0 8px 30px rgba(79, 195, 247, 0.2);
+            margin-bottom: 1.5rem;
+        }
+
         .hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 3.2rem;
             font-weight: 700;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             background: linear-gradient(135deg, #4fc3f7, #00e676);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+        }
+
+        .hero .contact-info {
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .contact-info a,
+        .hero .contact-info span {
+            display: inline-block;
+            font-size: 0.9rem;
+            color: #90a4ae;
+            margin: 0.2rem 0.8rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .hero .contact-info a:hover {
+            color: #4fc3f7;
         }
 
         .hero .subtitle {
@@ -256,6 +285,21 @@
                 font-size: 2.2rem;
             }
 
+            .hero-photo {
+                width: 140px;
+                height: 140px;
+            }
+
+            .hero .contact-info a,
+            .hero .contact-info span {
+                display: block;
+                margin: 0.3rem 0;
+            }
+
+            .hero .contact-info span {
+                display: none;
+            }
+
             .services-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
@@ -277,7 +321,13 @@
     </header>
 
     <section class="hero">
+        <img src="images/keysha.jpg" alt="Keysha Strickland" class="hero-photo">
         <h1>Keysha Strickland</h1>
+        <div class="contact-info">
+            <a href="tel:3143074921">314-307-4921</a>
+            <span>|</span>
+            <a href="mailto:keystrickland@charter.net">keystrickland@charter.net</a>
+        </div>
         <p class="subtitle">
             Two ventures. One mission: delivering exceptional service. 
             Whether you're planning your next getaway or building your online presence, 
