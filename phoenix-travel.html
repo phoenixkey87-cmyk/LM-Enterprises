@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phoenix Travel | LM Enterprises</title>
+    <link rel="icon" type="image/png" href="images/Phoenix-01.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -460,6 +461,211 @@
             text-decoration: none;
         }
 
+        /* Sale Banner */
+        .sale-banner {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #4fc3f7;
+            border-radius: 20px;
+            padding: 3rem 2.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgba(79, 195, 247, 0.08);
+        }
+
+        .sale-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(79, 195, 247, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .sale-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #4fc3f7, #0288d1);
+            color: #0a0f1a;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+            margin-bottom: 1.5rem;
+        }
+
+        .sale-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+
+        .sale-headline {
+            font-size: 1.2rem;
+            color: #b0bec5;
+            margin-bottom: 1rem;
+        }
+
+        .sale-headline strong {
+            color: #4fc3f7;
+        }
+
+        .sale-description {
+            font-size: 0.9rem;
+            color: #90a4ae;
+            line-height: 1.7;
+            max-width: 550px;
+            margin: 0 auto 2rem;
+        }
+
+        .sale-images {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .sale-image-card {
+            position: relative;
+            width: 220px;
+            height: 150px;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #1e3a5f;
+        }
+
+        .sale-image-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sale-image-card span {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0.5rem;
+            background: linear-gradient(transparent, rgba(10, 15, 26, 0.85));
+            color: #e0e0e0;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .sale-details {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .sale-detail-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .sale-label {
+            font-size: 0.72rem;
+            color: #546e7a;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .sale-value {
+            font-size: 0.95rem;
+            color: #4fc3f7;
+            font-weight: 600;
+        }
+
+        /* Itinerary Lookup */
+        .itinerary-lookup {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 20px;
+            padding: 3rem 2.5rem;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .itinerary-lookup .lookup-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .itinerary-lookup .lookup-description {
+            font-size: 0.9rem;
+            color: #90a4ae;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .lookup-form {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .lookup-form input {
+            padding: 0.9rem 1.5rem;
+            border: 2px solid #1e3a5f;
+            border-radius: 50px;
+            background: rgba(10, 15, 26, 0.8);
+            color: #fff;
+            font-size: 1rem;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            width: 220px;
+            transition: border-color 0.3s;
+        }
+
+        .lookup-form input::placeholder {
+            color: #546e7a;
+        }
+
+        .lookup-form input:focus {
+            outline: none;
+            border-color: #4fc3f7;
+        }
+
+        .lookup-form button {
+            padding: 0.9rem 2rem;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(135deg, #4fc3f7, #0288d1);
+            color: #0a0f1a;
+            font-size: 0.9rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .lookup-form button:hover {
+            box-shadow: 0 8px 25px rgba(79, 195, 247, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .lookup-error {
+            font-size: 0.85rem;
+            color: #ef5350;
+            margin-top: 1.25rem;
+        }
+
         /* Pricing Section */
         .pricing-section {
             padding: 5rem 2rem;
@@ -719,6 +925,7 @@
             margin: 0 auto;
             line-height: 1.6;
             font-style: italic;
+            margin-bottom: 2rem;
         }
 
         @media (max-width: 900px) {
@@ -795,6 +1002,14 @@
                 padding: 3rem 1.25rem;
             }
 
+            .itinerary-lookup {
+                padding: 2rem 1.25rem;
+            }
+
+            .lookup-form input {
+                width: 100%;
+            }
+
             .pricing-card {
                 padding: 2rem 1.5rem;
             }
@@ -839,6 +1054,37 @@
             international adventures, and stress-free vacation planning. 
             Let me handle the details while you enjoy the journey.
         </p>
+    </section>
+
+    <!-- Current Sale Banner -->
+    <section class="section">
+        <div class="sale-banner">
+            <div class="sale-tag">Limited Time Offer</div>
+            <h2 class="sale-title">U.S. and Canada Sale</h2>
+            <p class="sale-headline">Final days to <strong>save 25%</strong> on stays</p>
+            <div class="sale-images">
+                <div class="sale-image-card">
+                    <img src="images/canada.jpg" alt="Canada">
+                    <span>Canada</span>
+                </div>
+                <div class="sale-image-card">
+                    <img src="images/spain.png" alt="Europe">
+                    <span>Europe</span>
+                </div>
+            </div>
+            <p class="sale-description">The sale is ending soon, but you still have time to get 25% off when you book select hotels in the United States and Canada. Lock in great value on domestic trips today.</p>
+            <div class="sale-details">
+                <div class="sale-detail-item">
+                    <span class="sale-label">Sale Dates</span>
+                    <span class="sale-value">August 4–31, 2026</span>
+                </div>
+                <div class="sale-detail-item">
+                    <span class="sale-label">Travel Dates</span>
+                    <span class="sale-value">August 4–October 31, 2026</span>
+                </div>
+            </div>
+            <a href="mailto:key.phoeniixtravel@gmail.com?subject=U.S. %26 Canada 25%25 Off Sale Inquiry" class="btn btn-primary">Book This Deal</a>
+        </div>
     </section>
 
     <!-- About the Owner -->
@@ -1064,6 +1310,22 @@
         </div>
     </section>
 
+    <!-- Access Your Itinerary -->
+    <section class="section">
+        <h2 class="section-title">Access Your Itinerary</h2>
+        <p class="section-subtitle">Already purchased a trip or itinerary? Enter your invoice number below to view your travel plan.</p>
+
+        <div class="itinerary-lookup">
+            <div class="lookup-icon">&#128203;</div>
+            <p class="lookup-description">Your invoice number was provided when your planning fee was confirmed. Enter it below to pull up your personalized itinerary.</p>
+            <div class="lookup-form">
+                <input type="text" id="invoice-input" placeholder="e.g. PT-1001" aria-label="Invoice number">
+                <button id="lookup-btn" onclick="lookupItinerary()">View Itinerary</button>
+            </div>
+            <p id="lookup-error" class="lookup-error" style="display:none;">Invoice not found. Please check your invoice number or contact Phoenix Travel for assistance.</p>
+        </div>
+    </section>
+
     <!-- Travel Planning Services & Fees -->
     <section class="pricing-section">
         <h2 class="section-title">Travel Planning Services &amp; Fees</h2>
@@ -1172,15 +1434,6 @@
             <p>Final pricing may vary depending on destination, number of travelers, length of trip, complexity, and requested services.</p>
         </div>
 
-        <!-- Family & Friends Policy -->
-        <div class="faq-section">
-            <h3>Family &amp; Friends Policy</h3>
-            <div class="faq-item">
-                <h4>Do you offer family and friends discounts?</h4>
-                <p>Occasional discounts or courtesy pricing may be offered at Phoenix Travel's discretion. Family and friend relationships do not automatically waive professional planning fees.</p>
-            </div>
-        </div>
-
         <!-- FAQ -->
         <div class="faq-section">
             <h3>Frequently Asked Questions</h3>
@@ -1215,28 +1468,46 @@
                 <a href="mailto:key.phoeniixtravel@gmail.com?subject=Travel Consultation Request" class="btn btn-secondary">Request a Consultation</a>
             </div>
             <p class="cta-note">Submitting a travel inquiry does not begin the planning process. Planning begins after the applicable planning fee has been confirmed and paid.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="label">Cash App</div>
+                    <div class="value"><a href="https://cash.app/$PhoenixTravel">$PhoenixTravel</a></div>
+                </div>
+                <div class="contact-item">
+                    <div class="label">Venmo</div>
+                    <div class="value"><a href="https://venmo.com/keystrickland">@keystrickland</a></div>
+                </div>
+                <div class="contact-item">
+                    <div class="label">PayPal</div>
+                    <div class="value"><a href="https://paypal.me/phphoenix">@phphoenix</a></div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="cta-section">
-        <h2>Ready to Plan Your Next Trip?</h2>
-        <p>Let's talk about where you want to go. No commitment, just a conversation.</p>
-        <div class="cta-buttons">
-            <a href="mailto:key.phoeniixtravel@gmail.com" class="btn btn-primary">Get in Touch</a>
-            <a href="https://instagram.com/phoenixtravel" class="btn btn-secondary">Follow on Instagram</a>
-        </div>
-        <div class="contact-info">
-            <div class="contact-item">
-                <div class="label">Cash App</div>
-                <div class="value"><a href="https://cash.app/$PhoenixTravel">$PhoenixTravel</a></div>
-            </div>
-            <div class="contact-item">
-                <div class="label">Venmo</div>
-                <div class="value"><a href="https://venmo.com/keystrickland">@keystrickland</a></div>
-            </div>
-        </div>
-    </section>
+    <script>
+        // Invoice to itinerary mapping
+        var itineraries = {
+            'PT-1001': 'https://phoenixkey87-cmyk.github.io/Nik-40th-Spain/'
+        };
+
+        function lookupItinerary() {
+            var input = document.getElementById('invoice-input').value.trim().toUpperCase();
+            var error = document.getElementById('lookup-error');
+
+            if (itineraries[input]) {
+                error.style.display = 'none';
+                window.open(itineraries[input], '_blank');
+            } else {
+                error.style.display = 'block';
+            }
+        }
+
+        // Allow Enter key to trigger lookup
+        document.getElementById('invoice-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') lookupItinerary();
+        });
+    </script>
 
     <footer class="footer">
         <p>&copy; 2026 Phoenix Travel | <a href="index.html">LM Enterprises</a> | Keysha Strickland</p>
