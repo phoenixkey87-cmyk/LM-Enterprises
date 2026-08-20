@@ -460,7 +460,267 @@
             text-decoration: none;
         }
 
-        /* Responsive */
+        /* Pricing Section */
+        .pricing-section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .pricing-section .section-title {
+            margin-bottom: 0.5rem;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .pricing-card {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 20px;
+            padding: 2.5rem 2rem;
+            position: relative;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing-card:hover {
+            border-color: #4fc3f7;
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(79, 195, 247, 0.1);
+        }
+
+        .pricing-card.popular {
+            border-color: #4fc3f7;
+            box-shadow: 0 0 30px rgba(79, 195, 247, 0.08);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #4fc3f7, #0288d1);
+            color: #0a0f1a;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+            white-space: nowrap;
+        }
+
+        .pricing-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+
+        .pricing-card .price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #4fc3f7;
+            margin-bottom: 0.3rem;
+        }
+
+        .pricing-card .price-note {
+            font-size: 0.8rem;
+            color: #78909c;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem;
+            flex-grow: 1;
+        }
+
+        .pricing-card ul li {
+            font-size: 0.88rem;
+            color: #b0bec5;
+            padding: 0.45rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            line-height: 1.5;
+        }
+
+        .pricing-card ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #4fc3f7;
+            font-weight: 600;
+        }
+
+        .pricing-card .card-note {
+            font-size: 0.8rem;
+            color: #78909c;
+            font-style: italic;
+            margin-top: auto;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(30, 58, 95, 0.5);
+        }
+
+        /* Additional Services */
+        .additional-services {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .additional-services h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .addons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .addon-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.25rem;
+            background: rgba(10, 15, 26, 0.5);
+            border: 1px solid rgba(30, 58, 95, 0.5);
+            border-radius: 10px;
+        }
+
+        .addon-item .addon-name {
+            font-size: 0.9rem;
+            color: #e0e0e0;
+            font-weight: 500;
+        }
+
+        .addon-item .addon-price {
+            font-size: 0.9rem;
+            color: #4fc3f7;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        /* Policy Box */
+        .policy-box {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .policy-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .policy-box p {
+            font-size: 0.9rem;
+            color: #b0bec5;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .policy-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-bottom: 3rem;
+        }
+
+        .faq-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .faq-item {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f;
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .faq-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .faq-item h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #e0e0e0;
+            margin-bottom: 0.6rem;
+        }
+
+        .faq-item p {
+            font-size: 0.88rem;
+            color: #90a4ae;
+            line-height: 1.7;
+        }
+
+        /* Pricing CTA */
+        .pricing-cta {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: linear-gradient(145deg, #0d1b2a, #132238);
+            border: 1px solid #1e3a5f;
+            border-radius: 20px;
+        }
+
+        .pricing-cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .pricing-cta p {
+            color: #90a4ae;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .pricing-cta .cta-buttons {
+            margin-bottom: 1.5rem;
+        }
+
+        .pricing-cta .cta-note {
+            font-size: 0.8rem;
+            color: #546e7a;
+            max-width: 550px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
         @media (max-width: 900px) {
             .about-container {
                 grid-template-columns: 1fr;
@@ -493,6 +753,17 @@
             .steps::before {
                 display: none;
             }
+
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .addons-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         @media (max-width: 600px) {
@@ -518,6 +789,38 @@
 
             .contact-info {
                 gap: 1.5rem;
+            }
+
+            .pricing-section {
+                padding: 3rem 1.25rem;
+            }
+
+            .pricing-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .pricing-card .price {
+                font-size: 1.7rem;
+            }
+
+            .additional-services {
+                padding: 2rem 1.25rem;
+            }
+
+            .policy-box {
+                padding: 2rem 1.25rem;
+            }
+
+            .faq-item {
+                padding: 1.25rem 1.5rem;
+            }
+
+            .pricing-cta {
+                padding: 2.5rem 1.5rem;
+            }
+
+            .pricing-cta h2 {
+                font-size: 1.6rem;
             }
         }
     </style>
@@ -759,6 +1062,160 @@
                 <h4>Pack & Go</h4>
                 <p>Everything's handled. Show up, enjoy the trip, make memories.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Travel Planning Services & Fees -->
+    <section class="pricing-section">
+        <h2 class="section-title">Travel Planning Services &amp; Fees</h2>
+        <p class="section-subtitle">Professional travel research, coordination, and itinerary design tailored to your trip</p>
+
+        <div class="pricing-grid">
+            <!-- Weekend Getaway -->
+            <div class="pricing-card">
+                <h3>Weekend Getaway Planning</h3>
+                <div class="price">Starting at $95</div>
+                <p class="price-note">Best for short domestic or simple 2–3 night trips</p>
+                <ul>
+                    <li>Destination research</li>
+                    <li>Hotel recommendations</li>
+                    <li>Activity suggestions</li>
+                    <li>Restaurant recommendations</li>
+                    <li>Basic transportation guidance</li>
+                    <li>Simple day-by-day itinerary</li>
+                    <li>1 revision</li>
+                </ul>
+            </div>
+
+            <!-- Custom Travel Itinerary -->
+            <div class="pricing-card popular">
+                <span class="pricing-badge">Most Popular</span>
+                <h3>Custom Travel Itinerary</h3>
+                <div class="price">Starting at $150</div>
+                <p class="price-note">Best for vacations, international trips, birthdays, couples trips, and longer stays</p>
+                <ul>
+                    <li>Personalized destination research</li>
+                    <li>Hotel or resort recommendations</li>
+                    <li>Restaurant recommendations</li>
+                    <li>Activities and excursions</li>
+                    <li>Transportation suggestions</li>
+                    <li>Day-by-day custom itinerary</li>
+                    <li>Travel tips</li>
+                    <li>Important destination information</li>
+                    <li>2 revisions</li>
+                </ul>
+            </div>
+
+            <!-- Multi-City / Complex -->
+            <div class="pricing-card">
+                <h3>Multi-City / Complex Travel Planning</h3>
+                <div class="price">Starting at $225</div>
+                <p class="price-note">Best for international itineraries, multi-city travel, destination hopping, or trips requiring more detailed coordination</p>
+                <ul>
+                    <li>Multi-city itinerary planning</li>
+                    <li>Hotel recommendations for each destination</li>
+                    <li>Transportation between cities</li>
+                    <li>Activities and dining recommendations</li>
+                    <li>Detailed day-by-day itinerary</li>
+                    <li>Travel logistics</li>
+                    <li>Destination tips</li>
+                    <li>2 revisions</li>
+                </ul>
+            </div>
+
+            <!-- Group Travel -->
+            <div class="pricing-card">
+                <h3>Group Travel Planning</h3>
+                <div class="price">Starting at $250</div>
+                <p class="price-note">Best for birthday trips, girls trips, family trips, celebrations, and group vacations</p>
+                <ul>
+                    <li>Group-friendly hotel/resort research</li>
+                    <li>Activity and excursion planning</li>
+                    <li>Group dining recommendations</li>
+                    <li>Transportation coordination recommendations</li>
+                    <li>Group itinerary</li>
+                    <li>Payment and planning timeline suggestions</li>
+                    <li>2 revisions</li>
+                </ul>
+                <p class="card-note">Group pricing may vary depending on group size, destination, and planning complexity.</p>
+            </div>
+        </div>
+
+        <!-- Additional Services -->
+        <div class="additional-services">
+            <h3>Additional Services</h3>
+            <div class="addons-grid">
+                <div class="addon-item">
+                    <span class="addon-name">Rush Planning</span>
+                    <span class="addon-price">Starting at $75 additional</span>
+                </div>
+                <div class="addon-item">
+                    <span class="addon-name">Additional Revisions</span>
+                    <span class="addon-price">$25 per revision</span>
+                </div>
+                <div class="addon-item">
+                    <span class="addon-name">Restaurant &amp; Activity Add-On</span>
+                    <span class="addon-price">Starting at $50</span>
+                </div>
+                <div class="addon-item">
+                    <span class="addon-name">Itinerary Updates After Completion</span>
+                    <span class="addon-price">Starting at $50</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Planning Fee Policy -->
+        <div class="policy-box">
+            <h3>Planning Fee Policy</h3>
+            <p>Planning fees compensate Phoenix Travel for professional research, itinerary development, travel recommendations, coordination, and planning time. Planning fees are separate from the cost of airfare, accommodations, transportation, excursions, and other travel purchases.</p>
+            <p>Planning fees are due before custom planning begins and are non-refundable once research or itinerary development has started.</p>
+            <p>Travel planning fees may still apply when Phoenix Travel books accommodations, cruises, resorts, or other travel services on the client's behalf.</p>
+            <p>Final pricing may vary depending on destination, number of travelers, length of trip, complexity, and requested services.</p>
+        </div>
+
+        <!-- Family & Friends Policy -->
+        <div class="faq-section">
+            <h3>Family &amp; Friends Policy</h3>
+            <div class="faq-item">
+                <h4>Do you offer family and friends discounts?</h4>
+                <p>Occasional discounts or courtesy pricing may be offered at Phoenix Travel's discretion. Family and friend relationships do not automatically waive professional planning fees.</p>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="faq-section">
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-item">
+                <h4>Why is there a planning fee?</h4>
+                <p>The planning fee covers professional research, itinerary development, destination expertise, personalized recommendations, and the time spent creating a customized trip tailored to your preferences and needs.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Do I still pay a planning fee if Phoenix Travel books my trip?</h4>
+                <p>Yes. Supplier commissions and professional planning fees are separate forms of compensation. Depending on the trip, a planning fee may still apply.</p>
+            </div>
+            <div class="faq-item">
+                <h4>When is the planning fee due?</h4>
+                <p>Planning fees must be paid before custom research or itinerary development begins.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Are planning fees refundable?</h4>
+                <p>Planning fees are non-refundable once research or planning has started.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Can I make changes to my itinerary?</h4>
+                <p>Yes. Each package includes a set number of revisions. Additional revisions may be purchased.</p>
+            </div>
+        </div>
+
+        <!-- Pricing CTA -->
+        <div class="pricing-cta">
+            <h2>Ready to Plan Your Next Trip?</h2>
+            <p>Let Phoenix Travel turn your ideas into a personalized travel experience.</p>
+            <div class="cta-buttons">
+                <a href="mailto:key.phoeniixtravel@gmail.com" class="btn btn-primary">Start Planning</a>
+                <a href="mailto:key.phoeniixtravel@gmail.com?subject=Travel Consultation Request" class="btn btn-secondary">Request a Consultation</a>
+            </div>
+            <p class="cta-note">Submitting a travel inquiry does not begin the planning process. Planning begins after the applicable planning fee has been confirmed and paid.</p>
         </div>
     </section>
 
