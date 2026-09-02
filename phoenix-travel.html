@@ -519,11 +519,24 @@
             background: linear-gradient(145deg, #111827, #1a2332);
             border: 1px solid #4fc3f7;
             border-radius: 20px;
-            padding: 3rem 2.5rem;
+            padding: 0 0 3rem;
             text-align: center;
             position: relative;
             overflow: hidden;
             box-shadow: 0 0 30px rgba(79, 195, 247, 0.08);
+        }
+
+        .sale-banner > *:not(.sale-hero-image) {
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+        }
+
+        .sale-hero-image {
+            display: block;
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            margin-bottom: 2rem;
         }
 
         .sale-banner::before {
@@ -1050,6 +1063,20 @@
                 padding: 3rem 1.25rem;
             }
 
+            .sale-banner {
+                padding: 0 0 2rem;
+            }
+
+            .sale-banner > *:not(.sale-hero-image) {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+
+            .sale-hero-image {
+                height: 180px;
+                margin-bottom: 1.5rem;
+            }
+
             .itinerary-lookup {
                 padding: 2rem 1.25rem;
             }
@@ -1107,31 +1134,22 @@
     <!-- Current Sale Banner -->
     <section class="section">
         <div class="sale-banner">
+            <img src="images/hiking-trail.jpg" alt="Travelers hiking a forest trail" class="sale-hero-image">
             <div class="sale-tag">Limited Time Offer</div>
-            <h2 class="sale-title">U.S. and Canada Sale</h2>
-            <p class="sale-headline">Final days to <strong>save 25%</strong> on stays</p>
-            <div class="sale-images">
-                <div class="sale-image-card">
-                    <img src="images/usa.jpg" alt="United States">
-                    <span>United States</span>
-                </div>
-                <div class="sale-image-card">
-                    <img src="images/canada.jpg" alt="Canada">
-                    <span>Canada</span>
-                </div>
-            </div>
-            <p class="sale-description">The sale is ending soon, but you still have time to get 25% off when you book select hotels in the United States and Canada. Lock in great value on domestic trips today.</p>
+            <h2 class="sale-title">Peak Season Savings</h2>
+            <p class="sale-headline">Lock in <strong>25%+ savings</strong> on your next stay</p>
+            <p class="sale-description">The busy traveling season has arrived — it's time to lock in the best rates. Whether you're planning a fall escape or looking ahead to New Year's or spring break, use 25%+ savings to book with confidence.</p>
             <div class="sale-details">
                 <div class="sale-detail-item">
                     <span class="sale-label">Sale Dates</span>
-                    <span class="sale-value">August 4–31, 2026</span>
+                    <span class="sale-value">September 1 – October 7, 2026</span>
                 </div>
                 <div class="sale-detail-item">
                     <span class="sale-label">Travel Dates</span>
-                    <span class="sale-value">August 4–October 31, 2026</span>
+                    <span class="sale-value">September 1, 2026 – March 31, 2027</span>
                 </div>
             </div>
-            <a href="mailto:key.phoeniixtravel@gmail.com?subject=U.S. %26 Canada 25%25 Off Sale Inquiry" class="btn btn-primary">Book This Deal</a>
+            <a href="mailto:key.phoeniixtravel@gmail.com?subject=Peak Season 25%25 Off Sale Inquiry" class="btn btn-primary">Book This Deal</a>
         </div>
     </section>
 
