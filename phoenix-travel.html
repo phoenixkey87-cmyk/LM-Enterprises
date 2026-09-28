@@ -514,6 +514,49 @@
             text-decoration: none;
         }
 
+        /* Sale Carousel */
+        .sale-carousel {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sale-slides {
+            display: flex;
+            transition: transform 0.6s ease;
+        }
+
+        .sale-slide {
+            min-width: 100%;
+            flex-shrink: 0;
+        }
+
+        .sale-dots {
+            display: flex;
+            justify-content: center;
+            gap: 0.6rem;
+            margin-top: 1.5rem;
+        }
+
+        .sale-dot {
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            border: none;
+            background: #1e3a5f;
+            cursor: pointer;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+
+        .sale-dot.active {
+            background: #4fc3f7;
+            transform: scale(1.2);
+        }
+
+        .sale-dot:hover {
+            background: #4fc3f7;
+        }
+
         /* Sale Banner */
         .sale-banner {
             background: linear-gradient(145deg, #111827, #1a2332);
@@ -1131,25 +1174,59 @@
         </p>
     </section>
 
-    <!-- Current Sale Banner -->
+    <!-- Current Sale Banner Carousel -->
     <section class="section">
-        <div class="sale-banner">
-            <img src="images/hiking-trail.jpg" alt="Travelers hiking a forest trail" class="sale-hero-image">
-            <div class="sale-tag">Limited Time Offer</div>
-            <h2 class="sale-title">Peak Season Savings</h2>
-            <p class="sale-headline">Lock in <strong>25%+ savings</strong> on your next stay</p>
-            <p class="sale-description">The busy traveling season has arrived — it's time to lock in the best rates. Whether you're planning a fall escape or looking ahead to New Year's or spring break, use 25%+ savings to book with confidence.</p>
-            <div class="sale-details">
-                <div class="sale-detail-item">
-                    <span class="sale-label">Sale Dates</span>
-                    <span class="sale-value">September 1 – October 7, 2026</span>
+        <div class="sale-carousel" id="sale-carousel">
+            <div class="sale-slides" id="sale-slides">
+                <!-- Slide 1: Peak Season Savings -->
+                <div class="sale-slide">
+                    <div class="sale-banner">
+                        <img src="images/hiking-trail.jpg" alt="Travelers hiking a forest trail" class="sale-hero-image">
+                        <div class="sale-tag">Limited Time Offer</div>
+                        <h2 class="sale-title">Peak Season Savings</h2>
+                        <p class="sale-headline">Lock in <strong>25%+ savings</strong> on your next stay</p>
+                        <p class="sale-description">The busy traveling season has arrived — it's time to lock in the best rates. Whether you're planning a fall escape or looking ahead to New Year's or spring break, use 25%+ savings to book with confidence.</p>
+                        <div class="sale-details">
+                            <div class="sale-detail-item">
+                                <span class="sale-label">Sale Dates</span>
+                                <span class="sale-value">September 1 – October 7, 2026</span>
+                            </div>
+                            <div class="sale-detail-item">
+                                <span class="sale-label">Travel Dates</span>
+                                <span class="sale-value">September 1, 2026 – March 31, 2027</span>
+                            </div>
+                        </div>
+                        <a href="mailto:key.phoeniixtravel@gmail.com?subject=Peak Season 25%25 Off Sale Inquiry" class="btn btn-primary">Book This Deal</a>
+                    </div>
                 </div>
-                <div class="sale-detail-item">
-                    <span class="sale-label">Travel Dates</span>
-                    <span class="sale-value">September 1, 2026 – March 31, 2027</span>
+
+                <!-- Slide 2: Vietnam 2027 -->
+                <div class="sale-slide">
+                    <div class="sale-banner">
+                        <img src="images/vietnam.webp" alt="Ha Long Bay, Vietnam" class="sale-hero-image">
+                        <div class="sale-tag">Coming Soon</div>
+                        <h2 class="sale-title">Vietnam 2027</h2>
+                        <p class="sale-headline">Keysha's 40th Birthday <strong>Group Escape</strong></p>
+                        <p class="sale-description">Join a curated 40th birthday journey through Vietnam — Hanoi's Old Quarter, a luxury cruise through Lan Ha Bay, beach days in Da Nang, shopping in Hoi An, and a glamorous finale in Ho Chi Minh City. Limited spots available.</p>
+                        <div class="sale-details">
+                            <div class="sale-detail-item">
+                                <span class="sale-label">Travel Dates</span>
+                                <span class="sale-value">November 21–26, 2027</span>
+                            </div>
+                            <div class="sale-detail-item">
+                                <span class="sale-label">Reserve Your Spot</span>
+                                <span class="sale-value">Sign up early — spaces are limited</span>
+                            </div>
+                        </div>
+                        <a href="https://phoenixkey87-cmyk.github.io/Keysha_40th_Vietnam/" target="_blank" class="btn btn-primary">Learn More</a>
+                    </div>
                 </div>
             </div>
-            <a href="mailto:key.phoeniixtravel@gmail.com?subject=Peak Season 25%25 Off Sale Inquiry" class="btn btn-primary">Book This Deal</a>
+
+            <div class="sale-dots" id="sale-dots">
+                <button class="sale-dot active" onclick="goToSlide(0)" aria-label="Show slide 1"></button>
+                <button class="sale-dot" onclick="goToSlide(1)" aria-label="Show slide 2"></button>
+            </div>
         </div>
     </section>
 
@@ -1556,7 +1633,39 @@
     </section>
 
     <script>
-        // Carousel scroll
+        // Sale carousel - auto-rotate every 15 seconds
+        var currentSlide = 0;
+        var totalSlides = 2;
+        var saleTimer;
+
+        function updateSlides() {
+            var slides = document.getElementById('sale-slides');
+            var dots = document.querySelectorAll('.sale-dot');
+            slides.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+            dots.forEach(function(dot, i) {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateSlides();
+            resetSaleTimer();
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateSlides();
+        }
+
+        function resetSaleTimer() {
+            clearInterval(saleTimer);
+            saleTimer = setInterval(nextSlide, 15000);
+        }
+
+        resetSaleTimer();
+
+        // Destinations carousel scroll
         function scrollCarousel(direction) {
             var track = document.getElementById('carousel-track');
             var scrollAmount = 230;
