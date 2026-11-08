@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Just a Quick Nap logo, concept B: Quick Clock">
+  <title>Just a Quick Nap, concept B: Quick Clock</title>
+  <rect width="480" height="300" fill="#14284B"/>
+  <!-- clock face -->
+  <circle cx="240" cy="100" r="68" fill="#FFF8EC" stroke="#9FA8FF" stroke-width="8"/>
+  <!-- 15-minute wedge: the quick nap -->
+  <path d="M240 100 L240 44 A56 56 0 0 1 296 100 Z" fill="#FFA726"/>
+  <!-- hands -->
+  <line x1="240" y1="100" x2="240" y2="52" stroke="#14284B" stroke-width="6" stroke-linecap="round"/>
+  <line x1="240" y1="100" x2="282" y2="100" stroke="#14284B" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="240" cy="100" r="7" fill="#14284B"/>
+  <!-- ticks -->
+  <g stroke="#14284B" stroke-width="4" stroke-linecap="round">
+    <line x1="240" y1="38" x2="240" y2="46"/>
+    <line x1="302" y1="100" x2="294" y2="100"/>
+    <line x1="240" y1="162" x2="240" y2="154"/>
+    <line x1="178" y1="100" x2="186" y2="100"/>
+  </g>
+  <!-- z -->
+  <text x="318" y="62" font-family="Georgia, serif" font-style="italic" font-weight="bold" font-size="34" fill="#FFCC80">z</text>
+  <text x="344" y="42" font-family="Georgia, serif" font-style="italic" font-weight="bold" font-size="24" fill="#FFE0B2">z</text>
+  <!-- wordmark -->
+  <text x="240" y="226" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-weight="bold" font-size="36" letter-spacing="2" fill="#FFF8EC">JUST A QUICK NAP</text>
+  <text x="240" y="258" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="15" letter-spacing="4" fill="#9FA8FF">AIRPORT NAP PODS</text>
+</svg>

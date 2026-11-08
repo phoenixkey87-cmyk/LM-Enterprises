@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just a Quick Nap | Airport Nap Pods | LM Enterprises</title>
+    <meta name="description" content="Just a Quick Nap: pay-by-the-hour nap pods inside airport terminals, launching at St. Louis Lambert International Airport, Terminal 2.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0f1a;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .nav {
+            padding: 1.5rem 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e293b;
+        }
+        .nav .logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #fff; text-decoration: none; }
+        .nav .logo span { color: #9fa8ff; }
+        .nav .back-link { color: #78909c; text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        .nav .back-link:hover { color: #9fa8ff; }
+
+        /* Hero */
+        .hero { text-align: center; padding: 5rem 2rem 3rem; position: relative; }
+        .hero::before {
+            content: '';
+            position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+            width: 600px; height: 600px;
+            background: radial-gradient(circle, rgba(159, 168, 255, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero-icon { font-size: 4rem; margin-bottom: 1.5rem; }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem; font-weight: 700; margin-bottom: 1rem;
+            background: linear-gradient(135deg, #9fa8ff, #ffa726);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .hero .subtitle { font-size: 1.15rem; color: #b0bec5; font-weight: 300; line-height: 1.7; max-width: 680px; margin: 0 auto; }
+        .badges { margin-top: 1.5rem; display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; }
+        .badge {
+            padding: 0.55rem 1.4rem; border-radius: 50px; font-size: 0.82rem; font-weight: 500;
+            background: rgba(159, 168, 255, 0.1); border: 1px solid rgba(159, 168, 255, 0.35); color: #9fa8ff;
+        }
+
+        /* Sections */
+        .section { padding: 3.5rem 2rem; max-width: 1100px; margin: 0 auto; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 0.5rem; }
+        .section-subtitle { text-align: center; color: #78909c; font-size: 0.95rem; margin-bottom: 2.5rem; }
+
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+        .card {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f; border-radius: 16px; padding: 2rem; text-align: center;
+            transition: all 0.3s ease;
+        }
+        .card:hover { border-color: #9fa8ff; transform: translateY(-4px); box-shadow: 0 12px 40px rgba(159, 168, 255, 0.1); }
+        .card .icon { font-size: 2.3rem; margin-bottom: 0.8rem; }
+        .card h3 { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.5rem; color: #9fa8ff; }
+        .card p { font-size: 0.87rem; color: #90a4ae; line-height: 1.6; }
+
+        .stat .number { font-family: 'Playfair Display', serif; font-size: 2.3rem; font-weight: 700; color: #ffa726; }
+        .stat .label { font-size: 0.82rem; color: #90a4ae; margin-top: 0.4rem; line-height: 1.5; }
+
+        .panel {
+            background: linear-gradient(145deg, #111827, #1a2332);
+            border: 1px solid #1e3a5f; border-radius: 16px; padding: 1.8rem 2rem;
+        }
+        .panel h3 { font-size: 1.05rem; color: #9fa8ff; margin-bottom: 0.8rem; }
+        .panel p, .panel li { font-size: 0.9rem; color: #b0bec5; line-height: 1.7; }
+        .panel ul { padding-left: 1.2rem; }
+        .panel li + li { margin-top: 0.4rem; }
+        .panel strong { color: #fff; }
+
+        .warn {
+            border-color: rgba(255, 167, 38, 0.45);
+            background: linear-gradient(145deg, #1a1710, #221d12);
+        }
+        .warn h3 { color: #ffa726; }
+
+        /* Table */
+        table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+        th, td { padding: 0.7rem 0.9rem; text-align: right; border-bottom: 1px solid #1e293b; color: #b0bec5; }
+        th:first-child, td:first-child { text-align: left; }
+        th { color: #9fa8ff; font-weight: 600; }
+        tr.total td { color: #fff; font-weight: 600; }
+
+        /* Timeline */
+        .timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
+        .phase { background: linear-gradient(145deg, #111827, #1a2332); border: 1px solid #1e3a5f; border-radius: 12px; padding: 1.3rem; }
+        .phase .when { color: #ffa726; font-size: 0.78rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+        .phase h4 { font-size: 0.98rem; margin: 0.4rem 0; color: #e0e0e0; }
+        .phase p { font-size: 0.82rem; color: #78909c; line-height: 1.5; }
+
+        /* Logos */
+        .logo-card { background: #fff8ec; border-radius: 14px; overflow: hidden; border: 1px solid #1e3a5f; }
+        .logo-card img { display: block; width: 100%; height: auto; }
+        .logo-caption { text-align: center; color: #90a4ae; font-size: 0.82rem; margin-top: 0.6rem; }
+
+        /* CTA */
+        .cta-section {
+            text-align: center; padding: 4rem 2rem;
+            background: linear-gradient(145deg, #0d1b2a, #132238);
+            border-top: 1px solid #1e3a5f; border-bottom: 1px solid #1e3a5f;
+        }
+        .cta-section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1rem; }
+        .cta-section p { color: #90a4ae; font-size: 1rem; margin: 0 auto 2rem; max-width: 560px; line-height: 1.6; }
+        .cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 0.9rem 2.2rem; border-radius: 50px; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.3s ease; letter-spacing: 0.5px; }
+        .btn-primary { background: linear-gradient(135deg, #9fa8ff, #7986cb); color: #0a0f1a; }
+        .btn-primary:hover { box-shadow: 0 8px 25px rgba(159, 168, 255, 0.4); transform: translateY(-2px); }
+        .btn-secondary { background: transparent; border: 2px solid #9fa8ff; color: #9fa8ff; }
+        .btn-secondary:hover { background: rgba(159, 168, 255, 0.1); transform: translateY(-2px); }
+
+        .disclaimer { max-width: 900px; margin: 0 auto; padding: 2rem; color: #546e7a; font-size: 0.78rem; line-height: 1.6; text-align: center; }
+
+        .footer { text-align: center; padding: 2rem; border-top: 1px solid #1e293b; color: #546e7a; font-size: 0.85rem; }
+        .footer a { color: #9fa8ff; text-decoration: none; }
+
+        @media (max-width: 900px) {
+            .grid-3, .timeline { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2.2rem; }
+            .grid-3, .grid-2, .timeline { grid-template-columns: 1fr; }
+            .nav { padding: 1rem 1.5rem; }
+            th, td { padding: 0.5rem 0.4rem; font-size: 0.78rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="logo">LM <span>Enterprises</span></a>
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-icon">&#128564;</div>
+        <h1>Just a Quick Nap</h1>
+        <p class="subtitle">
+            Private, pay-by-the-hour nap pods inside airport terminals.
+            Launching at St. Louis Lambert International Airport, Terminal 2,
+            then rolling out across the country.
+        </p>
+        <div class="badges">
+            <span class="badge">Concept stage</span>
+            <span class="badge">Seeking $800K seed</span>
+            <span class="badge">STL Terminal 2 pilot</span>
+        </div>
+    </section>
+
+    <!-- Problem / Solution -->
+    <section class="section">
+        <h2 class="section-title">Rest between flights</h2>
+        <p class="section-subtitle">Early departures, long connections, delays, and red-eyes. Airport seating was not built for sleep.</p>
+        <div class="grid-3">
+            <div class="card">
+                <div class="icon">&#9200;</div>
+                <h3>Book in seconds</h3>
+                <p>Scan a code or use the kiosk, pick 30 minutes to a few hours, and get a wake-up alert before your gate time.</p>
+            </div>
+            <div class="card">
+                <div class="icon">&#128716;</div>
+                <h3>Private and quiet</h3>
+                <p>Lie-flat bed, lockable door, sound dampening, dimmable light, and a power outlet. One accessible pod in every location.</p>
+            </div>
+            <div class="card">
+                <div class="icon">&#10024;</div>
+                <h3>Cleaned every time</h3>
+                <p>Every pod is reset and sanitized between guests, with cleaning logs. Stay past security so your boarding pass stays valid.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market -->
+    <section class="section">
+        <h2 class="section-title">The opportunity</h2>
+        <p class="section-subtitle">A small, growing niche with a price gap in the US</p>
+        <div class="grid-3">
+            <div class="card stat"><div class="number">15.5M</div><div class="label">passengers at St. Louis Lambert in 2025 (down 4% from the 2024 record)</div></div>
+            <div class="card stat"><div class="number">$42 to $65</div><div class="label">per hour at Minute Suites, the main US competitor found. Not listed at STL.</div></div>
+            <div class="card stat"><div class="number">$78M to $104M</div><div class="label">estimated global airport sleeping-pod market in 2025, depending on the research firm</div></div>
+        </div>
+        <div class="grid-2" style="margin-top: 1.5rem;">
+            <div class="panel">
+                <h3>Our position</h3>
+                <ul>
+                    <li><strong>$30 per hour</strong> list price, below private suites</li>
+                    <li><strong>30-minute</strong> sessions for the "just a quick nap" traveler</li>
+                    <li>Monthly pass for frequent flyers and crew</li>
+                    <li>Local St. Louis brand and operations</li>
+                </ul>
+            </div>
+            <div class="panel">
+                <h3>Who we serve</h3>
+                <ul>
+                    <li>Connecting and layover travelers</li>
+                    <li>Early-morning departures</li>
+                    <li>International and jet-lagged arrivals (British Airways flies from Terminal 2)</li>
+                    <li>Delayed and stranded passengers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Launch site -->
+    <section class="section">
+        <h2 class="section-title">Launch site: STL Terminal 2</h2>
+        <p class="section-subtitle">A 16-pod pilot with a defined window</p>
+        <div class="grid-2">
+            <div class="panel">
+                <h3>The plan</h3>
+                <ul>
+                    <li>16 pods, post-security, open about 18 hours a day</li>
+                    <li>Opening target: January 2028, subject to airport agreement</li>
+                    <li>Movable, modular pods with minimal permanent build-out</li>
+                    <li>Pods redeployed to the new terminal or a second airport</li>
+                </ul>
+            </div>
+            <div class="panel warn">
+                <h3>What investors should know</h3>
+                <p>
+                    Airport officials plan to close Terminals 1 and 2 in November 2031, and Southwest is
+                    scheduled to move to the new terminal in March 2031. Dates are tentative. Terminal 2
+                    alone gives about 39 months of operation. On our base case it does not fully repay the
+                    investment unless the pods are redeployed or resold. The plan is built around that.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Economics -->
+    <section class="section">
+        <h2 class="section-title">Economics snapshot</h2>
+        <p class="section-subtitle">Base case for the Terminal 2 flagship. These are assumptions, not guarantees.</p>
+        <div class="panel">
+            <table>
+                <thead>
+                    <tr><th></th><th>Year 1 (2028)</th><th>Year 2 (2029)</th><th>Year 3 (2030)</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Utilization (share of pod-hours sold)</td><td>25%</td><td>32%</td><td>36%</td></tr>
+                    <tr><td>Revenue</td><td>$780,000</td><td>$1,016,000</td><td>$1,163,000</td></tr>
+                    <tr class="total"><td>EBITDA</td><td>$60,000</td><td>$227,000</td><td>$321,000</td></tr>
+                    <tr><td>EBITDA margin</td><td>8%</td><td>22%</td><td>28%</td></tr>
+                </tbody>
+            </table>
+            <p style="margin-top: 1rem;">Startup cost for 16 pods is about <strong>$800,000</strong> (pods $448,000; build-out $120,000; technology $40,000; pre-opening $60,000; legal and permits $32,000; working capital and contingency $100,000).</p>
+        </div>
+    </section>
+
+    <!-- Rollout -->
+    <section class="section">
+        <h2 class="section-title">Rollout</h2>
+        <p class="section-subtitle">Prove it in St. Louis, then expand</p>
+        <div class="timeline">
+            <div class="phase"><div class="when">2027</div><h4>Validate</h4><p>Demand survey, vendor quotes, airport agreement, raise seed round.</p></div>
+            <div class="phase"><div class="when">2028</div><h4>STL pilot</h4><p>Open 16 pods at Terminal 2. Target 30%+ utilization and 4.5+ star reviews.</p></div>
+            <div class="phase"><div class="when">2029 to 2031</div><h4>Second and third airports</h4><p>Bid on mid-size airports. Move pods to the new STL terminal.</p></div>
+            <div class="phase"><div class="when">2032 and after</div><h4>Scale</h4><p>8 to 12 airports through company-run sites and management contracts.</p></div>
+        </div>
+    </section>
+
+    <!-- Logos -->
+    <section class="section">
+        <h2 class="section-title">Brand concepts</h2>
+        <p class="section-subtitle">Three early logo directions under review</p>
+        <div class="grid-3">
+            <div>
+                <div class="logo-card"><img src="images/jaqn/logo-a-pod-moon.svg" alt="Logo concept A: Pod Moon"></div>
+                <p class="logo-caption">A. Pod Moon</p>
+            </div>
+            <div>
+                <div class="logo-card"><img src="images/jaqn/logo-b-quick-clock.svg" alt="Logo concept B: Quick Clock"></div>
+                <p class="logo-caption">B. Quick Clock</p>
+            </div>
+            <div>
+                <div class="logo-card"><img src="images/jaqn/logo-c-flight-badge.svg" alt="Logo concept C: Flight Badge"></div>
+                <p class="logo-caption">C. Flight Badge (JAQN)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <h2>Interested in investing or partnering?</h2>
+        <p>
+            The full business plan, financial model, and pitch deck are available to interested investors
+            and airport partners on request.
+        </p>
+        <div class="cta-buttons">
+            <a href="mailto:keystrickland@charter.net?subject=Just%20a%20Quick%20Nap%20investor%20inquiry" class="btn btn-primary">Email Keysha</a>
+            <a href="tel:3143074921" class="btn btn-secondary">Call 314-307-4921</a>
+        </div>
+    </section>
+
+    <p class="disclaimer">
+        Just a Quick Nap is a concept-stage venture and the company is not yet formed or operating. Figures on this page are
+        projections based on stated assumptions and public information (St. Louis Lambert 2025 results, airport terminal
+        schedules, and third-party market reports). They are not guarantees of future results. Airport terminal dates are
+        tentative and may change. The name and logos are not yet cleared or registered as trademarks. This page is not an
+        offer to sell or a solicitation to buy securities.
+    </p>
+
+    <footer class="footer">
+        <p>&copy; 2026 LM Enterprises | <a href="index.html">Home</a> | Keysha Strickland</p>
+    </footer>
+</body>
+</html>

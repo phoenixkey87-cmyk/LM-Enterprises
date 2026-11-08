@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Just a Quick Nap logo, concept C: Flight Badge (JAQN)">
+  <title>Just a Quick Nap, concept C: Flight Badge (JAQN)</title>
+  <rect width="480" height="300" fill="#FFF8EC"/>
+  <!-- badge -->
+  <circle cx="240" cy="108" r="92" fill="#14284B"/>
+  <circle cx="240" cy="108" r="82" fill="none" stroke="#9FA8FF" stroke-width="2" stroke-dasharray="3 7"/>
+  <!-- crescent moon -->
+  <circle cx="212" cy="86" r="32" fill="#FFE9B8"/>
+  <circle cx="226" cy="76" r="28" fill="#14284B"/>
+  <!-- paper-plane flight path -->
+  <path d="M170 128 Q 240 70 318 58" fill="none" stroke="#FFA726" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <path d="M318 58 L292 50 L300 64 L296 76 L306 66 L322 74 Z" fill="#FFA726"/>
+  <!-- monogram -->
+  <text x="240" y="152" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-weight="bold" font-size="40" letter-spacing="6" fill="#FFF8EC">JAQN</text>
+  <!-- wordmark -->
+  <text x="240" y="244" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-weight="bold" font-size="32" fill="#14284B">Just a Quick Nap</text>
+  <text x="240" y="272" text-anchor="middle" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="14" letter-spacing="3" fill="#6B7A99">LAND REFRESHED</text>
+</svg>
