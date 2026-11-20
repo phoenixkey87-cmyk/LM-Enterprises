@@ -32,7 +32,14 @@
   function isNum(n) { return typeof n === 'number' && isFinite(n) && n > 0; }
   function money(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
   function safeUrl(u) { return typeof u === 'string' && /^https:\/\//i.test(u) ? u : null; }
-  function staleLabel() {\n    var hrs = Math.round(STALE_MS / 3600000);\n    return hrs % 24 === 0 ? (hrs / 24) + ' days' : hrs + ' hours';\n  }\n  function useStale(data) {\n    if (data && typeof data.stale_hours === 'number' && data.stale_hours > 0) STALE_MS = data.stale_hours * 3600000;\n  }\n  function isStale(ts) {
+  function staleLabel() {
+    var hrs = Math.round(STALE_MS / 3600000);
+    return hrs % 24 === 0 ? (hrs / 24) + ' days' : hrs + ' hours';
+  }
+  function useStale(data) {
+    if (data && typeof data.stale_hours === 'number' && data.stale_hours > 0) STALE_MS = data.stale_hours * 3600000;
+  }
+  function isStale(ts) {
     var t = Date.parse(ts);
     return !isFinite(t) || Date.now() - t > STALE_MS;
   }
