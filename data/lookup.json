@@ -1,4 +1,8 @@
 {
-  "airports": {},
-  "hotels": {}
+ "airports": {
+  "mexico": "CUN",
+  "dominican-republic": "PUJ",
+  "jamaica": "MBJ"
+ },
+ "hotels": {}
 }

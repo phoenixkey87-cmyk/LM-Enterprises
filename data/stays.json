@@ -1,0 +1,85 @@
+{
+ "updated_at": "2026-11-20T21:42:03Z",
+ "stale_hours": 120,
+ "currency": "USD",
+ "destinations": [
+  {
+   "id": "vietnam-hanoi",
+   "name": "Vietnam: Hanoi",
+   "planned": true,
+   "hotels": [
+    {
+     "id": "anatole-hanoi",
+     "name": "Anatole Hotel Hanoi",
+     "property_token": null,
+     "link": null,
+     "rating": null,
+     "review_count": null,
+     "hotel_class": null,
+     "address": null,
+     "nightly_rate": null,
+     "rate_check_in": null,
+     "rate_check_out": null,
+     "price_updated_at": null,
+     "calendar": [],
+     "photos": [],
+     "photos_updated_at": null,
+     "reviews": [],
+     "reviews_updated_at": null
+    }
+   ]
+  },
+  {
+   "id": "vietnam-hoi-an",
+   "name": "Vietnam: Hoi An",
+   "planned": true,
+   "hotels": [
+    {
+     "id": "silk-sense-hoi-an",
+     "name": "Silk Sense Hoi An River Resort",
+     "property_token": null,
+     "link": null,
+     "rating": null,
+     "review_count": null,
+     "hotel_class": null,
+     "address": null,
+     "nightly_rate": null,
+     "rate_check_in": null,
+     "rate_check_out": null,
+     "price_updated_at": null,
+     "calendar": [],
+     "photos": [],
+     "photos_updated_at": null,
+     "reviews": [],
+     "reviews_updated_at": null
+    }
+   ]
+  },
+  {
+   "id": "vietnam-saigon",
+   "name": "Vietnam: Ho Chi Minh City",
+   "planned": true,
+   "hotels": [
+    {
+     "id": "grand-saigon",
+     "name": "Hotel Grand Saigon",
+     "property_token": null,
+     "link": null,
+     "rating": null,
+     "review_count": null,
+     "hotel_class": null,
+     "address": null,
+     "nightly_rate": null,
+     "rate_check_in": null,
+     "rate_check_out": null,
+     "price_updated_at": null,
+     "calendar": [],
+     "photos": [],
+     "photos_updated_at": null,
+     "reviews": [],
+     "reviews_updated_at": null
+    }
+   ]
+  }
+ ]
+}

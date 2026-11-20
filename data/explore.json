@@ -1,0 +1,1816 @@
+{
+ "updated_at": "2026-11-20T21:42:03Z",
+ "stale_hours": 120,
+ "origin": "STL",
+ "currency": "USD",
+ "interests": [
+  {
+   "key": "popular",
+   "label": "Popular"
+  },
+  {
+   "key": "beaches",
+   "label": "Beaches"
+  },
+  {
+   "key": "outdoors",
+   "label": "Outdoors"
+  },
+  {
+   "key": "history",
+   "label": "History"
+  }
+ ],
+ "destinations": [
+  {
+   "id": "/m/013yq",
+   "name": "Atlanta",
+   "country": "United States",
+   "price": 67,
+   "start_date": "2026-12-21",
+   "end_date": "2026-12-30",
+   "stops": 0,
+   "flight_duration": 118,
+   "airline": "Frontier",
+   "airport": "ATL",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRy8_g3ugK7VysOZY8D7aClLvo8aSRX35dOOGI_Uxl0ZOxeD9c_P43wxzhqVC_KRiOfalUfMdEBskMBo-TPZqJZX28iWD4GFExPq3Nx05g",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/02cl1",
+   "name": "Denver",
+   "country": "United States",
+   "price": 98,
+   "start_date": "2027-01-11",
+   "end_date": "2027-01-20",
+   "stops": 0,
+   "flight_duration": 149,
+   "airline": "Frontier",
+   "airport": "DEN",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTfJait0xpKDSzK7ZiTrVCJC7rqbiUomOqwqcZ-KvGriGuSnz5FBgkMz1zkjNIqRHFwNCO225AUFgwTYuyH-4PiuHTxCwoKu6XVYqdPUQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0cv3w",
+   "name": "Las Vegas",
+   "country": "United States",
+   "price": 123,
+   "start_date": "2027-02-11",
+   "end_date": "2027-02-20",
+   "stops": 0,
+   "flight_duration": 230,
+   "airline": "Frontier",
+   "airport": "LAS",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQxY-HE7lUUMC-zBaFhYb7P4NG1z9RPE5yzksd_ISl6v7K1UJF0dZFBKuJ1_XovlMhBym5x7DRqI6XMzKdIchr9_TeFN_xti0N4f7ZmrQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/02dtg",
+   "name": "Detroit",
+   "country": "United States",
+   "price": 160,
+   "start_date": "2026-12-05",
+   "end_date": "2026-12-12",
+   "stops": 1,
+   "flight_duration": 1696,
+   "airline": "Frontier",
+   "airport": "DTW",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRnru3sZ3fMvxB5MeetvYJ8OxQLozRrD-U4eF2uSS2f1VMMRzP30lhCNJy7iqxXGQx6fAsIofIvfrDR9-aFuo3yNNpGLGMhcde0TzlNYgI",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/05jbn",
+   "name": "Nashville",
+   "country": "United States",
+   "price": 168,
+   "start_date": "2027-03-01",
+   "end_date": "2027-03-09",
+   "stops": 1,
+   "flight_duration": 223,
+   "airline": "Southern Airways Express and Southwest",
+   "airport": "BNA",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSQvtD8X7brgA5pRD24XD-U75LUbqAmMJDLDJ_Taujj1mdmb8z5bywnyq0FaUUf4zfhvDwumGo_jt8Q0m_pSXXaEdGblx5wszslEh1QuA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01_d4",
+   "name": "Chicago",
+   "country": "United States",
+   "price": 172,
+   "start_date": "2027-01-14",
+   "end_date": "2027-01-20",
+   "stops": 0,
+   "flight_duration": 70,
+   "airline": "Southwest",
+   "airport": "MDW",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcScgDpmAjyg5k_a0EobrHJq3wfYPZVkxuCK1RQBwavfosbnzp0dkr2Mw_nHCoUjTri7c4zufV-6Omx7UlDYSA3IMhpaO-xgbblzin3zzw",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01sn3",
+   "name": "Cleveland",
+   "country": "United States",
+   "price": 172,
+   "start_date": "2026-12-14",
+   "end_date": "2026-12-22",
+   "stops": 0,
+   "flight_duration": 95,
+   "airline": "Southwest",
+   "airport": "CLE",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSaMtwOej4uw3gU2ewqUQA4a-O5Wdh0imEJDv57NSXGKbdLDAUy6HsrZTIjmInLGaBnGF_Cd_pHwOzjlsbgVhEiOQqUYyt_mQozgUhq56k",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/071vr",
+   "name": "San Diego",
+   "country": "United States",
+   "price": 210,
+   "start_date": "2027-02-13",
+   "end_date": "2027-02-22",
+   "stops": 1,
+   "flight_duration": 416,
+   "airline": "Frontier",
+   "airport": "SAN",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR5L1z5TwQ3Y2b3KQiU8vGtWPNXvqzsABopHhLDnADN9XAHW9vYaRBF8FOLqYCNr9kYKKJ1MTAoMpH_q5ehFRRqhfrrhTIh38BqBcLuEJU",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/030qb3t",
+   "name": "Los Angeles",
+   "country": "United States",
+   "price": 215,
+   "start_date": "2027-01-25",
+   "end_date": "2027-02-02",
+   "stops": 1,
+   "flight_duration": 456,
+   "airline": "Frontier",
+   "airport": "LAX",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR885HjNtNLAgJHolXfkU-gcNnVU5QN_yFhLt2Fi3Q2TiM4Py7wMZXdRmuq1-LtwamOfi_QeCc3UozfMdSdhJiTk5IRRsMoYlmli_f_Avw",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0f2v0",
+   "name": "Miami",
+   "country": "United States",
+   "price": 217,
+   "start_date": "2026-12-21",
+   "end_date": "2026-12-30",
+   "stops": 1,
+   "flight_duration": 280,
+   "airline": "Frontier and Southwest",
+   "airport": "FLL",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQhudw7NPPK8A0SKZD4vw0BzNAU-NrsZhLjQ7x4z5uw3AIjcGVSkYnDDXACDNUQvuxyUmEF-CwGuoNPzb_pneqMPUn6hNPIZZKvXhA3Oow",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0rj0z",
+   "name": "Fort Lauderdale",
+   "country": "United States",
+   "price": 217,
+   "start_date": "2026-12-21",
+   "end_date": "2026-12-30",
+   "stops": 1,
+   "flight_duration": 280,
+   "airline": "Frontier and Southwest",
+   "airport": "FLL",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQIOBRt_2uqJHzkmypfzGfnj8r33MT6bAFuVPiw7JH7V_Ozb22ehVFQD1GksjVUW7MOVWtd5qCTxpAtcAhxpFaYIUn4RNTL0zIkhIjMqA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0d9jr",
+   "name": "Seattle",
+   "country": "United States",
+   "price": 217,
+   "start_date": "2027-01-14",
+   "end_date": "2027-01-22",
+   "stops": 1,
+   "flight_duration": 1534,
+   "airline": "Frontier",
+   "airport": "SEA",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQNkvRzTa745VS43pinRHoJdGyRd652oFBZ0fkEEy8bLGu1ZK47idbfvHSW1olEve5inhPgeFotp5RzdBb20SMiY509WbxKlh8PS8vWeQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/02_286",
+   "name": "New York",
+   "country": "United States",
+   "price": 220,
+   "start_date": "2027-01-23",
+   "end_date": "2027-01-30",
+   "stops": 1,
+   "flight_duration": 384,
+   "airline": "Frontier",
+   "airport": "EWR",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTqG4n-p2vHo6_Bxhc9k6kUmYshM_NkldWpVGezq6ERu2CpmH2WD58r6dq4wF85EYfsF4KvcPXTGq1FBQ1zeLBw3Tbtnf9o9i8dqypSHA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01cx_",
+   "name": "Boston",
+   "country": "United States",
+   "price": 240,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-17",
+   "stops": 1,
+   "flight_duration": 893,
+   "airline": "Frontier",
+   "airport": "BOS",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTZNtshjr1f4LVNWKwD_zSvLoxB1mBPq7LqP9xAnF8z5IBTxGXwa4Au2JxB3wJl71a_KUnQTxmjm40cr9nQn1-ROpiSSMKap5cePB0wBA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0d6lp",
+   "name": "San Francisco",
+   "country": "United States",
+   "price": 245,
+   "start_date": "2027-02-22",
+   "end_date": "2027-03-01",
+   "stops": 1,
+   "flight_duration": 1046,
+   "airline": "Frontier",
+   "airport": "SFO",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTAevepbJPADwN8jb7HFpCFcganDMkzI0wxj6q-zcmysce6RwPuER2XzUC1xZvu6KDzNZAxOnXNm3yKBcJBIqc23pUq5FsDUt9Hn_dcng",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/03l2n",
+   "name": "Houston",
+   "country": "United States",
+   "price": 252,
+   "start_date": "2027-03-04",
+   "end_date": "2027-03-10",
+   "stops": 0,
+   "flight_duration": 130,
+   "airline": "Southwest",
+   "airport": "HOU",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSo_5G4-4f-AglqNkgpySdNuZYdUkvYXncEGkKEZHaR-jsrFl0tDnCRgZuUVZFroAAj4zG8-_jqGyc03mZ75_lQZ9z9giZcr_DhpeEpn_A",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0vzm",
+   "name": "Austin",
+   "country": "United States",
+   "price": 255,
+   "start_date": "2027-01-04",
+   "end_date": "2027-01-12",
+   "stops": 1,
+   "flight_duration": 125,
+   "airline": "Frontier and Southwest",
+   "airport": "AUS",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSxej4YzRfsKLlAHuLkGGGDkJejG-Wb1svGhLcsvUbl9PH0SwpRp-VgNlGeGtF5MHDNfjPiKz25U8SQCGQDodMnZ2HNSV3ncvCtitPUeQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0f2rq",
+   "name": "Dallas",
+   "country": "United States",
+   "price": 256,
+   "start_date": "2026-11-26",
+   "end_date": "2026-12-02",
+   "stops": 1,
+   "flight_duration": 124,
+   "airline": "Frontier",
+   "airport": "DFW",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSK9hkv1QgSSS8gQOqdo0NKXbCx321W-zeQVd13QTfuA_SHYcjfPS8TQvR8VYXUwgBptTASM1Bmc6ZwvssolIR7v1IZNB3GPNKA0ypDYA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0f2w0",
+   "name": "San Antonio",
+   "country": "United States",
+   "price": 275,
+   "start_date": "2027-02-06",
+   "end_date": "2027-02-13",
+   "stops": 1,
+   "flight_duration": 253,
+   "airline": "American",
+   "airport": "SAT",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRnlB7R4F6_c-ltSS5_wElYLIQM2pp5FNQyk142iUHXxA1rBPdhpkQWNmtzlWWEcT7fOpVcQi-2yYVx0YUW1yKXVug1yTsyYNEHdrRcsQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01snm",
+   "name": "Cincinnati",
+   "country": "United States",
+   "price": 275,
+   "start_date": "2026-12-12",
+   "end_date": "2026-12-19",
+   "stops": 1,
+   "flight_duration": 211,
+   "airline": "American and Frontier",
+   "airport": "CVG",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQlhM1NiF7GpMq3O-A25mHAcKPyGmP-m3JdWYxW-joPVQMPRdaTLYpuEEFv8iJJ010Vz-sr39n1IuXX0zaSySNVmNQyAmWU9KmrHAnFlw",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0rrwt",
+   "name": "Sarasota",
+   "country": "United States",
+   "price": 276,
+   "start_date": "2026-12-14",
+   "end_date": "2026-12-22",
+   "stops": 0,
+   "flight_duration": 140,
+   "airline": "Southwest",
+   "airport": "SRQ",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ2J2vYMViCWRJkkTTJ4fywD6T-dcVbH9FFFGniRs0bTx-Kwc-KitJe4jCiFtTa1ZXshh3cuIkXV_HZlUIWEVpwmieug36qBUGrmzj7Pg",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0rhft",
+   "name": "Panama City",
+   "country": "United States",
+   "price": 283,
+   "start_date": "2026-12-19",
+   "end_date": "2026-12-25",
+   "stops": 1,
+   "flight_duration": 110,
+   "airline": "American and Southwest",
+   "airport": "ECP",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQBC0xDOgBtcWMw0ZCqUDSq5vb06biiOH7ax4ICbqK0dpORn2j-9YDKM1BzTyMr3Rr8MUeKQwOQlJYV3_pZavASWPAy9IXL13WfCpP0jQ",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/02frhbc",
+   "name": "Portland",
+   "country": "United States",
+   "price": 285,
+   "start_date": "2027-02-15",
+   "end_date": "2027-02-23",
+   "stops": 1,
+   "flight_duration": 1321,
+   "airline": "Frontier",
+   "airport": "PDX",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSDs43ciTa692P68t8j-yFdEdEhcKWZg-x9Q30xrDYsY53TvqNlgAitBRzQfDit_hnHGhIoTxGfd3LzqNRFgdsQ3_6O0XND49say-Z29A",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0rp8x",
+   "name": "Destin",
+   "country": "United States",
+   "price": 295,
+   "start_date": "2026-12-12",
+   "end_date": "2026-12-19",
+   "stops": 1,
+   "flight_duration": 200,
+   "airline": "Southwest",
+   "airport": "VPS",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQAfYiCdyuOg-hBhvnGvIevMftU2Ds4ZndCJbjWUxfkbiGwRlHhalDwsMf01YJng9mUMmh-qLscUdlYYIccez6OPi8F_hmSOWmKthhxpA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0f2tj",
+   "name": "New Orleans",
+   "country": "United States",
+   "price": 305,
+   "start_date": "2026-11-26",
+   "end_date": "2026-12-05",
+   "stops": 1,
+   "flight_duration": 536,
+   "airline": "Frontier",
+   "airport": "MSY",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT4KR7YRvuaKGavxjlbqYXAM15JAzxVDLJYQuAG5F45hsOf-GkEGUASklApHUxMsbV78ADz0CuD41N2zI1JGMOd59-ZZl4UhQ5ZzUvxbw",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01zw1_f",
+   "name": "Vail",
+   "country": "United States",
+   "price": 321,
+   "start_date": "2026-12-20",
+   "end_date": "2026-12-29",
+   "stops": 1,
+   "flight_duration": 280,
+   "airline": "United",
+   "airport": "EGE",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQNMgM952V_Qw_As0em2VwyMFjFTB2sRmWg7DuONBvVH6RnArhyH6jlZgNiGR3IcNGazTWCpDMT7A21CIECFP05tZTD30bUPBWMB1aCdw",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0qlrh",
+   "name": "Atlantic City",
+   "country": "United States",
+   "price": 326,
+   "start_date": "2027-01-16",
+   "end_date": "2027-01-23",
+   "stops": 1,
+   "flight_duration": 350,
+   "airline": "American",
+   "airport": "ACY",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRAAME7qInOh5PGQ6isVHIy9mWXKr5lhnBTclnIZfahnA36qcUQgw0l90bobKpsIASzuN1CrY0OASv1-Gouo6ZCwOZNLSprVXSQKYhl-_c",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0c_m3",
+   "name": "Memphis",
+   "country": "United States",
+   "price": 334,
+   "start_date": "2027-02-07",
+   "end_date": "2027-02-16",
+   "stops": 1,
+   "flight_duration": 195,
+   "airline": "Frontier and Southwest",
+   "airport": "MEM",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTc6Q7eTHnLvQNuzQ2xpbAmgZQaRF1GPOpdD72yY_6WDyxkE_GE0231MV7mxhZn6lnSVjofdCkKtR0FZyZ99pZrJ8obx6zQMaRF19l39zU",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0chrx",
+   "name": "Omaha",
+   "country": "United States",
+   "price": 335,
+   "start_date": "2027-01-14",
+   "end_date": "2027-01-22",
+   "stops": 1,
+   "flight_duration": 80,
+   "airline": "Frontier and Southwest",
+   "airport": "OMA",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQZU1HJh-q-J1PUgp42zLecZPBeOPhWuhnc_o9eLjfdge2GDxmI3nf9FYiqK90ogNdksrjdhiTW7jsN5QYYcezkywOGSVEzrRK6C5y83sE",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0gkgp",
+   "name": "Charleston",
+   "country": "United States",
+   "price": 353,
+   "start_date": "2027-05-29",
+   "end_date": "2027-06-05",
+   "stops": 1,
+   "flight_duration": 218,
+   "airline": "American",
+   "airport": "CHS",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTezV_Mudmor9bVY7gSEbzRFFGRDXMWqavGRzVu5MZT2KeMEX6Pwt3EIsg4xbvziWtdFHLHyVspWD73n0UHQD9ApAFxkti--R-1mLUUrlA",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0rp46",
+   "name": "Key West",
+   "country": "United States",
+   "price": 359,
+   "start_date": "2027-02-06",
+   "end_date": "2027-02-13",
+   "stops": 1,
+   "flight_duration": 371,
+   "airline": "American",
+   "airport": "EYW",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQUhXewSu07JDJO6RDEFMhT3zioyHA8twxjFP-2aRfjw_rxaTHEnHo6sTuExpfZFsPQY4JI9FUgo82HQwp-_cf0l6fpJLybQyep8L4rfw",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0100mt",
+   "name": "El Paso",
+   "country": "United States",
+   "price": 360,
+   "start_date": "2026-12-17",
+   "end_date": "2026-12-23",
+   "stops": 1,
+   "flight_duration": 360,
+   "airline": "Frontier and United",
+   "airport": "ELP",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR5tmOTvWhJS3fFD9HM5FnnN2iNfBtPMYVYoRmRNza0m2BKcHif9t-u1fHK0DlxEpHM6rXvhirTI-BR_SgH7sI5J_PkrKEYV85krBuwHJg",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0_kr4",
+   "name": "Hilton Head Island",
+   "country": "United States",
+   "price": 361,
+   "start_date": "2027-01-09",
+   "end_date": "2027-01-16",
+   "stops": 1,
+   "flight_duration": 311,
+   "airline": "American",
+   "airport": "HHH",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRDx6DlPkBqAhkANX0DUBAATJZQOqiHc_59701sTX5zDNMrgMI_WxLNq1y9cg4JoZx10pZLE4klvkUHNjFPwcWli9bMQTPiziviXp4q9ps",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0txty",
+   "name": "Ocean City",
+   "country": "United States",
+   "price": 366,
+   "start_date": "2027-01-07",
+   "end_date": "2027-01-13",
+   "stops": 1,
+   "flight_duration": 242,
+   "airline": "American",
+   "airport": "SBY",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRGKv50Z_h2KiaPbW1vpWkP_cc1RDajyMgpj-S5OQcOkYOZmK0vuoXZ0LVV23Zqs1Rz5Js7IDlpIR8w2F-ae7HiQtxnIghrrZeT00Qr_Q",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0h1k6",
+   "name": "Duluth",
+   "country": "United States",
+   "price": 367,
+   "start_date": "2026-12-13",
+   "end_date": "2026-12-22",
+   "stops": 1,
+   "flight_duration": 230,
+   "airline": "Delta",
+   "airport": "DLH",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSwP__BQIheuXk7tBUwt3PkVldGLceNVxCfsbhp8e9kN2GEsbpk_T-UzuVNCRodpu5hjBjlcazzMYCKdQuofcmadS-oDqD4adtHl--Fjg",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0_rwf",
+   "name": "Rapid City",
+   "country": "United States",
+   "price": 374,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-16",
+   "stops": 1,
+   "flight_duration": 323,
+   "airline": "United",
+   "airport": "RAP",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQXoB1aUiMfZFaS4vypbijLgA4J2PnijzjwEap2jpjnQl-IcwKrYkSUEfm91AMTuzlcO9wyz1HDiP-D4_GwtRvSI-G9bbEEQuzTf6U8zQ",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0_m3k",
+   "name": "Myrtle Beach",
+   "country": "United States",
+   "price": 382,
+   "start_date": "2026-12-31",
+   "end_date": "2027-01-06",
+   "stops": 1,
+   "flight_duration": 213,
+   "airline": "Delta",
+   "airport": "MYR",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcShoQ76A1Y-2_fxhW1viapykTbGfq_Jx9KG-flbM9G7VeH-tzlTd-Qhm-qi_INt5CYRm07tL5TKeq3lPZCah9I0LCBdCQSkGcTEV1MG84g",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0r62v",
+   "name": "Santa Barbara",
+   "country": "United States",
+   "price": 386,
+   "start_date": "2027-01-18",
+   "end_date": "2027-01-26",
+   "stops": 2,
+   "flight_duration": 361,
+   "airline": "American",
+   "airport": "SBA",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQ1egRR-_b4bCH2giBAXmelJrpYyZKLTh5LA_hYDBh73bPOIktHjTeEsw2MCdqgN1b5cFApq037VsaAX0cmISfCHjQXYfNOx2wDyvCprnQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/04x5l8",
+   "name": "Loreto",
+   "country": "Mexico",
+   "price": 387,
+   "start_date": "2026-12-12",
+   "end_date": "2026-12-18",
+   "stops": 2,
+   "flight_duration": 1062,
+   "airline": "American",
+   "airport": "LTO",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT0AlhpFhixfxMRSmMWJLue40yjPn__8bnRl7vDR5Tykpr4OYhXtT9fdpV35Y1IbtDkUdbEqU3Tfwes9Z6XCTLWVHCoboN6VfyHplCzbA",
+   "interests": [
+    "beaches"
+   ],
+   "planned": true
+  },
+  {
+   "id": "/m/0rk71",
+   "name": "Naples",
+   "country": "United States",
+   "price": 392,
+   "start_date": "2027-02-01",
+   "end_date": "2027-02-07",
+   "stops": 1,
+   "flight_duration": 316,
+   "airline": "American",
+   "airport": "APF",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSoyXnNS7N7bvfjMpzQ0flnJfDccwP7cH59Hd7kSRu-HF_9fua7x2BMpbu19wkmB2DDuQcQyCjt7POcORz3wJJAUsVvBdlIuzw0fN1aB98",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0310cy",
+   "name": "San José del Cabo",
+   "country": "Mexico",
+   "price": 392,
+   "start_date": "2026-12-13",
+   "end_date": "2026-12-22",
+   "stops": 1,
+   "flight_duration": 363,
+   "airline": "American",
+   "airport": "SJD",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQaECUQb2FOasYb3kd8-tHQwbOgKpK429O9NC5unDdyr4Fl0GcMqdXXURBNrfXTwO_kpMofhcSLm21tpm8sYG7JSNhx0ELmvUT-eVBBH3E",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": true
+  },
+  {
+   "id": "/m/010f5z",
+   "name": "Moab",
+   "country": "United States",
+   "price": 394,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-16",
+   "stops": 1,
+   "flight_duration": 362,
+   "airline": "United",
+   "airport": "CNY",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTTqulDY-I5_P9-mvt4gqNe6N_H2mAGEmxQEVjxjApzMpFvcXPMQ-j5fsCb-DHw6SW4SgFU53r9E2Pzo886DOJIzzdzLxcMDDrly6qv_Q",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01ktz1",
+   "name": "Augusta",
+   "country": "United States",
+   "price": 401,
+   "start_date": "2027-01-09",
+   "end_date": "2027-01-16",
+   "stops": 1,
+   "flight_duration": 218,
+   "airline": "Delta",
+   "airport": "AGS",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQcPy-63vguhxtRxxds9InilfLNJC-KmnZXFFnaKI1Oy4hnQqDtLswHK6Bqhoq6zTWxQ1_sptXVyCW5gSI2dHbAM4DSorNTrU_dLy7a19c",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/05hcy",
+   "name": "Nassau",
+   "country": "Bahamas",
+   "price": 406,
+   "start_date": "2027-01-07",
+   "end_date": "2027-01-13",
+   "stops": 1,
+   "flight_duration": 377,
+   "airline": "United",
+   "airport": "NAS",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQaEB7swExwW2DGXPpJAXCZtQ4oCWOTl0A6T03QXc70eRNIBeq37cctLunUWvcCD0t3zvgZF7ipTz9tg5s7LvEzHMGlSOJRC26zyxKqWg",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0nbwf",
+   "name": "Long Beach",
+   "country": "United States",
+   "price": 417,
+   "start_date": "2027-01-14",
+   "end_date": "2027-01-20",
+   "stops": 1,
+   "flight_duration": 350,
+   "airline": "Southwest",
+   "airport": "LGB",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRSb65vuMTPTtC1eORbsqjsfoblQZUF5Fc6K_H2eO1huVbQM3sTGnPoGxOZ71KQgA1ZrJeGptlyA1Qbi--V8RC2BMouQIpucvoHIzxK0w",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0dclg",
+   "name": "Philadelphia",
+   "country": "United States",
+   "price": 418,
+   "start_date": "2027-05-03",
+   "end_date": "2027-05-10",
+   "stops": 1,
+   "flight_duration": 765,
+   "airline": "Frontier",
+   "airport": "PHL",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTXCcQa1Gh7EtBaQLisVrDvcALmzzRdP66XMZEtppDBzbWCKSExthO7giVuUTDkT-EJ5UWQlCgIpL0p_MMaAWGngJC1KBlFanLrGDqXsQ",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0fpzwf",
+   "name": "Minneapolis",
+   "country": "United States",
+   "price": 429,
+   "start_date": "2027-05-01",
+   "end_date": "2027-05-07",
+   "stops": 0,
+   "flight_duration": 96,
+   "airline": "Delta",
+   "airport": "MSP",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTSMjrwV-BgbVj4TbwddSvpY3VJiHoQYp0KnLkXYwAY-hJJHXtyN9X4HpUsoJ-cD2-KtNoJveDnxuPmo0HGLtj6VbMWVV3W5Z7pV9XJUg",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/013n60",
+   "name": "Amarillo",
+   "country": "United States",
+   "price": 433,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-16",
+   "stops": 1,
+   "flight_duration": 225,
+   "airline": "Southwest",
+   "airport": "AMA",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRn8K_DE-DR_uwI4Ay2-EPqdGN7prp1paUm8k-jqRGYcPRGtiJTMgpfWtlcqvpun8Ys_v9P6V8cpkdNGHnwvP5T_otOesHDAb_1nOA1sA",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0d1qn",
+   "name": "Aspen",
+   "country": "United States",
+   "price": 437,
+   "start_date": "2026-12-20",
+   "end_date": "2026-12-29",
+   "stops": 1,
+   "flight_duration": 262,
+   "airline": "United",
+   "airport": "ASE",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSnmRLf6KW7SxcyXh-OqmUwy07jj2Sn0rt7jFeOnldMNzEw-39M0Oqg5veUrAefZa2pKXFayLeNfY0daOsJ8MamcTnw_yCXtFwTiSZA-Q",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/011gtj",
+   "name": "Jackson",
+   "country": "United States",
+   "price": 457,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-16",
+   "stops": 1,
+   "flight_duration": 340,
+   "airline": "United",
+   "airport": "JAC",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSgIkWW81us_nl89MpX1-WQyPMG-i3jOiVb-kN5sYBlnRUt9LIDi6DaU1yBM5bCagEGmALVXljZxMMDiJiPOGG5BXxQSsDHy672ox5hYw",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0f2r6",
+   "name": "Salt Lake City",
+   "country": "United States",
+   "price": 459,
+   "start_date": "2027-05-14",
+   "end_date": "2027-05-22",
+   "stops": 1,
+   "flight_duration": 338,
+   "airline": "Frontier",
+   "airport": "SLC",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQvOwYAH659AZwWWVWS1xavnRmEBsXc3OIcQe8KALZqA1VuxxJD7aS6iykZPvMTC19TXdxu9WXvAGWwRfHK22YpKjkc3QNVWIQRpmVQrQ",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/04f_d",
+   "name": "Kansas City",
+   "country": "United States",
+   "price": 461,
+   "start_date": "2027-05-13",
+   "end_date": "2027-05-22",
+   "stops": 1,
+   "flight_duration": 518,
+   "airline": "Frontier",
+   "airport": "MCI",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTssHeF53sl3QmLLXgVEJH30qvWJmU3XhyCiOpk80NJA3BOQ1dmsP-EOPxMncy6ZnCCHDr97oC2bS7pKSq8jln722UIaEyE2_nonO0Yukk",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0d35y",
+   "name": "Phoenix",
+   "country": "United States",
+   "price": 467,
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-04",
+   "stops": 1,
+   "flight_duration": 200,
+   "airline": "Frontier and Southwest",
+   "airport": "PHX",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSK5i7hFco-4GRARTUENCEDbH9AVavcJsjYSlFztGOEw8OLs3f9x59rVAaCxXgFBo9LTkjFdkl1GoDJ6SfetKXyP6xIn34GScBcEmtMcQ",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0d6hn",
+   "name": "Havana",
+   "country": "Cuba",
+   "price": 468,
+   "start_date": "2026-11-29",
+   "end_date": "2026-12-08",
+   "stops": 2,
+   "flight_duration": 500,
+   "airline": "Delta and Southwest",
+   "airport": "HAV",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQeqU5xBc4nDjzBp4vzI1KR1Dwc82AP-zGd-SS79QXqYMEtygkLx8GDKjARRFUQ_o9tqwtffym_LTErXHF4ZtS-QWG-LuMohBldwYOhdg",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0h7h6",
+   "name": "Toronto",
+   "country": "Canada",
+   "price": 471,
+   "start_date": "2027-01-14",
+   "end_date": "2027-01-20",
+   "stops": 1,
+   "flight_duration": 563,
+   "airline": "American",
+   "airport": "YYZ",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ33uzIA7tIAKgYHJbOt8mBimsOQ8op8sOgh3RYe0ZyuxkF-hVuXLcS92pELqBTWSPeikqpv95fFY5LvtQQYbasbn18-7clwjdPpCQjrA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/052p7",
+   "name": "Montreal",
+   "country": "Canada",
+   "price": 480,
+   "start_date": "2027-02-01",
+   "end_date": "2027-02-09",
+   "stops": 1,
+   "flight_duration": 854,
+   "airline": "American",
+   "airport": "YUL",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTzVcEhfhmboA2qyyoH8twAbk-E3vI6-uQiWZtsguvBc4j1UtubjrznrDKnb7CuoFS6A2XlbBwzWVQHSrRlYNnxS1Jy5OTs_63Z1EueBg",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0fr0t",
+   "name": "Tucson",
+   "country": "United States",
+   "price": 486,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-16",
+   "stops": 1,
+   "flight_duration": 301,
+   "airline": "American",
+   "airport": "TUS",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQL18kQH-7tuNUVB2ZSx4Xznz3Yo9ewtUEZLZgMJYBtasAGMqkV61V2ysv4PlZ2pI9bNEwpDBQl9rlTTQZvVYMB9OE9D_3m3izcnvPLIQ",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0rsjf",
+   "name": "Daytona Beach",
+   "country": "United States",
+   "price": 507,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-16",
+   "stops": 1,
+   "flight_duration": 258,
+   "airline": "Delta",
+   "airport": "DAB",
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQtELvDIgo9HnfVU6tD4mNGJMbznlBgEZVNN4lYAu--2UaX-WYPBYQKIqXWlQMmuIDr4DuFb_2o-ON4v5aSmqhNuglpaJXeFisiRmSg9g",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0s10p",
+   "name": "Sun Valley",
+   "country": "United States",
+   "price": 537,
+   "start_date": "2026-12-31",
+   "end_date": "2027-01-06",
+   "stops": 1,
+   "flight_duration": 483,
+   "airline": "United",
+   "airport": "SUN",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ4H_CpoqKMA9BRmS4K1cNqENw0ed89iME_aKb1CIYQ_HEbuC5ZqvHiQbGDy2nFOaZoU095CK-Z84uhoDaCMssZhYcxf19W5HW4BkEXzA",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0n1rj",
+   "name": "Tampa",
+   "country": "United States",
+   "price": 551,
+   "start_date": "2026-11-29",
+   "end_date": "2026-12-08",
+   "stops": 1,
+   "flight_duration": 242,
+   "airline": "Delta and Frontier",
+   "airport": "TPA",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSP62xm4hKTqyjH32v-10cPCwISPFarp72jihprH5LrrvW0d_QG7nOBw4XleHlW5E8dZj4zpnAl3_Mrv47dZxtTLr1obLwEjtagMxFdatQ",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/05ksh",
+   "name": "Ottawa",
+   "country": "Canada",
+   "price": 638,
+   "start_date": "2027-01-28",
+   "end_date": "2027-02-03",
+   "stops": 2,
+   "flight_duration": 543,
+   "airline": "Delta and WestJet",
+   "airport": "YOW",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQk0uxuYZ7y2KmKoDQMY5DzSt0PAZklp_eclgmdsoJlR5bmZuQsTmxEChvUrkjM5KBNAv0qMiPMBZ4HlGNrj2l_YFxF8zSHfrBmCIKuOrA",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/02n49j",
+   "name": "Mazatlán",
+   "country": "Mexico",
+   "price": 653,
+   "start_date": "2026-12-31",
+   "end_date": "2027-01-07",
+   "stops": 1,
+   "flight_duration": 395,
+   "airline": "American and United",
+   "airport": "MZT",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRecYwHHKMivEx3uB9f-XMGmCfMuwyEECH39sEEe9nXyqctIZXmllfRTlh1ZCSYHlm3Bltu3U1h1AYwjYbZVejVp6GXSpiFKelOb5FcJQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": true
+  },
+  {
+   "id": "/m/0b2h3",
+   "name": "Monterrey",
+   "country": "Mexico",
+   "price": 708,
+   "start_date": "2026-12-24",
+   "end_date": "2026-12-30",
+   "stops": 1,
+   "flight_duration": 336,
+   "airline": "United",
+   "airport": "MTY",
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRZYPbmJS4-AsMOdQJ9ojyo8ny3W5Xs5pg8Ma1dCzMjMu8w0toibRCfkdUl8Ep0XdizljpwOO8ghTitm8nwyxoeUu45A6dl-RAPIQ-oHTU",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": true
+  },
+  {
+   "id": "/m/0gv10",
+   "name": "Nantucket",
+   "country": "United States",
+   "price": 769,
+   "start_date": "2027-01-04",
+   "end_date": "2027-01-11",
+   "stops": 1,
+   "flight_duration": 458,
+   "airline": "Cape Air and American",
+   "airport": "ACK",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR1IQBEOPx91b1_t7S67hwNf_emQWPpCfnzZFfGXvG2pY7bT4yyfC5uXUwAWtqw-iFdjTTvde9tnJ5cBdaOSI0gMs96_VpnoFV9-ENkQA",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/07ypt",
+   "name": "Victoria",
+   "country": "Canada",
+   "price": 858,
+   "start_date": "2026-11-27",
+   "end_date": "2026-12-03",
+   "stops": 2,
+   "flight_duration": 680,
+   "airline": "Air North, Air Canada, Alaska, and United",
+   "airport": "YYJ",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcScGhveC0i9_iLJmW8fhRe1eEMUdWom-gBvp-9ORjuQgSzF4cCBDG0XB0o2M7V2h88Y6z0i6BZ23nKMQn0u1WbPqHQdXyffWWhfO8_fUg",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0bwb3",
+   "name": "Telluride",
+   "country": "United States",
+   "price": 945,
+   "start_date": "2026-12-10",
+   "end_date": "2026-12-17",
+   "stops": 2,
+   "flight_duration": 505,
+   "airline": "American, Delta, and Key Lime Air",
+   "airport": "TEX",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRFgGElbbPg1g4N5_9MgSP9foMylLLDLquoSLOFMIehvEibOcnl2HZziZxU_vR9Gey9ZQq0l53s8Qf6KJuT-OEhESfzKxwz8CzQloxlRA",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/031v18",
+   "name": "San Salvador Island",
+   "country": "Bahamas",
+   "price": 994,
+   "start_date": "2026-11-26",
+   "end_date": "2026-12-02",
+   "stops": 3,
+   "flight_duration": 1860,
+   "airline": "United and Bahamasair",
+   "airport": "ZSA",
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ9T2mXJb--SNswxeGlogk_EziLqdXuxHUr0BPkoDvQZC8hg8DHVtIpKqna-TSrTNKRdHNnlKtvsqpZYCJEOWkMAsxNDsXWgI2Fej3pgA",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0ply0",
+   "name": "Orlando",
+   "country": "United States",
+   "price": null,
+   "start_date": "2027-02-18",
+   "end_date": "2027-02-24",
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTbAq0egxZaA4iydbYzspYBKwObERJej09QItMrSACgS9LQHojwd4GDp_VP_pi1RLm6oFX6kpnGvV8x2yBh0pJVUKI4z5sUNkz2d-cyHA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01cxyk",
+   "name": "Varadero",
+   "country": "Cuba",
+   "price": null,
+   "start_date": "2026-11-26",
+   "end_date": "2026-12-03",
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTV2stLC555Rc2sRIF6sBmnM5W_dtGXuYb_CFXo7G1s6Z6G_k7BxQ_rptv-f2cZjVQymu7Dm44u8L6mpqFdSDpR7RBK3ltWP5kx9hojgA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/06_kh",
+   "name": "Santa Monica",
+   "country": "United States",
+   "price": null,
+   "start_date": "2026-11-26",
+   "end_date": "2026-12-02",
+   "stops": 0,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQL0WrnmMssB0WU_h9IOE4abcsFkVL-2v1v7XA5XvV7z7ypbIA7yCO2HlRLqGnXJuCnRWlWPv-Em1dRpTEdOATpOn6LMaR7_nKNMjlmYvw",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0r26c",
+   "name": "Napa",
+   "country": "United States",
+   "price": null,
+   "start_date": "2027-04-01",
+   "end_date": "2027-04-08",
+   "stops": 0,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcStXbItaWfmWQDpsaLdIEHJojsJW2tYkPyx9cXwG3vm3fCe_JWyO-gH7IO7Ny3x_G_iFvUaFwlp-mzqAbjBcA5dQ313KaFDWteEFexE8w",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0pgsv",
+   "name": "Gulf Shores",
+   "country": "United States",
+   "price": null,
+   "start_date": "2026-11-26",
+   "end_date": "2026-12-02",
+   "stops": 0,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR2BKCCabRhQfF5bfS7uE5kC5foGvvEf7cnv5P7nOLN4zJLHDFlzLsmTvFEnBUaJUMzEEjKE2sQ7aWly0fvk-PJM_asmacUGIUJ4mMC36k",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0rh6k",
+   "name": "Washington, D.C.",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSjRXXd6iGcNUQ90a1lu-FdJjy4-s3MM2eLgf_PVpkm9iBTJbVdjznXPwYuASYGUAwRvxMLNL_OBMUcCpvKTbKm-Jqi0u7Qkt0tmJQF3Q",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0r4wn",
+   "name": "Carlsbad",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSwuJKokXWG1k-ZTx7KC0CMNmtiWWi2TAPcSZgkJm5rLtyNRgHiNkVOkKAGHC90yZWAZINGy-B5tph24-V5d-LMEXxh31It_SgTCSpEqA",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/068p2",
+   "name": "Pittsburgh",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSld9V5JnHp6grhCDT4ftcduRUJJDobhPaI08GeHkl9jotwEh-6HUbQhfaOfzqKO0uhXVrbYyqOeNrzH_rXbqJ29JndsCcOejdasLymRQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0b2ds",
+   "name": "Monterey",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSK8LkHNV0azW9aTH2WFINGWR5KbW1acU2O6_9pUBrv7aPWS8aBy8jvL1vYCnRESK60lLdBgEZTGe626fZE0P3Tsj9_bxpw6h9O-V_1CA",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0fsb8",
+   "name": "Charlotte",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRyLX_GyQ0fZwPwX7h0x_QTXJMDyzw2X03nsn7k7dNKQl3QAdSPJIKBsy_ey-CpBoh_WGDMShRnyOtRxvq4mIdXjQky7qpA-OckHDFgyA",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/013n0n",
+   "name": "Corpus Christi",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRd_wKaoNPX7Q-6Ty00NhdaW_II2-rKNHGZ6eY0WqCb1zWigTsNav7PAI62sQ92Nq4jUjsFV81DFYFonkQ2uRWjiRGGzA5SLsGH7pMR7g",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0dyl9",
+   "name": "Milwaukee",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRLylL0JRmiGPbHez46wEmMM0BmYLMJpKLyvBT5g5IdK2SfpkScDAZmiIK7gUFyTn7DuoIhdf6ppqmMmvGKuedvRqcTg1DqoI1Cps-_-g",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/019fh",
+   "name": "Buffalo",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRJ8F-FsPV4f3bUEPRXHConFTVL7k-4ISMu2smY03X0l1IYVO6r0QogGyqBSZowNk9R213aGOgCHfQ8Vsm6hNLmrSblUmubtLmE1PRnag",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/013f1h",
+   "name": "Traverse City",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTTEQLyvoa2L_DCfetVXZxFj6EfbHztapEg6WU9fF-OJJLwjKKkdz3b5XDSk9khNlNC7xca6Qh7QZLLayTxywsuGaovWE6wPfcomjIt3PE",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/013kcv",
+   "name": "Tulsa",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSqJkQBSmWUNjFEthdqz82-JgsEF0a5-bKZgNnUGTsJnG17W2xNjTmMg-qswDwVPGuW4a4YI5FQPy_sviVGi9T-8V78NrO-igU5KNV9gw",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0f__1",
+   "name": "Louisville",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRirKwGpC77JtqCF_8eO8AMVijvC6LOsA3uz2NrGMRkEgTXQo6IdkHJRqvdk72p-2oBA-GWY6nLu9iO4-M6gbt0-gEVQlNssqMFYj4Vcg",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/02g06k",
+   "name": "Bar Harbor",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT545VqE3g51V7_damZFuV9Z9t1_Zjq1YICYdfZcMC2bM6A-EtdOUhhLg9ubSOzhgwGn1puU-FqFPiJafvAajaFduM8oWAXj5t94G9XyQ",
+   "interests": [
+    "beaches",
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/02j3w",
+   "name": "Des Moines",
+   "country": "United States",
+   "price": null,
+   "start_date": "2027-05-15",
+   "end_date": "2027-05-23",
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQgDr-58GcxMkP4778c8GkWAOZVuZQwWbrdxGsbReC1l8di6zb9lFEY9_7L0ygzK2xGL6s6ZDYYkmNrCIpx5ejA_Zqi3fDxrmS7lyf9yg",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/g/122d3k6p",
+   "name": "George Town",
+   "country": "Bahamas",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRPE2WARXUXGrKnv2xNo_G0TYwcwaslCFik22oHXJAvo92hsrwCJ05gBkLW3hsBhGrnKXOwLOgjJ_OpTux6ihz2rDvLP-Dtr3txrygQdg",
+   "interests": [
+    "beaches"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/01byl2",
+   "name": "Matamoros",
+   "country": "Mexico",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRAH4IZpmFgdK0lmBdI_a5wC3kwKmh1oVdAvKLb8VFbKTtrSmOJNEjhYE_7U-SXZPBBcGCjbCcIw9vaSA",
+   "interests": [
+    "beaches"
+   ],
+   "planned": true
+  },
+  {
+   "id": "/m/0r3tq",
+   "name": "Palm Springs",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQLM1TwVxFfq5n8hwSn5pufrYxEEdKXRcQ9RQ4yHEQ7rgmD-plXBKejTlPpKVF8LMCbUlZiMoxfU4LfeL8r22Czw6cNMexz7ML8zM0odg",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0qnxr",
+   "name": "Grand Canyon Village",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQR5yYx28AnwRohN3IQwXVvwGyNLt2qORi73LDrym_mPlfkJvssv02MMNyJakq88-qno1LVoXUHHa5jfeht4UO4Ptj4cWWHOKiOz0_cdQ",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0fvzg",
+   "name": "Oklahoma City",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRTkDu4GCcZZZQ7kkJQwHW-9cc7YrZhhpYZD5veauY4dQIzZlyV9kBsRjT9kTekmnVlNps4FY2in8P4UKB1UMLZrTAqU1lViLPUOBKYNVU",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/010vmb",
+   "name": "Walla Walla",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQQYUhOs9TsYy-ndkdmCt6-VNAZlIgpHpfg6oDr8UgVJZwznREpYOie4LPH7PCMAoF46Zhv9g9NbQWQvPlvZTMDQLG1DzU0rXfYXX6XMZ4",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0c4kv",
+   "name": "Portland",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQfmEhY7pdvgeZgfsa5-Nda-sLl5YQ2JBS6R-ZqYn-CaRQHuqEO2e2_kpX3q7qSICrsKg5ai-fQn4V7Q3OhkuyFBwc98vMbsJfcxT_Kmw",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0qn_y",
+   "name": "Page",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRtwHJZ-08b7HWJGqT1kxQCKuCPbs-0kdRIWt4AuzvwMj-1b_O8jteAGcUCcMa7TAdR6S2hpLzzZVzu9pdpG_JbVpbezN_NnaLK2Y3K8Q",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0x1y7",
+   "name": "Bozeman",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSvaKqiFq8x-K39ezRIvdqUv7U6nU2cb-2s__1-he7qEXfkPRbfZChO7vAf3jrTYIdVu0qpRytHjCse-qs6PMgUmKUj6mRMdXamOkqQYg",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0x335",
+   "name": "Missoula",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ_r_8BBQL648ZWQaRVEpqOnV8Cgjw1yDHgyCzQB_q7TqDxMh6oi4SSnwK7jrYJ9189t3lS_0XjEkOFwTLPCPYcfkIaxOgqieIczQmiog",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0vyfs",
+   "name": "Brainerd",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ3uiXK8qXQq3kWiVck4Mmmh2eKZXKwRKFrE1XfzWuX-s7-9AV-zQVsTYsH756hSo9kOnKn_pq7iFG_P4ixPSfnmGHDR7eAowuwomaxHg",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0_z91",
+   "name": "Brownsville",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRA__SEAVP0QqnjMAWj1f2ZjlRAzbCje2Mn7lb0d7qWBW8CrRbdX0-Qgnys8zAJ9PL9-84vR1nde1VowPq0JxYIJ9fBkaY386y9cn5BWsQ",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0tqj0",
+   "name": "Rockland",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ-mFajaxkioYdERXKEKCJSgmiztWXNqzo3Glpi-t0JMtjNdjE_zLgO4O03x3yF5itOvcqn1nh94Oe9-_d0QssG5D0RWq6BMwSu4yDo3A",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0tbql",
+   "name": "Wichita",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcR8NMiJwl217j61uH559p6LAZZhdImHGpghUiOsUSsFcv2GG8cMn6uk91Md7zRcVPe4nycg83CeSxZpCRZXNW1lj9XzuNgCB0Uuw7TTqFQ",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/011g76",
+   "name": "Cody",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQXDbYgSYW_ZrjSv7r3VxtuZCUyX6U36fpmlimXg7F8cqi9s7Ev7AXNkopuzvtLoiuGJXpmbHreq1EYeaf5gMQmQjVp3GtE8ifAhzNbH1o",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0xvct",
+   "name": "Ruidoso",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMpbqdgoqG1rT36BPWL9wmholPcJmLHy9xIbQ7uBX9vYKgEavzC4hqO5J_oet9NGitVBdyCCBUkF8ImOC768jqJClM-4F2GcSwYtMXDQ",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  },
+  {
+   "id": "/m/0x44q",
+   "name": "Billings",
+   "country": "United States",
+   "price": null,
+   "start_date": null,
+   "end_date": null,
+   "stops": null,
+   "flight_duration": null,
+   "airline": null,
+   "airport": null,
+   "thumbnail": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS13DODD1G1VbyRkLgJCi3EfIZK8Bx3Hjx_w2qdiMuNuti3UoUygW2i-lZAg0zrwrKQ1ToXrAaOIRODCi0Ux4B8MosCiXnWIXeEcZtl3g",
+   "interests": [
+    "outdoors"
+   ],
+   "planned": false
+  }
+ ]
+}
