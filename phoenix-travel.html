@@ -1161,6 +1161,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="assets/travel-data.css">
 </head>
 <body>
     <nav class="nav">
@@ -1431,6 +1432,77 @@
         </div>
     </section>
 
+    <!-- Travel Ideas: pre-fetched fares and stays (data/*.json, refreshed daily by GitHub Actions) -->
+    <section class="section tdata" id="travel-data" aria-labelledby="td-title">
+        <h2 class="section-title" id="td-title">Travel Ideas from St. Louis</h2>
+        <p class="section-subtitle">Current fares and stays to spark your next trip, refreshed daily</p>
+
+        <div class="td-notice">
+            Search results are for planning inspiration. Phoenix Travel does not sell these fares or rooms directly. Planning fees apply.
+            Prices are &ldquo;starting from&rdquo; and subject to change.
+            <span class="credit">Fares via Google Flights and stays via Google Hotels, through SerpApi.</span>
+        </div>
+
+        <div class="td-group">
+            <label for="td-travelers">Travelers in your group</label>
+            <input type="number" id="td-travelers" class="td-field" min="1" max="50" value="1" inputmode="numeric">
+            <p class="hint">Multiplies the prices below for a quick group estimate. Estimate, not a quote. Hotels assume 2 travelers per room.</p>
+        </div>
+
+        <!-- Fare Deals -->
+        <h3 class="td-h" id="td-fares-h">Fare Deals from St. Louis</h3>
+        <p class="td-sub">Round-trip fares from STL, per person</p>
+        <p class="td-updated" id="td-fares-updated"></p>
+        <div id="td-fares-body" aria-busy="true" aria-labelledby="td-fares-h"><div class="td-state">Loading fare deals&hellip;</div></div>
+
+        <!-- Explore -->
+        <h3 class="td-h" id="td-explore-h">Where Can I Go from St. Louis?</h3>
+        <p class="td-sub">Filter the latest fares by budget, month, interest, or nonstop</p>
+        <p class="td-updated" id="td-explore-updated"></p>
+        <div class="td-filters" id="td-explore-filters" hidden>
+            <div class="f"><label for="td-f-budget">Budget (per person)</label>
+                <select id="td-f-budget" class="td-field">
+                    <option value="0">Any</option><option value="300">Up to $300</option><option value="500">Up to $500</option>
+                    <option value="800">Up to $800</option><option value="1200">Up to $1,200</option><option value="2000">Up to $2,000</option>
+                </select></div>
+            <div class="f"><label for="td-f-month">Month</label>
+                <select id="td-f-month" class="td-field"><option value="">Any</option></select></div>
+            <div class="f"><label for="td-f-interest">Interest</label>
+                <select id="td-f-interest" class="td-field"><option value="">Any</option></select></div>
+            <label class="f check"><input type="checkbox" id="td-f-nonstop"> Nonstop only</label>
+            <label class="f check"><input type="checkbox" id="td-f-planned"> Phoenix-planned only</label>
+        </div>
+        <p class="td-sub" id="td-explore-count" role="status" aria-live="polite"></p>
+        <div id="td-explore-body" aria-busy="true" aria-labelledby="td-explore-h"><div class="td-state">Loading destinations&hellip;</div></div>
+
+        <!-- Cheapest Dates -->
+        <h3 class="td-h" id="td-cal-h">Cheapest Dates to Fly</h3>
+        <p class="td-sub">Lowest round-trip fare by departure date. Choose a route, then pick a day.</p>
+        <p class="td-updated" id="td-cal-updated"></p>
+        <div class="td-filters" id="td-route-field" hidden>
+            <div class="f"><label for="td-route">Route</label><select id="td-route" class="td-field"></select></div>
+        </div>
+        <div id="td-cal-body" aria-busy="true" aria-labelledby="td-cal-h"><div class="td-state">Loading price calendars&hellip;</div></div>
+
+        <!-- Featured Stays -->
+        <h3 class="td-h" id="td-stays-h">Featured Stays</h3>
+        <p class="td-sub">Hotels on trips Phoenix has planned, with photos, ratings and the cheapest dates</p>
+        <p class="td-updated" id="td-stays-updated"></p>
+        <div id="td-stays-body" aria-busy="true" aria-labelledby="td-stays-h"><div class="td-state">Loading stays&hellip;</div></div>
+
+        <dialog class="td-lb" id="td-lb" aria-label="Hotel photos">
+            <figure>
+                <img id="td-lb-img" alt="">
+                <figcaption id="td-lb-cap"></figcaption>
+            </figure>
+            <div class="bar">
+                <button type="button" id="td-lb-prev">&larr; Previous</button>
+                <button type="button" id="td-lb-next">Next &rarr;</button>
+                <button type="button" id="td-lb-close">Close</button>
+            </div>
+        </dialog>
+    </section>
+
     <!-- How It Works -->
     <section class="section">
         <h2 class="section-title">How It Works</h2>
@@ -1697,6 +1769,7 @@
             if (e.key === 'Enter') lookupItinerary();
         });
     </script>
+    <script src="assets/travel-data.js" defer></script>
 
     <footer class="footer">
         <p>&copy; 2026 Phoenix Travel | <a href="index.html">LM Enterprises</a> | Keysha Strickland</p>

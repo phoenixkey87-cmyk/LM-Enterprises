@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["updated_at", "origin", "currency", "deals"],
+  "properties": {
+    "updated_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$" },
+    "origin": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "currency": { "type": "string" },
+    "deals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "destination", "price"],
+        "properties": {
+          "id": { "type": "string" },
+          "destination": { "type": "string", "minLength": 1 },
+          "country": { "type": ["string", "null"] },
+          "price": { "type": "number", "exclusiveMinimum": 0 },
+          "average_price": { "type": ["number", "null"] },
+          "discount_percentage": { "type": ["number", "null"] },
+          "start_date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "end_date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "airline": { "type": ["string", "null"] },
+          "stops": { "type": ["integer", "null"] },
+          "arrival_airport_code": { "type": ["string", "null"] },
+          "flight_duration": { "type": ["number", "null"] },
+          "thumbnail": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

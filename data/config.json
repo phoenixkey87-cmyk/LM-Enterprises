@@ -1,0 +1,58 @@
+{
+  "_readme": "Edit this file to change what the daily job fetches. See README 'Phoenix Travel data' section. Keys starting with _ are ignored.",
+  "origin": { "airport": "STL", "label": "St. Louis" },
+  "currency": "USD",
+  "gl": "us",
+  "hl": "en",
+  "max_calls_per_run": 40,
+  "stale_hours": 120,
+  "photos_reviews_refresh_days": 7,
+  "adults": 2,
+  "date_windows": {
+    "deals": { "start_offset_days": 21, "end_offset_days": 180 },
+    "calendar": { "start_offset_days": 14, "end_offset_days": 150 },
+    "hotel_rate_offset_days": 45,
+    "hotel_calendar_default": { "start_offset_days": 0, "end_offset_days": 120 }
+  },
+  "trip_lengths": {
+    "deals": "5,10",
+    "calendar_round_trip_days": 7,
+    "explore_travel_duration": 2
+  },
+  "deals": { "max_items": 12 },
+  "explore": {
+    "interests": [
+      { "key": "popular", "id": "0", "label": "Popular" },
+      { "key": "beaches", "id": "/m/0b3yr", "label": "Beaches" },
+      { "key": "outdoors", "id": "/g/11bc58l13w", "label": "Outdoors" },
+      { "key": "history", "id": "/m/03g3w", "label": "History" }
+    ]
+  },
+  "stays": { "photos_per_hotel": 8, "reviews_per_hotel": 3, "review_max_chars": 220 },
+  "destinations": [
+    { "id": "vietnam-hanoi", "name": "Vietnam: Hanoi", "country": "Vietnam", "airport": "HAN", "planned": true, "featured": true,
+      "calendar_window": { "start": "2027-11-14", "end": "2027-12-05" },
+      "hotels": [
+        { "id": "anatole-hanoi", "name": "Anatole Hotel Hanoi", "query": "Anatole Hotel Hanoi" }
+      ] },
+    { "id": "vietnam-hoi-an", "name": "Vietnam: Hoi An", "country": "Vietnam", "planned": true, "featured": true, "flights": false,
+      "calendar_window": { "start": "2027-11-14", "end": "2027-12-05" },
+      "hotels": [
+        { "id": "silk-sense-hoi-an", "name": "Silk Sense Hoi An River Resort", "query": "Silk Sense Hoi An River Resort" }
+      ] },
+    { "id": "vietnam-saigon", "name": "Vietnam: Ho Chi Minh City", "country": "Vietnam", "airport": "SGN", "planned": true, "featured": true,
+      "calendar_window": { "start": "2027-11-14", "end": "2027-12-05" },
+      "hotels": [
+        { "id": "grand-saigon", "name": "Hotel Grand Saigon", "query": "Hotel Grand Saigon" }
+      ] },
+    { "id": "bali", "name": "Bali", "country": "Indonesia", "flight_query": "Denpasar Bali", "planned": true },
+    { "id": "aruba", "name": "Aruba", "country": "Aruba", "flight_query": "Aruba Queen Beatrix", "planned": true },
+    { "id": "belize", "flights": false, "name": "Belize", "country": "Belize", "flight_query": "Belize City", "planned": true },
+    { "id": "colombia", "flights": false, "name": "Colombia", "country": "Colombia", "flight_query": "Bogota", "planned": true },
+    { "id": "spain", "flights": false, "name": "Spain", "country": "Spain", "flight_query": "Madrid", "planned": true },
+    { "id": "mexico", "name": "Mexico", "country": "Mexico", "flight_query": "Cancun", "planned": true },
+    { "id": "dominican-republic", "name": "Dominican Republic", "country": "Dominican Republic", "flight_query": "Punta Cana", "planned": true },
+    { "id": "puerto-rico", "flights": false, "name": "Puerto Rico", "country": "Puerto Rico", "flight_query": "San Juan Puerto Rico", "planned": true },
+    { "id": "jamaica", "name": "Jamaica", "country": "Jamaica", "flight_query": "Montego Bay", "planned": true }
+  ]
+}
