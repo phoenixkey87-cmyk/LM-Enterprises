@@ -198,8 +198,8 @@ def pick_airport(resp, preferred_type=None):
 def pick_property(resp, wanted_name, min_overlap=0.6):
     """property_token for the suggestion that best matches wanted_name, or None.
 
-    Requires type 'accommodation' and at least min_overlap of the wanted name's
-    distinctive words present in the suggestion, so a wrong hotel is never picked.
+    Needs at least min_overlap of the wanted name's distinctive words in the
+    suggestion, so a wrong hotel is never picked. 'accommodation' suggestions win ties.
     """
     want = _tokens(wanted_name)
     if not want:
@@ -207,9 +207,23 @@ def pick_property(resp, wanted_name, min_overlap=0.6):
     best, best_score = None, 0
     for s in (resp or {}).get("suggestions") or []:
         token = _str(s.get("property_token"))
-        if s.get("type") != "accommodation" or not token:
+        if not token:
             continue
-        score = len(want & _tokens(s.get("value") or "")) / len(want)
+        overlap = len(want & _tokens(s.get("value") or s.get("name") or "")) / len(want)
+        if overlap < min_overlap:
+            continue
+        score = overlap + (0.01 if s.get("type") == "accommodation" else 0)
         if score > best_score:
             best, best_score = token, score
-    return best if best_score >= min_overlap else None
+    return best
+
+
+def summarize_suggestions(resp, limit=4):
+    """Short, key-free description of autocomplete suggestions for the Action log."""
+    out = []
+    for s in (resp or {}).get("suggestions") or []:
+        out.append("%s [%s]%s" % (s.get("value") or s.get("name"), s.get("type"),
+                                  " token" if s.get("property_token") else ""))
+        if len(out) >= limit:
+            break
+    return "; ".join(out) or "no suggestions returned"

@@ -179,7 +179,8 @@ def run(cfg, lookup, prev, client, now):
             if code:
                 lookup["airports"][d["id"]] = code
             else:
-                warnings.append("no airport resolved for %s; skipping its flights" % d["id"])
+                warnings.append("no airport resolved for %s (got: %s); set airport in config. Skipping its flights" % (d["id"], N.summarize_suggestions(resp)))
+                print("WARN:", warnings[-1])
         d["_resolved_airport"] = code
 
     for d, h in hotels_of(cfg):
@@ -191,7 +192,8 @@ def run(cfg, lookup, prev, client, now):
             if token:
                 lookup["hotels"][h["id"]] = token
             else:
-                warnings.append("no confident property match for '%s'; add property_token in config" % h["name"])
+                warnings.append("no confident property match for '%s' (got: %s); add property_token in config" % (h["name"], N.summarize_suggestions(resp)))
+                print("WARN:", warnings[-1])
         h["_token"] = token
 
     # --- Flights Deals ------------------------------------------------------------------

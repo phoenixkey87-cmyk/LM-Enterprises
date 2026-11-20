@@ -45,8 +45,8 @@
       "hotels": [
         { "id": "grand-saigon", "name": "Hotel Grand Saigon", "query": "Hotel Grand Saigon" }
       ] },
-    { "id": "bali", "name": "Bali", "country": "Indonesia", "flight_query": "Denpasar Bali", "planned": true },
-    { "id": "aruba", "name": "Aruba", "country": "Aruba", "flight_query": "Aruba Queen Beatrix", "planned": true },
+    { "id": "bali", "name": "Bali", "country": "Indonesia", "airport": "DPS", "planned": true },
+    { "id": "aruba", "name": "Aruba", "country": "Aruba", "airport": "AUA", "planned": true },
     { "id": "belize", "flights": false, "name": "Belize", "country": "Belize", "flight_query": "Belize City", "planned": true },
     { "id": "colombia", "flights": false, "name": "Colombia", "country": "Colombia", "flight_query": "Bogota", "planned": true },
     { "id": "spain", "flights": false, "name": "Spain", "country": "Spain", "flight_query": "Madrid", "planned": true },

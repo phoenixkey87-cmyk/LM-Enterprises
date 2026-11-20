@@ -158,7 +158,7 @@ class EndToEnd(unittest.TestCase):
         self.assertEqual(client.calls, planned)                 # plan matches reality
         self.assertEqual(set(out), {"fares", "explore", "calendar", "stays"})
         self.validate(out)
-        self.assertEqual(lookup["airports"]["bali"], "CUN")     # cached from autocomplete
+        self.assertEqual(lookup["airports"]["mexico"], "CUN")     # cached from autocomplete
         self.assertEqual(len(out["stays"]["destinations"]), 3)
 
     def test_failure_keeps_previous_block_and_its_old_timestamp(self):
