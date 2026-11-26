@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T21:29:29Z",
+ "updated_at": "2026-11-26T19:05:48Z",
  "stale_hours": 120,
  "origin": "STL",
  "currency": "USD",
@@ -9,36 +9,18 @@
    "name": "Vietnam: Hanoi",
    "arrival": "HAN",
    "round_trip_days": 7,
-   "updated_at": "2026-11-23T21:29:29Z",
+   "updated_at": "2026-11-26T19:05:48Z",
    "prices": [
-    {
-     "outbound_date": "2026-12-07",
-     "return_date": "2026-12-14",
-     "price": 1436,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "price": 1650,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-09",
-     "return_date": "2026-12-16",
-     "price": 1737,
-     "low": false
-    },
     {
      "outbound_date": "2026-12-10",
      "return_date": "2026-12-17",
-     "price": 1810,
+     "price": 1737,
      "low": false
     },
     {
      "outbound_date": "2026-12-11",
      "return_date": "2026-12-18",
-     "price": 1867,
+     "price": 1960,
      "low": false
     },
     {
@@ -50,205 +32,205 @@
     {
      "outbound_date": "2026-12-13",
      "return_date": "2026-12-20",
-     "price": 1973,
+     "price": 1894,
      "low": false
     },
     {
      "outbound_date": "2026-12-14",
      "return_date": "2026-12-21",
-     "price": 2154,
+     "price": 1929,
      "low": false
     },
     {
      "outbound_date": "2026-12-15",
      "return_date": "2026-12-22",
-     "price": 2153,
+     "price": 2175,
      "low": false
     },
     {
      "outbound_date": "2026-12-16",
      "return_date": "2026-12-23",
-     "price": 2455,
+     "price": 2374,
      "low": false
     },
     {
      "outbound_date": "2026-12-17",
      "return_date": "2026-12-24",
-     "price": 2310,
+     "price": 2262,
      "low": false
     },
     {
      "outbound_date": "2026-12-18",
      "return_date": "2026-12-25",
-     "price": 2848,
+     "price": 3077,
      "low": false
     },
     {
      "outbound_date": "2026-12-19",
      "return_date": "2026-12-26",
-     "price": 2852,
+     "price": 2659,
      "low": false
     },
     {
      "outbound_date": "2026-12-20",
      "return_date": "2026-12-27",
-     "price": 2356,
+     "price": 2632,
      "low": false
     },
     {
      "outbound_date": "2026-12-21",
      "return_date": "2026-12-28",
-     "price": 2123,
+     "price": 2390,
      "low": false
     },
     {
      "outbound_date": "2026-12-22",
      "return_date": "2026-12-29",
-     "price": 2227,
+     "price": 2225,
      "low": false
     },
     {
      "outbound_date": "2026-12-23",
      "return_date": "2026-12-30",
-     "price": 2289,
+     "price": 2288,
      "low": false
     },
     {
      "outbound_date": "2026-12-24",
      "return_date": "2026-12-31",
-     "price": 2390,
+     "price": 2238,
      "low": false
     },
     {
      "outbound_date": "2026-12-25",
      "return_date": "2027-01-01",
-     "price": 2377,
+     "price": 2429,
      "low": false
     },
     {
      "outbound_date": "2026-12-26",
      "return_date": "2027-01-02",
-     "price": 2569,
+     "price": 2593,
      "low": false
     },
     {
      "outbound_date": "2026-12-27",
      "return_date": "2027-01-03",
-     "price": 2953,
+     "price": 2757,
      "low": false
     },
     {
      "outbound_date": "2026-12-28",
      "return_date": "2027-01-04",
-     "price": 2456,
+     "price": 2458,
      "low": false
     },
     {
      "outbound_date": "2026-12-29",
      "return_date": "2027-01-05",
-     "price": 2118,
+     "price": 2083,
      "low": false
     },
     {
      "outbound_date": "2026-12-30",
      "return_date": "2027-01-06",
-     "price": 2232,
+     "price": 2206,
      "low": false
     },
     {
      "outbound_date": "2026-12-31",
      "return_date": "2027-01-07",
-     "price": 1981,
+     "price": 1634,
      "low": false
     },
     {
      "outbound_date": "2027-01-01",
      "return_date": "2027-01-08",
-     "price": 1917,
+     "price": 1894,
      "low": false
     },
     {
      "outbound_date": "2027-01-02",
      "return_date": "2027-01-09",
-     "price": 2304,
+     "price": 1695,
      "low": false
     },
     {
      "outbound_date": "2027-01-03",
      "return_date": "2027-01-10",
-     "price": 1944,
+     "price": 2061,
      "low": false
     },
     {
      "outbound_date": "2027-01-04",
      "return_date": "2027-01-11",
-     "price": 1992,
+     "price": 1787,
      "low": false
     },
     {
      "outbound_date": "2027-01-05",
      "return_date": "2027-01-12",
-     "price": 1786,
+     "price": 1504,
      "low": false
     },
     {
      "outbound_date": "2027-01-06",
      "return_date": "2027-01-13",
-     "price": 1444,
+     "price": 1528,
      "low": false
     },
     {
      "outbound_date": "2027-01-07",
      "return_date": "2027-01-14",
-     "price": 1367,
+     "price": 1552,
      "low": false
     },
     {
      "outbound_date": "2027-01-08",
      "return_date": "2027-01-15",
-     "price": 1420,
+     "price": 1228,
      "low": false
     },
     {
      "outbound_date": "2027-01-09",
      "return_date": "2027-01-16",
-     "price": 1484,
+     "price": 1507,
      "low": false
     },
     {
      "outbound_date": "2027-01-10",
      "return_date": "2027-01-17",
-     "price": 1380,
+     "price": 1221,
      "low": false
     },
     {
      "outbound_date": "2027-01-11",
      "return_date": "2027-01-18",
-     "price": 1253,
+     "price": 1420,
      "low": false
     },
     {
      "outbound_date": "2027-01-12",
      "return_date": "2027-01-19",
-     "price": 1343,
+     "price": 1333,
      "low": false
     },
     {
      "outbound_date": "2027-01-13",
      "return_date": "2027-01-20",
-     "price": 1404,
+     "price": 1420,
      "low": false
     },
     {
      "outbound_date": "2027-01-14",
      "return_date": "2027-01-21",
-     "price": 1221,
+     "price": 1255,
      "low": false
     },
     {
      "outbound_date": "2027-01-15",
      "return_date": "2027-01-22",
-     "price": 1263,
+     "price": 1240,
      "low": false
     },
     {
@@ -260,13 +242,13 @@
     {
      "outbound_date": "2027-01-17",
      "return_date": "2027-01-24",
-     "price": 1268,
+     "price": 1281,
      "low": false
     },
     {
      "outbound_date": "2027-01-18",
      "return_date": "2027-01-25",
-     "price": 1212,
+     "price": 1322,
      "low": false
     },
     {
@@ -278,49 +260,49 @@
     {
      "outbound_date": "2027-01-20",
      "return_date": "2027-01-27",
-     "price": 1299,
+     "price": 1193,
      "low": false
     },
     {
      "outbound_date": "2027-01-21",
      "return_date": "2027-01-28",
-     "price": 1334,
+     "price": 1324,
      "low": false
     },
     {
      "outbound_date": "2027-01-22",
      "return_date": "2027-01-29",
-     "price": 1308,
+     "price": 1461,
      "low": false
     },
     {
      "outbound_date": "2027-01-23",
      "return_date": "2027-01-30",
-     "price": 1322,
+     "price": 1381,
      "low": false
     },
     {
      "outbound_date": "2027-01-24",
      "return_date": "2027-01-31",
-     "price": 1348,
+     "price": 1401,
      "low": false
     },
     {
      "outbound_date": "2027-01-25",
      "return_date": "2027-02-01",
-     "price": 1359,
+     "price": 1343,
      "low": false
     },
     {
      "outbound_date": "2027-01-26",
      "return_date": "2027-02-02",
-     "price": 1343,
+     "price": 1187,
      "low": false
     },
     {
      "outbound_date": "2027-01-27",
      "return_date": "2027-02-03",
-     "price": 1541,
+     "price": 1539,
      "low": false
     },
     {
@@ -332,7 +314,7 @@
     {
      "outbound_date": "2027-01-29",
      "return_date": "2027-02-05",
-     "price": 1314,
+     "price": 1479,
      "low": false
     },
     {
@@ -344,7 +326,7 @@
     {
      "outbound_date": "2027-01-31",
      "return_date": "2027-02-07",
-     "price": 1506,
+     "price": 1415,
      "low": false
     },
     {
@@ -356,19 +338,19 @@
     {
      "outbound_date": "2027-02-02",
      "return_date": "2027-02-09",
-     "price": 1400,
+     "price": 1291,
      "low": false
     },
     {
      "outbound_date": "2027-02-03",
      "return_date": "2027-02-10",
-     "price": 1599,
+     "price": 1406,
      "low": false
     },
     {
      "outbound_date": "2027-02-04",
      "return_date": "2027-02-11",
-     "price": 1379,
+     "price": 1299,
      "low": false
     },
     {
@@ -398,13 +380,13 @@
     {
      "outbound_date": "2027-02-09",
      "return_date": "2027-02-16",
-     "price": 1223,
+     "price": 1291,
      "low": false
     },
     {
      "outbound_date": "2027-02-10",
      "return_date": "2027-02-17",
-     "price": 1564,
+     "price": 1563,
      "low": false
     },
     {
@@ -446,37 +428,37 @@
     {
      "outbound_date": "2027-02-17",
      "return_date": "2027-02-24",
-     "price": 1456,
+     "price": 1516,
      "low": false
     },
     {
      "outbound_date": "2027-02-18",
      "return_date": "2027-02-25",
-     "price": 1177,
-     "low": false
+     "price": 1133,
+     "low": true
     },
     {
      "outbound_date": "2027-02-19",
      "return_date": "2027-02-26",
-     "price": 1349,
+     "price": 1340,
      "low": false
     },
     {
      "outbound_date": "2027-02-20",
      "return_date": "2027-02-27",
-     "price": 1354,
+     "price": 1294,
      "low": false
     },
     {
      "outbound_date": "2027-02-21",
      "return_date": "2027-02-28",
-     "price": 1363,
+     "price": 1195,
      "low": false
     },
     {
      "outbound_date": "2027-02-22",
      "return_date": "2027-03-01",
-     "price": 1227,
+     "price": 1282,
      "low": false
     },
     {
@@ -494,19 +476,19 @@
     {
      "outbound_date": "2027-02-25",
      "return_date": "2027-03-04",
-     "price": 1189,
+     "price": 1176,
      "low": false
     },
     {
      "outbound_date": "2027-02-26",
      "return_date": "2027-03-05",
-     "price": 1338,
+     "price": 1337,
      "low": false
     },
     {
      "outbound_date": "2027-02-27",
      "return_date": "2027-03-06",
-     "price": 1254,
+     "price": 1250,
      "low": false
     },
     {
@@ -518,7 +500,7 @@
     {
      "outbound_date": "2027-03-01",
      "return_date": "2027-03-08",
-     "price": 1260,
+     "price": 1279,
      "low": false
     },
     {
@@ -536,19 +518,19 @@
     {
      "outbound_date": "2027-03-04",
      "return_date": "2027-03-11",
-     "price": 1104,
+     "price": 1146,
      "low": true
     },
     {
      "outbound_date": "2027-03-05",
      "return_date": "2027-03-12",
-     "price": 1239,
-     "low": false
+     "price": 1143,
+     "low": true
     },
     {
      "outbound_date": "2027-03-06",
      "return_date": "2027-03-13",
-     "price": 1442,
+     "price": 1294,
      "low": false
     },
     {
@@ -560,25 +542,25 @@
     {
      "outbound_date": "2027-03-08",
      "return_date": "2027-03-15",
-     "price": 1175,
+     "price": 1174,
      "low": false
     },
     {
      "outbound_date": "2027-03-09",
      "return_date": "2027-03-16",
-     "price": 1227,
+     "price": 1174,
      "low": false
     },
     {
      "outbound_date": "2027-03-10",
      "return_date": "2027-03-17",
-     "price": 1227,
+     "price": 1279,
      "low": false
     },
     {
      "outbound_date": "2027-03-11",
      "return_date": "2027-03-18",
-     "price": 1312,
+     "price": 1303,
      "low": false
     },
     {
@@ -590,13 +572,13 @@
     {
      "outbound_date": "2027-03-13",
      "return_date": "2027-03-20",
-     "price": 1298,
+     "price": 1215,
      "low": false
     },
     {
      "outbound_date": "2027-03-14",
      "return_date": "2027-03-21",
-     "price": 1252,
+     "price": 1281,
      "low": false
     },
     {
@@ -608,7 +590,7 @@
     {
      "outbound_date": "2027-03-16",
      "return_date": "2027-03-23",
-     "price": 1227,
+     "price": 1187,
      "low": false
     },
     {
@@ -626,37 +608,37 @@
     {
      "outbound_date": "2027-03-19",
      "return_date": "2027-03-26",
-     "price": 1342,
+     "price": 1548,
      "low": false
     },
     {
      "outbound_date": "2027-03-20",
      "return_date": "2027-03-27",
-     "price": 1481,
+     "price": 1434,
      "low": false
     },
     {
      "outbound_date": "2027-03-21",
      "return_date": "2027-03-28",
-     "price": 1324,
+     "price": 1446,
      "low": false
     },
     {
      "outbound_date": "2027-03-22",
      "return_date": "2027-03-29",
-     "price": 1227,
+     "price": 1279,
      "low": false
     },
     {
      "outbound_date": "2027-03-23",
      "return_date": "2027-03-30",
-     "price": 1282,
+     "price": 1324,
      "low": false
     },
     {
      "outbound_date": "2027-03-24",
      "return_date": "2027-03-31",
-     "price": 1279,
+     "price": 1353,
      "low": false
     },
     {
@@ -668,31 +650,31 @@
     {
      "outbound_date": "2027-03-26",
      "return_date": "2027-04-02",
-     "price": 1334,
+     "price": 1528,
      "low": false
     },
     {
      "outbound_date": "2027-03-27",
      "return_date": "2027-04-03",
-     "price": 1334,
+     "price": 1290,
      "low": false
     },
     {
      "outbound_date": "2027-03-28",
      "return_date": "2027-04-04",
-     "price": 1324,
+     "price": 1352,
      "low": false
     },
     {
      "outbound_date": "2027-03-29",
      "return_date": "2027-04-05",
-     "price": 1227,
+     "price": 1282,
      "low": false
     },
     {
      "outbound_date": "2027-03-30",
      "return_date": "2027-04-06",
-     "price": 1291,
+     "price": 1336,
      "low": false
     },
     {
@@ -704,19 +686,19 @@
     {
      "outbound_date": "2027-04-01",
      "return_date": "2027-04-08",
-     "price": 1133,
-     "low": true
+     "price": 1277,
+     "low": false
     },
     {
      "outbound_date": "2027-04-02",
      "return_date": "2027-04-09",
-     "price": 1243,
+     "price": 1379,
      "low": false
     },
     {
      "outbound_date": "2027-04-03",
      "return_date": "2027-04-10",
-     "price": 1334,
+     "price": 1453,
      "low": false
     },
     {
@@ -740,7 +722,7 @@
     {
      "outbound_date": "2027-04-07",
      "return_date": "2027-04-14",
-     "price": 1174,
+     "price": 1227,
      "low": false
     },
     {
@@ -764,7 +746,7 @@
     {
      "outbound_date": "2027-04-11",
      "return_date": "2027-04-18",
-     "price": 1277,
+     "price": 1400,
      "low": false
     },
     {
@@ -806,7 +788,7 @@
     {
      "outbound_date": "2027-04-18",
      "return_date": "2027-04-25",
-     "price": 1204,
+     "price": 1229,
      "low": false
     },
     {
@@ -819,18 +801,36 @@
      "outbound_date": "2027-04-20",
      "return_date": "2027-04-27",
      "price": 1164,
-     "low": false
+     "low": true
     },
     {
      "outbound_date": "2027-04-21",
      "return_date": "2027-04-28",
-     "price": 1187,
+     "price": 1252,
      "low": false
     },
     {
      "outbound_date": "2027-04-22",
      "return_date": "2027-04-29",
      "price": 1187,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-23",
+     "return_date": "2027-04-30",
+     "price": 1229,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-24",
+     "return_date": "2027-05-01",
+     "price": 1244,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-25",
+     "return_date": "2027-05-02",
+     "price": 1229,
      "low": false
     }
    ]
@@ -840,216 +840,198 @@
    "name": "Vietnam: Ho Chi Minh City",
    "arrival": "SGN",
    "round_trip_days": 7,
-   "updated_at": "2026-11-23T21:29:29Z",
+   "updated_at": "2026-11-26T19:05:48Z",
    "prices": [
-    {
-     "outbound_date": "2026-12-07",
-     "return_date": "2026-12-14",
-     "price": 1257,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "price": 1257,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-09",
-     "return_date": "2026-12-16",
-     "price": 1300,
-     "low": false
-    },
     {
      "outbound_date": "2026-12-10",
      "return_date": "2026-12-17",
-     "price": 1509,
+     "price": 1629,
      "low": false
     },
     {
      "outbound_date": "2026-12-11",
      "return_date": "2026-12-18",
-     "price": 1709,
+     "price": 1910,
      "low": false
     },
     {
      "outbound_date": "2026-12-12",
      "return_date": "2026-12-19",
-     "price": 1907,
+     "price": 1922,
      "low": false
     },
     {
      "outbound_date": "2026-12-13",
      "return_date": "2026-12-20",
-     "price": 1716,
+     "price": 1657,
      "low": false
     },
     {
      "outbound_date": "2026-12-14",
      "return_date": "2026-12-21",
-     "price": 1832,
+     "price": 1728,
      "low": false
     },
     {
      "outbound_date": "2026-12-15",
      "return_date": "2026-12-22",
-     "price": 1887,
+     "price": 1834,
      "low": false
     },
     {
      "outbound_date": "2026-12-16",
      "return_date": "2026-12-23",
-     "price": 2202,
+     "price": 2160,
      "low": false
     },
     {
      "outbound_date": "2026-12-17",
      "return_date": "2026-12-24",
-     "price": 2443,
+     "price": 2249,
      "low": false
     },
     {
      "outbound_date": "2026-12-18",
      "return_date": "2026-12-25",
-     "price": 2843,
+     "price": 2967,
      "low": false
     },
     {
      "outbound_date": "2026-12-19",
      "return_date": "2026-12-26",
-     "price": 2775,
+     "price": 2600,
      "low": false
     },
     {
      "outbound_date": "2026-12-20",
      "return_date": "2026-12-27",
-     "price": 2058,
+     "price": 2280,
      "low": false
     },
     {
      "outbound_date": "2026-12-21",
      "return_date": "2026-12-28",
-     "price": 1657,
+     "price": 1892,
      "low": false
     },
     {
      "outbound_date": "2026-12-22",
      "return_date": "2026-12-29",
-     "price": 2008,
+     "price": 2243,
      "low": false
     },
     {
      "outbound_date": "2026-12-23",
      "return_date": "2026-12-30",
-     "price": 1965,
+     "price": 2341,
      "low": false
     },
     {
      "outbound_date": "2026-12-24",
      "return_date": "2026-12-31",
-     "price": 2510,
+     "price": 2235,
      "low": false
     },
     {
      "outbound_date": "2026-12-25",
      "return_date": "2027-01-01",
-     "price": 2848,
+     "price": 2108,
      "low": false
     },
     {
      "outbound_date": "2026-12-26",
      "return_date": "2027-01-02",
-     "price": 3075,
+     "price": 3055,
      "low": false
     },
     {
      "outbound_date": "2026-12-27",
      "return_date": "2027-01-03",
-     "price": 3055,
+     "price": 2330,
      "low": false
     },
     {
      "outbound_date": "2026-12-28",
      "return_date": "2027-01-04",
-     "price": 2692,
+     "price": 2663,
      "low": false
     },
     {
      "outbound_date": "2026-12-29",
      "return_date": "2027-01-05",
-     "price": 2341,
+     "price": 2313,
      "low": false
     },
     {
      "outbound_date": "2026-12-30",
      "return_date": "2027-01-06",
-     "price": 1694,
+     "price": 2108,
      "low": false
     },
     {
      "outbound_date": "2026-12-31",
      "return_date": "2027-01-07",
-     "price": 2100,
+     "price": 2066,
      "low": false
     },
     {
      "outbound_date": "2027-01-01",
      "return_date": "2027-01-08",
-     "price": 1725,
+     "price": 2015,
      "low": false
     },
     {
      "outbound_date": "2027-01-02",
      "return_date": "2027-01-09",
-     "price": 2104,
+     "price": 2134,
      "low": false
     },
     {
      "outbound_date": "2027-01-03",
      "return_date": "2027-01-10",
-     "price": 2023,
+     "price": 1778,
      "low": false
     },
     {
      "outbound_date": "2027-01-04",
      "return_date": "2027-01-11",
-     "price": 1754,
+     "price": 1768,
      "low": false
     },
     {
      "outbound_date": "2027-01-05",
      "return_date": "2027-01-12",
-     "price": 1589,
+     "price": 1574,
      "low": false
     },
     {
      "outbound_date": "2027-01-06",
      "return_date": "2027-01-13",
-     "price": 1719,
+     "price": 1546,
      "low": false
     },
     {
      "outbound_date": "2027-01-07",
      "return_date": "2027-01-14",
-     "price": 1711,
+     "price": 1391,
      "low": false
     },
     {
      "outbound_date": "2027-01-08",
      "return_date": "2027-01-15",
-     "price": 1585,
+     "price": 1549,
      "low": false
     },
     {
      "outbound_date": "2027-01-09",
      "return_date": "2027-01-16",
-     "price": 1646,
+     "price": 1501,
      "low": false
     },
     {
      "outbound_date": "2027-01-10",
      "return_date": "2027-01-17",
-     "price": 1463,
+     "price": 1480,
      "low": false
     },
     {
@@ -1061,7 +1043,7 @@
     {
      "outbound_date": "2027-01-12",
      "return_date": "2027-01-19",
-     "price": 1246,
+     "price": 1195,
      "low": false
     },
     {
@@ -1073,31 +1055,31 @@
     {
      "outbound_date": "2027-01-14",
      "return_date": "2027-01-21",
-     "price": 1246,
+     "price": 1193,
      "low": false
     },
     {
      "outbound_date": "2027-01-15",
      "return_date": "2027-01-22",
-     "price": 1255,
+     "price": 1195,
      "low": false
     },
     {
      "outbound_date": "2027-01-16",
      "return_date": "2027-01-23",
-     "price": 1281,
+     "price": 1195,
      "low": false
     },
     {
      "outbound_date": "2027-01-17",
      "return_date": "2027-01-24",
-     "price": 1241,
+     "price": 1208,
      "low": false
     },
     {
      "outbound_date": "2027-01-18",
      "return_date": "2027-01-25",
-     "price": 1243,
+     "price": 1193,
      "low": false
     },
     {
@@ -1109,19 +1091,19 @@
     {
      "outbound_date": "2027-01-20",
      "return_date": "2027-01-27",
-     "price": 1245,
+     "price": 1244,
      "low": false
     },
     {
      "outbound_date": "2027-01-21",
      "return_date": "2027-01-28",
-     "price": 1195,
+     "price": 1194,
      "low": false
     },
     {
      "outbound_date": "2027-01-22",
      "return_date": "2027-01-29",
-     "price": 1190,
+     "price": 1188,
      "low": false
     },
     {
@@ -1133,7 +1115,7 @@
     {
      "outbound_date": "2027-01-24",
      "return_date": "2027-01-31",
-     "price": 1206,
+     "price": 1306,
      "low": false
     },
     {
@@ -1151,7 +1133,7 @@
     {
      "outbound_date": "2027-01-27",
      "return_date": "2027-02-03",
-     "price": 1426,
+     "price": 1517,
      "low": false
     },
     {
@@ -1169,13 +1151,13 @@
     {
      "outbound_date": "2027-01-30",
      "return_date": "2027-02-06",
-     "price": 1261,
+     "price": 1618,
      "low": false
     },
     {
      "outbound_date": "2027-01-31",
      "return_date": "2027-02-07",
-     "price": 1290,
+     "price": 1296,
      "low": false
     },
     {
@@ -1187,7 +1169,7 @@
     {
      "outbound_date": "2027-02-02",
      "return_date": "2027-02-09",
-     "price": 1238,
+     "price": 1253,
      "low": false
     },
     {
@@ -1199,19 +1181,19 @@
     {
      "outbound_date": "2027-02-04",
      "return_date": "2027-02-11",
-     "price": 1203,
+     "price": 1206,
      "low": false
     },
     {
      "outbound_date": "2027-02-05",
      "return_date": "2027-02-12",
-     "price": 1200,
+     "price": 1223,
      "low": false
     },
     {
      "outbound_date": "2027-02-06",
      "return_date": "2027-02-13",
-     "price": 1206,
+     "price": 1203,
      "low": false
     },
     {
@@ -1235,13 +1217,13 @@
     {
      "outbound_date": "2027-02-10",
      "return_date": "2027-02-17",
-     "price": 1214,
+     "price": 1262,
      "low": false
     },
     {
      "outbound_date": "2027-02-11",
      "return_date": "2027-02-18",
-     "price": 1256,
+     "price": 1253,
      "low": false
     },
     {
@@ -1265,13 +1247,13 @@
     {
      "outbound_date": "2027-02-15",
      "return_date": "2027-02-22",
-     "price": 1337,
+     "price": 1289,
      "low": false
     },
     {
      "outbound_date": "2027-02-16",
      "return_date": "2027-02-23",
-     "price": 1203,
+     "price": 1200,
      "low": false
     },
     {
@@ -1289,7 +1271,7 @@
     {
      "outbound_date": "2027-02-19",
      "return_date": "2027-02-26",
-     "price": 1203,
+     "price": 1206,
      "low": false
     },
     {
@@ -1361,13 +1343,13 @@
     {
      "outbound_date": "2027-03-03",
      "return_date": "2027-03-10",
-     "price": 1271,
+     "price": 1350,
      "low": false
     },
     {
      "outbound_date": "2027-03-04",
      "return_date": "2027-03-11",
-     "price": 1203,
+     "price": 1208,
      "low": false
     },
     {
@@ -1385,7 +1367,7 @@
     {
      "outbound_date": "2027-03-07",
      "return_date": "2027-03-14",
-     "price": 1311,
+     "price": 1225,
      "low": false
     },
     {
@@ -1403,7 +1385,7 @@
     {
      "outbound_date": "2027-03-10",
      "return_date": "2027-03-17",
-     "price": 1196,
+     "price": 1195,
      "low": false
     },
     {
@@ -1415,25 +1397,25 @@
     {
      "outbound_date": "2027-03-12",
      "return_date": "2027-03-19",
-     "price": 1240,
+     "price": 1208,
      "low": false
     },
     {
      "outbound_date": "2027-03-13",
      "return_date": "2027-03-20",
-     "price": 1226,
+     "price": 1211,
      "low": false
     },
     {
      "outbound_date": "2027-03-14",
      "return_date": "2027-03-21",
-     "price": 1241,
+     "price": 1208,
      "low": false
     },
     {
      "outbound_date": "2027-03-15",
      "return_date": "2027-03-22",
-     "price": 1261,
+     "price": 1216,
      "low": false
     },
     {
@@ -1445,7 +1427,7 @@
     {
      "outbound_date": "2027-03-17",
      "return_date": "2027-03-24",
-     "price": 1208,
+     "price": 1203,
      "low": false
     },
     {
@@ -1457,13 +1439,13 @@
     {
      "outbound_date": "2027-03-19",
      "return_date": "2027-03-26",
-     "price": 1308,
+     "price": 1222,
      "low": false
     },
     {
      "outbound_date": "2027-03-20",
      "return_date": "2027-03-27",
-     "price": 1353,
+     "price": 1295,
      "low": false
     },
     {
@@ -1482,7 +1464,7 @@
      "outbound_date": "2027-03-23",
      "return_date": "2027-03-30",
      "price": 1166,
-     "low": false
+     "low": true
     },
     {
      "outbound_date": "2027-03-24",
@@ -1493,128 +1475,128 @@
     {
      "outbound_date": "2027-03-25",
      "return_date": "2027-04-01",
-     "price": 1208,
+     "price": 1195,
      "low": false
     },
     {
      "outbound_date": "2027-03-26",
      "return_date": "2027-04-02",
-     "price": 1211,
+     "price": 1195,
      "low": false
     },
     {
      "outbound_date": "2027-03-27",
      "return_date": "2027-04-03",
-     "price": 1331,
+     "price": 1218,
      "low": false
     },
     {
      "outbound_date": "2027-03-28",
      "return_date": "2027-04-04",
-     "price": 1314,
+     "price": 1215,
      "low": false
     },
     {
      "outbound_date": "2027-03-29",
      "return_date": "2027-04-05",
-     "price": 1211,
+     "price": 1195,
      "low": false
     },
     {
      "outbound_date": "2027-03-30",
      "return_date": "2027-04-06",
-     "price": 1200,
+     "price": 1187,
      "low": false
     },
     {
      "outbound_date": "2027-03-31",
      "return_date": "2027-04-07",
-     "price": 1187,
+     "price": 1190,
      "low": false
     },
     {
      "outbound_date": "2027-04-01",
      "return_date": "2027-04-08",
-     "price": 1200,
+     "price": 1195,
      "low": false
     },
     {
      "outbound_date": "2027-04-02",
      "return_date": "2027-04-09",
-     "price": 1200,
+     "price": 1185,
      "low": false
     },
     {
      "outbound_date": "2027-04-03",
      "return_date": "2027-04-10",
-     "price": 1200,
+     "price": 1187,
      "low": false
     },
     {
      "outbound_date": "2027-04-04",
      "return_date": "2027-04-11",
-     "price": 1204,
+     "price": 1187,
      "low": false
     },
     {
      "outbound_date": "2027-04-05",
      "return_date": "2027-04-12",
-     "price": 1147,
+     "price": 1203,
      "low": false
     },
     {
      "outbound_date": "2027-04-06",
      "return_date": "2027-04-13",
      "price": 1166,
-     "low": false
+     "low": true
     },
     {
      "outbound_date": "2027-04-07",
      "return_date": "2027-04-14",
-     "price": 1064,
+     "price": 1166,
      "low": true
     },
     {
      "outbound_date": "2027-04-08",
      "return_date": "2027-04-15",
-     "price": 1147,
-     "low": false
+     "price": 1121,
+     "low": true
     },
     {
      "outbound_date": "2027-04-09",
      "return_date": "2027-04-16",
-     "price": 1187,
+     "price": 1193,
      "low": false
     },
     {
      "outbound_date": "2027-04-10",
      "return_date": "2027-04-17",
-     "price": 1200,
+     "price": 1187,
      "low": false
     },
     {
      "outbound_date": "2027-04-11",
      "return_date": "2027-04-18",
-     "price": 1203,
+     "price": 1187,
      "low": false
     },
     {
      "outbound_date": "2027-04-12",
      "return_date": "2027-04-19",
-     "price": 1064,
+     "price": 1145,
      "low": true
     },
     {
      "outbound_date": "2027-04-13",
      "return_date": "2027-04-20",
-     "price": 1158,
-     "low": false
+     "price": 1166,
+     "low": true
     },
     {
      "outbound_date": "2027-04-14",
      "return_date": "2027-04-21",
      "price": 1121,
-     "low": false
+     "low": true
     },
     {
      "outbound_date": "2027-04-15",
@@ -1637,32 +1619,50 @@
     {
      "outbound_date": "2027-04-18",
      "return_date": "2027-04-25",
-     "price": 1193,
-     "low": false
+     "price": 1132,
+     "low": true
     },
     {
      "outbound_date": "2027-04-19",
      "return_date": "2027-04-26",
      "price": 1121,
-     "low": false
+     "low": true
     },
     {
      "outbound_date": "2027-04-20",
      "return_date": "2027-04-27",
-     "price": 1121,
-     "low": false
+     "price": 1166,
+     "low": true
     },
     {
      "outbound_date": "2027-04-21",
      "return_date": "2027-04-28",
-     "price": 1166,
+     "price": 1187,
      "low": false
     },
     {
      "outbound_date": "2027-04-22",
      "return_date": "2027-04-29",
      "price": 1166,
+     "low": true
+    },
+    {
+     "outbound_date": "2027-04-23",
+     "return_date": "2027-04-30",
+     "price": 1200,
      "low": false
+    },
+    {
+     "outbound_date": "2027-04-24",
+     "return_date": "2027-05-01",
+     "price": 1190,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-25",
+     "return_date": "2027-05-02",
+     "price": 1115,
+     "low": true
     }
    ]
   },
@@ -1671,36 +1671,18 @@
    "name": "Bali",
    "arrival": "DPS",
    "round_trip_days": 7,
-   "updated_at": "2026-11-23T21:29:29Z",
+   "updated_at": "2026-11-26T19:05:48Z",
    "prices": [
-    {
-     "outbound_date": "2026-12-07",
-     "return_date": "2026-12-14",
-     "price": 1351,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "price": 1566,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-09",
-     "return_date": "2026-12-16",
-     "price": 1915,
-     "low": false
-    },
     {
      "outbound_date": "2026-12-10",
      "return_date": "2026-12-17",
-     "price": 1925,
+     "price": 1816,
      "low": false
     },
     {
      "outbound_date": "2026-12-11",
      "return_date": "2026-12-18",
-     "price": 1958,
+     "price": 1951,
      "low": false
     },
     {
@@ -1718,85 +1700,85 @@
     {
      "outbound_date": "2026-12-14",
      "return_date": "2026-12-21",
-     "price": 1958,
+     "price": 1874,
      "low": false
     },
     {
      "outbound_date": "2026-12-15",
      "return_date": "2026-12-22",
-     "price": 2019,
+     "price": 2009,
      "low": false
     },
     {
      "outbound_date": "2026-12-16",
      "return_date": "2026-12-23",
-     "price": 2262,
+     "price": 2014,
      "low": false
     },
     {
      "outbound_date": "2026-12-17",
      "return_date": "2026-12-24",
-     "price": 2444,
+     "price": 2250,
      "low": false
     },
     {
      "outbound_date": "2026-12-18",
      "return_date": "2026-12-25",
-     "price": 2706,
+     "price": 2699,
      "low": false
     },
     {
      "outbound_date": "2026-12-19",
      "return_date": "2026-12-26",
-     "price": 2760,
+     "price": 2496,
      "low": false
     },
     {
      "outbound_date": "2026-12-20",
      "return_date": "2026-12-27",
-     "price": 2914,
+     "price": 2718,
      "low": false
     },
     {
      "outbound_date": "2026-12-21",
      "return_date": "2026-12-28",
-     "price": 2262,
+     "price": 2173,
      "low": false
     },
     {
      "outbound_date": "2026-12-22",
      "return_date": "2026-12-29",
-     "price": 2280,
+     "price": 2069,
      "low": false
     },
     {
      "outbound_date": "2026-12-23",
      "return_date": "2026-12-30",
-     "price": 2404,
+     "price": 2392,
      "low": false
     },
     {
      "outbound_date": "2026-12-24",
      "return_date": "2026-12-31",
-     "price": 2338,
+     "price": 2302,
      "low": false
     },
     {
      "outbound_date": "2026-12-25",
      "return_date": "2027-01-01",
-     "price": 2432,
+     "price": 2330,
      "low": false
     },
     {
      "outbound_date": "2026-12-26",
      "return_date": "2027-01-02",
-     "price": 3001,
+     "price": 2734,
      "low": false
     },
     {
      "outbound_date": "2026-12-27",
      "return_date": "2027-01-03",
-     "price": 3103,
+     "price": 2810,
      "low": false
     },
     {
@@ -1808,55 +1790,55 @@
     {
      "outbound_date": "2026-12-29",
      "return_date": "2027-01-05",
-     "price": 2362,
+     "price": 2039,
      "low": false
     },
     {
      "outbound_date": "2026-12-30",
      "return_date": "2027-01-06",
-     "price": 1986,
+     "price": 1992,
      "low": false
     },
     {
      "outbound_date": "2026-12-31",
      "return_date": "2027-01-07",
-     "price": 1878,
+     "price": 1867,
      "low": false
     },
     {
      "outbound_date": "2027-01-01",
      "return_date": "2027-01-08",
-     "price": 1927,
+     "price": 1915,
      "low": false
     },
     {
      "outbound_date": "2027-01-02",
      "return_date": "2027-01-09",
-     "price": 2034,
+     "price": 1970,
      "low": false
     },
     {
      "outbound_date": "2027-01-03",
      "return_date": "2027-01-10",
-     "price": 1859,
+     "price": 1847,
      "low": false
     },
     {
      "outbound_date": "2027-01-04",
      "return_date": "2027-01-11",
-     "price": 1728,
+     "price": 1718,
      "low": false
     },
     {
      "outbound_date": "2027-01-05",
      "return_date": "2027-01-12",
-     "price": 1589,
+     "price": 1686,
      "low": false
     },
     {
      "outbound_date": "2027-01-06",
      "return_date": "2027-01-13",
-     "price": 1526,
+     "price": 1517,
      "low": false
     },
     {
@@ -1868,13 +1850,13 @@
     {
      "outbound_date": "2027-01-08",
      "return_date": "2027-01-15",
-     "price": 1542,
+     "price": 1404,
      "low": false
     },
     {
      "outbound_date": "2027-01-09",
      "return_date": "2027-01-16",
-     "price": 1619,
+     "price": 1404,
      "low": false
     },
     {
@@ -1886,7 +1868,7 @@
     {
      "outbound_date": "2027-01-11",
      "return_date": "2027-01-18",
-     "price": 1466,
+     "price": 1404,
      "low": false
     },
     {
@@ -1898,19 +1880,19 @@
     {
      "outbound_date": "2027-01-13",
      "return_date": "2027-01-20",
-     "price": 1336,
+     "price": 1324,
      "low": false
     },
     {
      "outbound_date": "2027-01-14",
      "return_date": "2027-01-21",
-     "price": 1404,
+     "price": 1333,
      "low": false
     },
     {
      "outbound_date": "2027-01-15",
      "return_date": "2027-01-22",
-     "price": 1404,
+     "price": 1381,
      "low": false
     },
     {
@@ -1922,13 +1904,13 @@
     {
      "outbound_date": "2027-01-17",
      "return_date": "2027-01-24",
-     "price": 1396,
+     "price": 1311,
      "low": false
     },
     {
      "outbound_date": "2027-01-18",
      "return_date": "2027-01-25",
-     "price": 1336,
+     "price": 1329,
      "low": false
     },
     {
@@ -1952,19 +1934,19 @@
     {
      "outbound_date": "2027-01-22",
      "return_date": "2027-01-29",
-     "price": 1368,
+     "price": 1322,
      "low": false
     },
     {
      "outbound_date": "2027-01-23",
      "return_date": "2027-01-30",
-     "price": 1404,
+     "price": 1351,
      "low": false
     },
     {
      "outbound_date": "2027-01-24",
      "return_date": "2027-01-31",
-     "price": 1324,
+     "price": 1311,
      "low": false
     },
     {
@@ -1976,7 +1958,7 @@
     {
      "outbound_date": "2027-01-26",
      "return_date": "2027-02-02",
-     "price": 1253,
+     "price": 1206,
      "low": false
     },
     {
@@ -1988,7 +1970,7 @@
     {
      "outbound_date": "2027-01-28",
      "return_date": "2027-02-04",
-     "price": 1263,
+     "price": 1256,
      "low": false
     },
     {
@@ -2000,13 +1982,13 @@
     {
      "outbound_date": "2027-01-30",
      "return_date": "2027-02-06",
-     "price": 1313,
+     "price": 1324,
      "low": false
     },
     {
      "outbound_date": "2027-01-31",
      "return_date": "2027-02-07",
-     "price": 1311,
+     "price": 1370,
      "low": false
     },
     {
@@ -2042,13 +2024,13 @@
     {
      "outbound_date": "2027-02-06",
      "return_date": "2027-02-13",
-     "price": 1354,
+     "price": 1351,
      "low": false
     },
     {
      "outbound_date": "2027-02-07",
      "return_date": "2027-02-14",
-     "price": 1370,
+     "price": 1311,
      "low": false
     },
     {
@@ -2060,13 +2042,13 @@
     {
      "outbound_date": "2027-02-09",
      "return_date": "2027-02-16",
-     "price": 1280,
+     "price": 1343,
      "low": false
     },
     {
      "outbound_date": "2027-02-10",
      "return_date": "2027-02-17",
-     "price": 1274,
+     "price": 1269,
      "low": false
     },
     {
@@ -2078,7 +2060,7 @@
     {
      "outbound_date": "2027-02-12",
      "return_date": "2027-02-19",
-     "price": 1317,
+     "price": 1322,
      "low": false
     },
     {
@@ -2096,19 +2078,19 @@
     {
      "outbound_date": "2027-02-15",
      "return_date": "2027-02-22",
-     "price": 1191,
+     "price": 1213,
      "low": false
     },
     {
      "outbound_date": "2027-02-16",
      "return_date": "2027-02-23",
-     "price": 1206,
+     "price": 1253,
      "low": false
     },
     {
      "outbound_date": "2027-02-17",
      "return_date": "2027-02-24",
-     "price": 1219,
+     "price": 1213,
      "low": false
     },
     {
@@ -2120,49 +2102,49 @@
     {
      "outbound_date": "2027-02-19",
      "return_date": "2027-02-26",
-     "price": 1204,
+     "price": 1273,
      "low": false
     },
     {
      "outbound_date": "2027-02-20",
      "return_date": "2027-02-27",
-     "price": 1321,
+     "price": 1315,
      "low": false
     },
     {
      "outbound_date": "2027-02-21",
      "return_date": "2027-02-28",
-     "price": 1194,
-     "low": false
+     "price": 1188,
+     "low": true
     },
     {
      "outbound_date": "2027-02-22",
      "return_date": "2027-03-01",
-     "price": 1172,
-     "low": true
+     "price": 1253,
+     "low": false
     },
     {
      "outbound_date": "2027-02-23",
      "return_date": "2027-03-02",
-     "price": 1172,
-     "low": true
+     "price": 1206,
+     "low": false
     },
     {
      "outbound_date": "2027-02-24",
      "return_date": "2027-03-03",
-     "price": 1151,
+     "price": 1145,
      "low": true
     },
     {
      "outbound_date": "2027-02-25",
      "return_date": "2027-03-04",
-     "price": 1218,
+     "price": 1212,
      "low": false
     },
     {
      "outbound_date": "2027-02-26",
      "return_date": "2027-03-05",
-     "price": 1246,
+     "price": 1239,
      "low": false
     },
     {
@@ -2174,61 +2156,61 @@
     {
      "outbound_date": "2027-02-28",
      "return_date": "2027-03-07",
-     "price": 1256,
+     "price": 1220,
      "low": false
     },
     {
      "outbound_date": "2027-03-01",
      "return_date": "2027-03-08",
-     "price": 1266,
+     "price": 1287,
      "low": false
     },
     {
      "outbound_date": "2027-03-02",
      "return_date": "2027-03-09",
-     "price": 1128,
+     "price": 1162,
      "low": true
     },
     {
      "outbound_date": "2027-03-03",
      "return_date": "2027-03-10",
-     "price": 1206,
+     "price": 1253,
      "low": false
     },
     {
      "outbound_date": "2027-03-04",
      "return_date": "2027-03-11",
-     "price": 1151,
+     "price": 1146,
      "low": true
     },
     {
      "outbound_date": "2027-03-05",
      "return_date": "2027-03-12",
-     "price": 1278,
-     "low": false
+     "price": 1198,
+     "low": true
     },
     {
      "outbound_date": "2027-03-06",
      "return_date": "2027-03-13",
-     "price": 1414,
+     "price": 1387,
      "low": false
     },
     {
      "outbound_date": "2027-03-07",
      "return_date": "2027-03-14",
-     "price": 1353,
+     "price": 1347,
      "low": false
     },
     {
      "outbound_date": "2027-03-08",
      "return_date": "2027-03-15",
-     "price": 1226,
+     "price": 1220,
      "low": false
     },
     {
      "outbound_date": "2027-03-09",
      "return_date": "2027-03-16",
-     "price": 1280,
+     "price": 1206,
      "low": false
     },
     {
@@ -2252,13 +2234,13 @@
     {
      "outbound_date": "2027-03-13",
      "return_date": "2027-03-20",
-     "price": 1351,
+     "price": 1525,
      "low": false
     },
     {
      "outbound_date": "2027-03-14",
      "return_date": "2027-03-21",
-     "price": 1359,
+     "price": 1361,
      "low": false
     },
     {
@@ -2270,13 +2252,13 @@
     {
      "outbound_date": "2027-03-16",
      "return_date": "2027-03-23",
-     "price": 1311,
+     "price": 1277,
      "low": false
     },
     {
      "outbound_date": "2027-03-17",
      "return_date": "2027-03-24",
-     "price": 1494,
+     "price": 1358,
      "low": false
     },
     {
@@ -2288,25 +2270,25 @@
     {
      "outbound_date": "2027-03-19",
      "return_date": "2027-03-26",
-     "price": 1404,
+     "price": 1387,
      "low": false
     },
     {
      "outbound_date": "2027-03-20",
      "return_date": "2027-03-27",
-     "price": 1533,
+     "price": 1553,
      "low": false
     },
     {
      "outbound_date": "2027-03-21",
      "return_date": "2027-03-28",
-     "price": 1545,
+     "price": 1444,
      "low": false
     },
     {
      "outbound_date": "2027-03-22",
      "return_date": "2027-03-29",
-     "price": 1226,
+     "price": 1220,
      "low": false
     },
     {
@@ -2318,7 +2300,7 @@
     {
      "outbound_date": "2027-03-24",
      "return_date": "2027-03-31",
-     "price": 1226,
+     "price": 1375,
      "low": false
     },
     {
@@ -2330,7 +2312,7 @@
     {
      "outbound_date": "2027-03-26",
      "return_date": "2027-04-02",
-     "price": 1584,
+     "price": 1610,
      "low": false
     },
     {
@@ -2348,13 +2330,13 @@
     {
      "outbound_date": "2027-03-29",
      "return_date": "2027-04-05",
-     "price": 1324,
+     "price": 1362,
      "low": false
     },
     {
      "outbound_date": "2027-03-30",
      "return_date": "2027-04-06",
-     "price": 1345,
+     "price": 1354,
      "low": false
     },
     {
@@ -2384,13 +2366,13 @@
     {
      "outbound_date": "2027-04-04",
      "return_date": "2027-04-11",
-     "price": 1227,
+     "price": 1220,
      "low": false
     },
     {
      "outbound_date": "2027-04-05",
      "return_date": "2027-04-12",
-     "price": 1152,
+     "price": 1146,
      "low": true
     },
     {
@@ -2402,55 +2384,55 @@
     {
      "outbound_date": "2027-04-07",
      "return_date": "2027-04-14",
-     "price": 1206,
-     "low": false
+     "price": 1146,
+     "low": true
     },
     {
      "outbound_date": "2027-04-08",
      "return_date": "2027-04-15",
-     "price": 1272,
-     "low": false
+     "price": 1146,
+     "low": true
     },
     {
      "outbound_date": "2027-04-09",
      "return_date": "2027-04-16",
-     "price": 1306,
+     "price": 1272,
      "low": false
     },
     {
      "outbound_date": "2027-04-10",
      "return_date": "2027-04-17",
-     "price": 1306,
+     "price": 1353,
      "low": false
     },
     {
      "outbound_date": "2027-04-11",
      "return_date": "2027-04-18",
-     "price": 1256,
+     "price": 1303,
      "low": false
     },
     {
      "outbound_date": "2027-04-12",
      "return_date": "2027-04-19",
-     "price": 1151,
+     "price": 1146,
      "low": true
     },
     {
      "outbound_date": "2027-04-13",
      "return_date": "2027-04-20",
-     "price": 1206,
+     "price": 1213,
      "low": false
     },
     {
      "outbound_date": "2027-04-14",
      "return_date": "2027-04-21",
-     "price": 1152,
+     "price": 1146,
      "low": true
     },
     {
      "outbound_date": "2027-04-15",
      "return_date": "2027-04-22",
-     "price": 1219,
+     "price": 1213,
      "low": false
     },
     {
@@ -2468,7 +2450,7 @@
     {
      "outbound_date": "2027-04-18",
      "return_date": "2027-04-25",
-     "price": 1212,
+     "price": 1256,
      "low": false
     },
     {
@@ -2480,8 +2462,8 @@
     {
      "outbound_date": "2027-04-20",
      "return_date": "2027-04-27",
-     "price": 1162,
-     "low": true
+     "price": 1206,
+     "low": false
     },
     {
      "outbound_date": "2027-04-21",
@@ -2492,7 +2474,25 @@
     {
      "outbound_date": "2027-04-22",
      "return_date": "2027-04-29",
-     "price": 1269,
+     "price": 1303,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-23",
+     "return_date": "2027-04-30",
+     "price": 1306,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-24",
+     "return_date": "2027-05-01",
+     "price": 1306,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-25",
+     "return_date": "2027-05-02",
+     "price": 1309,
      "low": false
     }
    ]
@@ -2502,26 +2502,8 @@
    "name": "Aruba",
    "arrival": "AUA",
    "round_trip_days": 7,
-   "updated_at": "2026-11-23T21:29:29Z",
+   "updated_at": "2026-11-26T19:05:48Z",
    "prices": [
-    {
-     "outbound_date": "2026-12-07",
-     "return_date": "2026-12-14",
-     "price": 622,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "price": 461,
-     "low": true
-    },
-    {
-     "outbound_date": "2026-12-09",
-     "return_date": "2026-12-16",
-     "price": 461,
-     "low": true
-    },
     {
      "outbound_date": "2026-12-10",
      "return_date": "2026-12-17",
@@ -2537,31 +2519,31 @@
     {
      "outbound_date": "2026-12-12",
      "return_date": "2026-12-19",
-     "price": 646,
+     "price": 712,
      "low": false
     },
     {
      "outbound_date": "2026-12-13",
      "return_date": "2026-12-20",
-     "price": 584,
+     "price": 712,
      "low": false
     },
     {
      "outbound_date": "2026-12-14",
      "return_date": "2026-12-21",
-     "price": 604,
+     "price": 712,
      "low": false
     },
     {
      "outbound_date": "2026-12-15",
      "return_date": "2026-12-22",
-     "price": 604,
+     "price": 712,
      "low": false
     },
     {
      "outbound_date": "2026-12-16",
      "return_date": "2026-12-23",
-     "price": 604,
+     "price": 712,
      "low": false
     },
     {
@@ -2615,31 +2597,31 @@
     {
      "outbound_date": "2026-12-25",
      "return_date": "2027-01-01",
-     "price": 875,
+     "price": 687,
      "low": false
     },
     {
      "outbound_date": "2026-12-26",
      "return_date": "2027-01-02",
-     "price": 1504,
+     "price": 1536,
      "low": false
     },
     {
      "outbound_date": "2026-12-27",
      "return_date": "2027-01-03",
-     "price": 1062,
+     "price": 969,
      "low": false
     },
     {
      "outbound_date": "2026-12-28",
      "return_date": "2027-01-04",
-     "price": 907,
+     "price": 753,
      "low": false
     },
     {
      "outbound_date": "2026-12-29",
      "return_date": "2027-01-05",
-     "price": 704,
+     "price": 654,
      "low": false
     },
     {
@@ -2675,37 +2657,37 @@
     {
      "outbound_date": "2027-01-04",
      "return_date": "2027-01-11",
-     "price": 557,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-05",
      "return_date": "2027-01-12",
-     "price": 514,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-06",
      "return_date": "2027-01-13",
-     "price": 514,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-07",
      "return_date": "2027-01-14",
-     "price": 514,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-08",
      "return_date": "2027-01-15",
-     "price": 514,
+     "price": 604,
      "low": false
     },
     {
      "outbound_date": "2027-01-09",
      "return_date": "2027-01-16",
-     "price": 597,
+     "price": 604,
      "low": false
     },
     {
@@ -2717,26 +2699,26 @@
     {
      "outbound_date": "2027-01-11",
      "return_date": "2027-01-18",
-     "price": 514,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-12",
      "return_date": "2027-01-19",
-     "price": 514,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-13",
      "return_date": "2027-01-20",
-     "price": 514,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-14",
      "return_date": "2027-01-21",
-     "price": 520,
-     "low": false
+     "price": 515,
+     "low": true
     },
     {
      "outbound_date": "2027-01-15",
@@ -2915,13 +2897,13 @@
     {
      "outbound_date": "2027-02-13",
      "return_date": "2027-02-20",
-     "price": 610,
+     "price": 604,
      "low": false
     },
     {
      "outbound_date": "2027-02-14",
      "return_date": "2027-02-21",
-     "price": 615,
+     "price": 604,
      "low": false
     },
     {
@@ -2963,7 +2945,7 @@
     {
      "outbound_date": "2027-02-21",
      "return_date": "2027-02-28",
-     "price": 609,
+     "price": 604,
      "low": false
     },
     {
@@ -3005,7 +2987,7 @@
     {
      "outbound_date": "2027-02-28",
      "return_date": "2027-03-07",
-     "price": 615,
+     "price": 604,
      "low": false
     },
     {
@@ -3035,13 +3017,13 @@
     {
      "outbound_date": "2027-03-05",
      "return_date": "2027-03-12",
-     "price": 687,
+     "price": 610,
      "low": false
     },
     {
      "outbound_date": "2027-03-06",
      "return_date": "2027-03-13",
-     "price": 610,
+     "price": 604,
      "low": false
     },
     {
@@ -3071,25 +3053,25 @@
     {
      "outbound_date": "2027-03-11",
      "return_date": "2027-03-18",
-     "price": 621,
+     "price": 604,
      "low": false
     },
     {
      "outbound_date": "2027-03-12",
      "return_date": "2027-03-19",
-     "price": 696,
+     "price": 616,
      "low": false
     },
     {
      "outbound_date": "2027-03-13",
      "return_date": "2027-03-20",
-     "price": 858,
+     "price": 790,
      "low": false
     },
     {
      "outbound_date": "2027-03-14",
      "return_date": "2027-03-21",
-     "price": 692,
+     "price": 617,
      "low": false
     },
     {
@@ -3113,13 +3095,13 @@
     {
      "outbound_date": "2027-03-18",
      "return_date": "2027-03-25",
-     "price": 621,
+     "price": 604,
      "low": false
     },
     {
      "outbound_date": "2027-03-19",
      "return_date": "2027-03-26",
-     "price": 754,
+     "price": 747,
      "low": false
     },
     {
@@ -3161,13 +3143,13 @@
     {
      "outbound_date": "2027-03-26",
      "return_date": "2027-04-02",
-     "price": 703,
+     "price": 737,
      "low": false
     },
     {
      "outbound_date": "2027-03-27",
      "return_date": "2027-04-03",
-     "price": 671,
+     "price": 638,
      "low": false
     },
     {
@@ -3179,7 +3161,7 @@
     {
      "outbound_date": "2027-03-29",
      "return_date": "2027-04-05",
-     "price": 604,
+     "price": 610,
      "low": false
     },
     {
@@ -3203,38 +3185,38 @@
     {
      "outbound_date": "2027-04-02",
      "return_date": "2027-04-09",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-03",
      "return_date": "2027-04-10",
-     "price": 593,
-     "low": false
+     "price": 532,
+     "low": true
     },
     {
      "outbound_date": "2027-04-04",
      "return_date": "2027-04-11",
-     "price": 609,
+     "price": 599,
      "low": false
     },
     {
      "outbound_date": "2027-04-05",
      "return_date": "2027-04-12",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-06",
      "return_date": "2027-04-13",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-07",
      "return_date": "2027-04-14",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-08",
@@ -3257,26 +3239,26 @@
     {
      "outbound_date": "2027-04-11",
      "return_date": "2027-04-18",
-     "price": 601,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-12",
      "return_date": "2027-04-19",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-13",
      "return_date": "2027-04-20",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-14",
      "return_date": "2027-04-21",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-15",
@@ -3287,7 +3269,7 @@
     {
      "outbound_date": "2027-04-16",
      "return_date": "2027-04-23",
-     "price": 604,
+     "price": 603,
      "low": false
     },
     {
@@ -3299,8 +3281,8 @@
     {
      "outbound_date": "2027-04-18",
      "return_date": "2027-04-25",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-19",
@@ -3311,8 +3293,8 @@
     {
      "outbound_date": "2027-04-20",
      "return_date": "2027-04-27",
-     "price": 590,
-     "low": false
+     "price": 529,
+     "low": true
     },
     {
      "outbound_date": "2027-04-21",
@@ -3325,6 +3307,24 @@
      "return_date": "2027-04-29",
      "price": 604,
      "low": false
+    },
+    {
+     "outbound_date": "2027-04-23",
+     "return_date": "2027-04-30",
+     "price": 529,
+     "low": true
+    },
+    {
+     "outbound_date": "2027-04-24",
+     "return_date": "2027-05-01",
+     "price": 604,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-25",
+     "return_date": "2027-05-02",
+     "price": 585,
+     "low": false
     }
    ]
   },
@@ -3333,26 +3333,8 @@
    "name": "Mexico",
    "arrival": "CUN",
    "round_trip_days": 7,
-   "updated_at": "2026-11-23T21:29:29Z",
+   "updated_at": "2026-11-26T19:05:48Z",
    "prices": [
-    {
-     "outbound_date": "2026-12-07",
-     "return_date": "2026-12-14",
-     "price": 553,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "price": 553,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-09",
-     "return_date": "2026-12-16",
-     "price": 553,
-     "low": false
-    },
     {
      "outbound_date": "2026-12-10",
      "return_date": "2026-12-17",
@@ -3380,145 +3362,145 @@
     {
      "outbound_date": "2026-12-14",
      "return_date": "2026-12-21",
-     "price": 586,
+     "price": 623,
      "low": false
     },
     {
      "outbound_date": "2026-12-15",
      "return_date": "2026-12-22",
-     "price": 559,
+     "price": 520,
      "low": false
     },
     {
      "outbound_date": "2026-12-16",
      "return_date": "2026-12-23",
-     "price": 592,
+     "price": 623,
      "low": false
     },
     {
      "outbound_date": "2026-12-17",
      "return_date": "2026-12-24",
-     "price": 648,
+     "price": 644,
      "low": false
     },
     {
      "outbound_date": "2026-12-18",
      "return_date": "2026-12-25",
-     "price": 737,
+     "price": 605,
      "low": false
     },
     {
      "outbound_date": "2026-12-19",
      "return_date": "2026-12-26",
-     "price": 652,
+     "price": 615,
      "low": false
     },
     {
      "outbound_date": "2026-12-20",
      "return_date": "2026-12-27",
-     "price": 601,
+     "price": 605,
      "low": false
     },
     {
      "outbound_date": "2026-12-21",
      "return_date": "2026-12-28",
-     "price": 586,
+     "price": 543,
      "low": false
     },
     {
      "outbound_date": "2026-12-22",
      "return_date": "2026-12-29",
-     "price": 559,
+     "price": 532,
      "low": false
     },
     {
      "outbound_date": "2026-12-23",
      "return_date": "2026-12-30",
-     "price": 592,
+     "price": 564,
      "low": false
     },
     {
      "outbound_date": "2026-12-24",
      "return_date": "2026-12-31",
-     "price": 613,
+     "price": 594,
      "low": false
     },
     {
      "outbound_date": "2026-12-25",
      "return_date": "2027-01-01",
-     "price": 713,
+     "price": 716,
      "low": false
     },
     {
      "outbound_date": "2026-12-26",
      "return_date": "2027-01-02",
-     "price": 1284,
+     "price": 1347,
      "low": false
     },
     {
      "outbound_date": "2026-12-27",
      "return_date": "2027-01-03",
-     "price": 1027,
+     "price": 1176,
      "low": false
     },
     {
      "outbound_date": "2026-12-28",
      "return_date": "2027-01-04",
-     "price": 752,
+     "price": 744,
      "low": false
     },
     {
      "outbound_date": "2026-12-29",
      "return_date": "2027-01-05",
-     "price": 597,
+     "price": 559,
      "low": false
     },
     {
      "outbound_date": "2026-12-30",
      "return_date": "2027-01-06",
-     "price": 559,
+     "price": 535,
      "low": false
     },
     {
      "outbound_date": "2026-12-31",
      "return_date": "2027-01-07",
-     "price": 588,
+     "price": 525,
      "low": false
     },
     {
      "outbound_date": "2027-01-01",
      "return_date": "2027-01-08",
-     "price": 597,
+     "price": 534,
      "low": false
     },
     {
      "outbound_date": "2027-01-02",
      "return_date": "2027-01-09",
-     "price": 556,
+     "price": 546,
      "low": false
     },
     {
      "outbound_date": "2027-01-03",
      "return_date": "2027-01-10",
-     "price": 605,
+     "price": 565,
      "low": false
     },
     {
      "outbound_date": "2027-01-04",
      "return_date": "2027-01-11",
-     "price": 524,
+     "price": 494,
      "low": false
     },
     {
      "outbound_date": "2027-01-05",
      "return_date": "2027-01-12",
-     "price": 508,
+     "price": 494,
      "low": false
     },
     {
      "outbound_date": "2027-01-06",
      "return_date": "2027-01-13",
-     "price": 518,
+     "price": 500,
      "low": false
     },
     {
@@ -3536,26 +3518,26 @@
     {
      "outbound_date": "2027-01-09",
      "return_date": "2027-01-16",
-     "price": 481,
+     "price": 482,
      "low": true
     },
     {
      "outbound_date": "2027-01-10",
      "return_date": "2027-01-17",
-     "price": 534,
-     "low": false
+     "price": 477,
+     "low": true
     },
     {
      "outbound_date": "2027-01-11",
      "return_date": "2027-01-18",
-     "price": 508,
-     "low": false
+     "price": 477,
+     "low": true
     },
     {
      "outbound_date": "2027-01-12",
      "return_date": "2027-01-19",
-     "price": 508,
-     "low": false
+     "price": 477,
+     "low": true
     },
     {
      "outbound_date": "2027-01-13",
@@ -3572,7 +3554,7 @@
     {
      "outbound_date": "2027-01-15",
      "return_date": "2027-01-22",
-     "price": 578,
+     "price": 529,
      "low": false
     },
     {
@@ -3584,121 +3566,121 @@
     {
      "outbound_date": "2027-01-17",
      "return_date": "2027-01-24",
-     "price": 592,
+     "price": 548,
      "low": false
     },
     {
      "outbound_date": "2027-01-18",
      "return_date": "2027-01-25",
-     "price": 592,
+     "price": 548,
      "low": false
     },
     {
      "outbound_date": "2027-01-19",
      "return_date": "2027-01-26",
-     "price": 568,
+     "price": 487,
      "low": false
     },
     {
      "outbound_date": "2027-01-20",
      "return_date": "2027-01-27",
-     "price": 559,
+     "price": 487,
      "low": false
     },
     {
      "outbound_date": "2027-01-21",
      "return_date": "2027-01-28",
-     "price": 578,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-01-22",
      "return_date": "2027-01-29",
-     "price": 588,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-01-23",
      "return_date": "2027-01-30",
      "price": 496,
-     "low": true
+     "low": false
     },
     {
      "outbound_date": "2027-01-24",
      "return_date": "2027-01-31",
-     "price": 616,
+     "price": 590,
      "low": false
     },
     {
      "outbound_date": "2027-01-25",
      "return_date": "2027-02-01",
-     "price": 596,
+     "price": 548,
      "low": false
     },
     {
      "outbound_date": "2027-01-26",
      "return_date": "2027-02-02",
-     "price": 559,
+     "price": 487,
      "low": false
     },
     {
      "outbound_date": "2027-01-27",
      "return_date": "2027-02-03",
-     "price": 568,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-01-28",
      "return_date": "2027-02-04",
-     "price": 578,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-01-29",
      "return_date": "2027-02-05",
-     "price": 578,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-01-30",
      "return_date": "2027-02-06",
      "price": 496,
-     "low": true
+     "low": false
     },
     {
      "outbound_date": "2027-01-31",
      "return_date": "2027-02-07",
-     "price": 616,
+     "price": 590,
      "low": false
     },
     {
      "outbound_date": "2027-02-01",
      "return_date": "2027-02-08",
-     "price": 596,
+     "price": 548,
      "low": false
     },
     {
      "outbound_date": "2027-02-02",
      "return_date": "2027-02-09",
-     "price": 568,
+     "price": 487,
      "low": false
     },
     {
      "outbound_date": "2027-02-03",
      "return_date": "2027-02-10",
-     "price": 559,
+     "price": 487,
      "low": false
     },
     {
      "outbound_date": "2027-02-04",
      "return_date": "2027-02-11",
-     "price": 590,
+     "price": 562,
      "low": false
     },
     {
      "outbound_date": "2027-02-05",
      "return_date": "2027-02-12",
-     "price": 590,
+     "price": 549,
      "low": false
     },
     {
@@ -3710,25 +3692,25 @@
     {
      "outbound_date": "2027-02-07",
      "return_date": "2027-02-14",
-     "price": 556,
+     "price": 548,
      "low": false
     },
     {
      "outbound_date": "2027-02-08",
      "return_date": "2027-02-15",
-     "price": 629,
+     "price": 590,
      "low": false
     },
     {
      "outbound_date": "2027-02-09",
      "return_date": "2027-02-16",
-     "price": 575,
+     "price": 557,
      "low": false
     },
     {
      "outbound_date": "2027-02-10",
      "return_date": "2027-02-17",
-     "price": 559,
+     "price": 568,
      "low": false
     },
     {
@@ -3740,49 +3722,49 @@
     {
      "outbound_date": "2027-02-12",
      "return_date": "2027-02-19",
-     "price": 610,
+     "price": 633,
      "low": false
     },
     {
      "outbound_date": "2027-02-13",
      "return_date": "2027-02-20",
-     "price": 555,
+     "price": 567,
      "low": false
     },
     {
      "outbound_date": "2027-02-14",
      "return_date": "2027-02-21",
-     "price": 628,
+     "price": 635,
      "low": false
     },
     {
      "outbound_date": "2027-02-15",
      "return_date": "2027-02-22",
-     "price": 590,
+     "price": 563,
      "low": false
     },
     {
      "outbound_date": "2027-02-16",
      "return_date": "2027-02-23",
-     "price": 556,
+     "price": 527,
      "low": false
     },
     {
      "outbound_date": "2027-02-17",
      "return_date": "2027-02-24",
-     "price": 556,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-02-18",
      "return_date": "2027-02-25",
-     "price": 616,
+     "price": 590,
      "low": false
     },
     {
      "outbound_date": "2027-02-19",
      "return_date": "2027-02-26",
-     "price": 556,
+     "price": 528,
      "low": false
     },
     {
@@ -3794,97 +3776,97 @@
     {
      "outbound_date": "2027-02-21",
      "return_date": "2027-02-28",
-     "price": 635,
+     "price": 595,
      "low": false
     },
     {
      "outbound_date": "2027-02-22",
      "return_date": "2027-03-01",
-     "price": 616,
+     "price": 583,
      "low": false
     },
     {
      "outbound_date": "2027-02-23",
      "return_date": "2027-03-02",
-     "price": 559,
+     "price": 487,
      "low": false
     },
     {
      "outbound_date": "2027-02-24",
      "return_date": "2027-03-03",
-     "price": 571,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-02-25",
      "return_date": "2027-03-04",
-     "price": 616,
+     "price": 584,
      "low": false
     },
     {
      "outbound_date": "2027-02-26",
      "return_date": "2027-03-05",
-     "price": 586,
+     "price": 549,
      "low": false
     },
     {
      "outbound_date": "2027-02-27",
      "return_date": "2027-03-06",
      "price": 502,
-     "low": true
+     "low": false
     },
     {
      "outbound_date": "2027-02-28",
      "return_date": "2027-03-07",
-     "price": 595,
+     "price": 534,
      "low": false
     },
     {
      "outbound_date": "2027-03-01",
      "return_date": "2027-03-08",
-     "price": 596,
+     "price": 548,
      "low": false
     },
     {
      "outbound_date": "2027-03-02",
      "return_date": "2027-03-09",
-     "price": 568,
-     "low": false
+     "price": 463,
+     "low": true
     },
     {
      "outbound_date": "2027-03-03",
      "return_date": "2027-03-10",
-     "price": 559,
+     "price": 510,
      "low": false
     },
     {
      "outbound_date": "2027-03-04",
      "return_date": "2027-03-11",
-     "price": 601,
+     "price": 610,
      "low": false
     },
     {
      "outbound_date": "2027-03-05",
      "return_date": "2027-03-12",
-     "price": 595,
+     "price": 585,
      "low": false
     },
     {
      "outbound_date": "2027-03-06",
      "return_date": "2027-03-13",
-     "price": 511,
+     "price": 527,
      "low": false
     },
     {
      "outbound_date": "2027-03-07",
      "return_date": "2027-03-14",
-     "price": 604,
+     "price": 594,
      "low": false
     },
     {
      "outbound_date": "2027-03-08",
      "return_date": "2027-03-15",
-     "price": 610,
+     "price": 540,
      "low": false
     },
     {
@@ -3896,37 +3878,37 @@
     {
      "outbound_date": "2027-03-10",
      "return_date": "2027-03-17",
-     "price": 571,
+     "price": 548,
      "low": false
     },
     {
      "outbound_date": "2027-03-11",
      "return_date": "2027-03-18",
-     "price": 614,
+     "price": 615,
      "low": false
     },
     {
      "outbound_date": "2027-03-12",
      "return_date": "2027-03-19",
-     "price": 783,
+     "price": 768,
      "low": false
     },
     {
      "outbound_date": "2027-03-13",
      "return_date": "2027-03-20",
-     "price": 893,
+     "price": 710,
      "low": false
     },
     {
      "outbound_date": "2027-03-14",
      "return_date": "2027-03-21",
-     "price": 769,
+     "price": 653,
      "low": false
     },
     {
      "outbound_date": "2027-03-15",
      "return_date": "2027-03-22",
-     "price": 620,
+     "price": 629,
      "low": false
     },
     {
@@ -3944,31 +3926,31 @@
     {
      "outbound_date": "2027-03-18",
      "return_date": "2027-03-25",
-     "price": 601,
+     "price": 616,
      "low": false
     },
     {
      "outbound_date": "2027-03-19",
      "return_date": "2027-03-26",
-     "price": 629,
+     "price": 624,
      "low": false
     },
     {
      "outbound_date": "2027-03-20",
      "return_date": "2027-03-27",
-     "price": 680,
+     "price": 665,
      "low": false
     },
     {
      "outbound_date": "2027-03-21",
      "return_date": "2027-03-28",
-     "price": 601,
+     "price": 719,
      "low": false
     },
     {
      "outbound_date": "2027-03-22",
      "return_date": "2027-03-29",
-     "price": 601,
+     "price": 610,
      "low": false
     },
     {
@@ -3992,7 +3974,7 @@
     {
      "outbound_date": "2027-03-26",
      "return_date": "2027-04-02",
-     "price": 672,
+     "price": 645,
      "low": false
     },
     {
@@ -4004,7 +3986,7 @@
     {
      "outbound_date": "2027-03-28",
      "return_date": "2027-04-04",
-     "price": 601,
+     "price": 610,
      "low": false
     },
     {
@@ -4016,145 +3998,163 @@
     {
      "outbound_date": "2027-03-30",
      "return_date": "2027-04-06",
-     "price": 571,
+     "price": 568,
      "low": false
     },
     {
      "outbound_date": "2027-03-31",
      "return_date": "2027-04-07",
-     "price": 559,
+     "price": 568,
      "low": false
     },
     {
      "outbound_date": "2027-04-01",
      "return_date": "2027-04-08",
-     "price": 601,
+     "price": 597,
      "low": false
     },
     {
      "outbound_date": "2027-04-02",
      "return_date": "2027-04-09",
-     "price": 551,
+     "price": 531,
      "low": false
     },
     {
      "outbound_date": "2027-04-03",
      "return_date": "2027-04-10",
-     "price": 530,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-04-04",
      "return_date": "2027-04-11",
-     "price": 552,
+     "price": 551,
      "low": false
     },
     {
      "outbound_date": "2027-04-05",
      "return_date": "2027-04-12",
-     "price": 551,
+     "price": 550,
      "low": false
     },
     {
      "outbound_date": "2027-04-06",
      "return_date": "2027-04-13",
-     "price": 531,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-04-07",
      "return_date": "2027-04-14",
-     "price": 530,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-04-08",
      "return_date": "2027-04-15",
-     "price": 572,
+     "price": 565,
      "low": false
     },
     {
      "outbound_date": "2027-04-09",
      "return_date": "2027-04-16",
-     "price": 554,
+     "price": 569,
      "low": false
     },
     {
      "outbound_date": "2027-04-10",
      "return_date": "2027-04-17",
-     "price": 529,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-04-11",
      "return_date": "2027-04-18",
-     "price": 551,
+     "price": 550,
      "low": false
     },
     {
      "outbound_date": "2027-04-12",
      "return_date": "2027-04-19",
-     "price": 552,
+     "price": 550,
      "low": false
     },
     {
      "outbound_date": "2027-04-13",
      "return_date": "2027-04-20",
-     "price": 530,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-04-14",
      "return_date": "2027-04-21",
-     "price": 530,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-04-15",
      "return_date": "2027-04-22",
-     "price": 588,
+     "price": 597,
      "low": false
     },
     {
      "outbound_date": "2027-04-16",
      "return_date": "2027-04-23",
-     "price": 571,
+     "price": 566,
      "low": false
     },
     {
      "outbound_date": "2027-04-17",
      "return_date": "2027-04-24",
-     "price": 529,
+     "price": 531,
      "low": false
     },
     {
      "outbound_date": "2027-04-18",
      "return_date": "2027-04-25",
-     "price": 551,
+     "price": 589,
      "low": false
     },
     {
      "outbound_date": "2027-04-19",
      "return_date": "2027-04-26",
-     "price": 585,
+     "price": 583,
      "low": false
     },
     {
      "outbound_date": "2027-04-20",
      "return_date": "2027-04-27",
-     "price": 531,
+     "price": 528,
      "low": false
     },
     {
      "outbound_date": "2027-04-21",
      "return_date": "2027-04-28",
-     "price": 531,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-04-22",
      "return_date": "2027-04-29",
-     "price": 588,
+     "price": 583,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-23",
+     "return_date": "2027-04-30",
+     "price": 550,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-24",
+     "return_date": "2027-05-01",
+     "price": 528,
+     "low": false
+    },
+    {
+     "outbound_date": "2027-04-25",
+     "return_date": "2027-05-02",
+     "price": 584,
      "low": false
     }
    ]
@@ -4164,30 +4164,12 @@
    "name": "Dominican Republic",
    "arrival": "PUJ",
    "round_trip_days": 7,
-   "updated_at": "2026-11-23T21:29:29Z",
+   "updated_at": "2026-11-26T19:05:48Z",
    "prices": [
-    {
-     "outbound_date": "2026-12-07",
-     "return_date": "2026-12-14",
-     "price": 550,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "price": 545,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-09",
-     "return_date": "2026-12-16",
-     "price": 545,
-     "low": false
-    },
     {
      "outbound_date": "2026-12-10",
      "return_date": "2026-12-17",
-     "price": 637,
+     "price": 624,
      "low": false
     },
     {
@@ -4199,37 +4181,37 @@
     {
      "outbound_date": "2026-12-12",
      "return_date": "2026-12-19",
-     "price": 545,
+     "price": 605,
      "low": false
     },
     {
      "outbound_date": "2026-12-13",
      "return_date": "2026-12-20",
-     "price": 548,
+     "price": 622,
      "low": false
     },
     {
      "outbound_date": "2026-12-14",
      "return_date": "2026-12-21",
-     "price": 518,
-     "low": true
+     "price": 618,
+     "low": false
     },
     {
      "outbound_date": "2026-12-15",
      "return_date": "2026-12-22",
-     "price": 616,
+     "price": 618,
      "low": false
     },
     {
      "outbound_date": "2026-12-16",
      "return_date": "2026-12-23",
-     "price": 555,
+     "price": 605,
      "low": false
     },
     {
      "outbound_date": "2026-12-17",
      "return_date": "2026-12-24",
-     "price": 640,
+     "price": 524,
      "low": false
     },
     {
@@ -4247,7 +4229,7 @@
     {
      "outbound_date": "2026-12-20",
      "return_date": "2026-12-27",
-     "price": 704,
+     "price": 620,
      "low": false
     },
     {
@@ -4259,7 +4241,7 @@
     {
      "outbound_date": "2026-12-22",
      "return_date": "2026-12-29",
-     "price": 616,
+     "price": 574,
      "low": false
     },
     {
@@ -4271,7 +4253,7 @@
     {
      "outbound_date": "2026-12-24",
      "return_date": "2026-12-31",
-     "price": 646,
+     "price": 524,
      "low": false
     },
     {
@@ -4283,19 +4265,19 @@
     {
      "outbound_date": "2026-12-26",
      "return_date": "2027-01-02",
-     "price": 1281,
+     "price": 1008,
      "low": false
     },
     {
      "outbound_date": "2026-12-27",
      "return_date": "2027-01-03",
-     "price": 1295,
+     "price": 1290,
      "low": false
     },
     {
      "outbound_date": "2026-12-28",
      "return_date": "2027-01-04",
-     "price": 633,
+     "price": 631,
      "low": false
     },
     {
@@ -4319,8 +4301,8 @@
     {
      "outbound_date": "2027-01-01",
      "return_date": "2027-01-08",
-     "price": 523,
-     "low": false
+     "price": 518,
+     "low": true
     },
     {
      "outbound_date": "2027-01-02",
@@ -4367,7 +4349,7 @@
     {
      "outbound_date": "2027-01-09",
      "return_date": "2027-01-16",
-     "price": 555,
+     "price": 523,
      "low": false
     },
     {
@@ -4385,7 +4367,7 @@
     {
      "outbound_date": "2027-01-12",
      "return_date": "2027-01-19",
-     "price": 561,
+     "price": 523,
      "low": false
     },
     {
@@ -4397,8 +4379,8 @@
     {
      "outbound_date": "2027-01-14",
      "return_date": "2027-01-21",
-     "price": 535,
-     "low": false
+     "price": 518,
+     "low": true
     },
     {
      "outbound_date": "2027-01-15",
@@ -4421,25 +4403,25 @@
     {
      "outbound_date": "2027-01-18",
      "return_date": "2027-01-25",
-     "price": 525,
+     "price": 523,
      "low": false
     },
     {
      "outbound_date": "2027-01-19",
      "return_date": "2027-01-26",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
      "outbound_date": "2027-01-20",
      "return_date": "2027-01-27",
-     "price": 524,
+     "price": 523,
      "low": false
     },
     {
      "outbound_date": "2027-01-21",
      "return_date": "2027-01-28",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
@@ -4469,7 +4451,7 @@
     {
      "outbound_date": "2027-01-26",
      "return_date": "2027-02-02",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
@@ -4493,25 +4475,25 @@
     {
      "outbound_date": "2027-01-30",
      "return_date": "2027-02-06",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
      "outbound_date": "2027-01-31",
      "return_date": "2027-02-07",
-     "price": 531,
+     "price": 527,
      "low": false
     },
     {
      "outbound_date": "2027-02-01",
      "return_date": "2027-02-08",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
      "outbound_date": "2027-02-02",
      "return_date": "2027-02-09",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
@@ -4547,8 +4529,8 @@
     {
      "outbound_date": "2027-02-08",
      "return_date": "2027-02-15",
-     "price": 523,
-     "low": false
+     "price": 518,
+     "low": true
     },
     {
      "outbound_date": "2027-02-09",
@@ -4565,49 +4547,49 @@
     {
      "outbound_date": "2027-02-11",
      "return_date": "2027-02-18",
-     "price": 524,
+     "price": 566,
      "low": false
     },
     {
      "outbound_date": "2027-02-12",
      "return_date": "2027-02-19",
-     "price": 570,
+     "price": 569,
      "low": false
     },
     {
      "outbound_date": "2027-02-13",
      "return_date": "2027-02-20",
-     "price": 618,
+     "price": 523,
      "low": false
     },
     {
      "outbound_date": "2027-02-14",
      "return_date": "2027-02-21",
-     "price": 638,
+     "price": 529,
      "low": false
     },
     {
      "outbound_date": "2027-02-15",
      "return_date": "2027-02-22",
-     "price": 522,
-     "low": false
+     "price": 518,
+     "low": true
     },
     {
      "outbound_date": "2027-02-16",
      "return_date": "2027-02-23",
-     "price": 525,
-     "low": false
+     "price": 518,
+     "low": true
     },
     {
      "outbound_date": "2027-02-17",
      "return_date": "2027-02-24",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
      "outbound_date": "2027-02-18",
      "return_date": "2027-02-25",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
@@ -4619,7 +4601,7 @@
     {
      "outbound_date": "2027-02-20",
      "return_date": "2027-02-27",
-     "price": 523,
+     "price": 522,
      "low": false
     },
     {
@@ -4631,31 +4613,31 @@
     {
      "outbound_date": "2027-02-22",
      "return_date": "2027-03-01",
-     "price": 525,
+     "price": 523,
      "low": false
     },
     {
      "outbound_date": "2027-02-23",
      "return_date": "2027-03-02",
-     "price": 557,
+     "price": 522,
      "low": false
     },
     {
      "outbound_date": "2027-02-24",
      "return_date": "2027-03-03",
-     "price": 524,
+     "price": 523,
      "low": false
     },
     {
      "outbound_date": "2027-02-25",
      "return_date": "2027-03-04",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
      "outbound_date": "2027-02-26",
      "return_date": "2027-03-05",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
@@ -4667,7 +4649,7 @@
     {
      "outbound_date": "2027-02-28",
      "return_date": "2027-03-07",
-     "price": 529,
+     "price": 522,
      "low": false
     },
     {
@@ -4691,7 +4673,7 @@
     {
      "outbound_date": "2027-03-04",
      "return_date": "2027-03-11",
-     "price": 529,
+     "price": 536,
      "low": false
     },
     {
@@ -4727,25 +4709,25 @@
     {
      "outbound_date": "2027-03-10",
      "return_date": "2027-03-17",
-     "price": 561,
+     "price": 521,
      "low": false
     },
     {
      "outbound_date": "2027-03-11",
      "return_date": "2027-03-18",
-     "price": 695,
+     "price": 646,
      "low": false
     },
     {
      "outbound_date": "2027-03-12",
      "return_date": "2027-03-19",
-     "price": 939,
+     "price": 881,
      "low": false
     },
     {
      "outbound_date": "2027-03-13",
      "return_date": "2027-03-20",
-     "price": 1072,
+     "price": 735,
      "low": false
     },
     {
@@ -4757,25 +4739,25 @@
     {
      "outbound_date": "2027-03-15",
      "return_date": "2027-03-22",
-     "price": 525,
+     "price": 524,
      "low": false
     },
     {
      "outbound_date": "2027-03-16",
      "return_date": "2027-03-23",
-     "price": 519,
+     "price": 518,
      "low": true
     },
     {
      "outbound_date": "2027-03-17",
      "return_date": "2027-03-24",
-     "price": 525,
+     "price": 522,
      "low": false
     },
     {
      "outbound_date": "2027-03-18",
      "return_date": "2027-03-25",
-     "price": 596,
+     "price": 597,
      "low": false
     },
     {
@@ -4787,7 +4769,7 @@
     {
      "outbound_date": "2027-03-20",
      "return_date": "2027-03-27",
-     "price": 650,
+     "price": 585,
      "low": false
     },
     {
@@ -4805,7 +4787,7 @@
     {
      "outbound_date": "2027-03-23",
      "return_date": "2027-03-30",
-     "price": 521,
+     "price": 520,
      "low": false
     },
     {
@@ -4817,13 +4799,13 @@
     {
      "outbound_date": "2027-03-25",
      "return_date": "2027-04-01",
-     "price": 827,
+     "price": 694,
      "low": false
     },
     {
      "outbound_date": "2027-03-26",
      "return_date": "2027-04-02",
-     "price": 739,
+     "price": 724,
      "low": false
     },
     {
@@ -4835,19 +4817,19 @@
     {
      "outbound_date": "2027-03-28",
      "return_date": "2027-04-04",
-     "price": 899,
+     "price": 838,
      "low": false
     },
     {
      "outbound_date": "2027-03-29",
      "return_date": "2027-04-05",
-     "price": 638,
+     "price": 523,
      "low": false
     },
     {
      "outbound_date": "2027-03-30",
      "return_date": "2027-04-06",
-     "price": 521,
+     "price": 520,
      "low": false
     },
     {
@@ -4883,7 +4865,7 @@
     {
      "outbound_date": "2027-04-05",
      "return_date": "2027-04-12",
-     "price": 495,
+     "price": 500,
      "low": true
     },
     {
@@ -4901,7 +4883,7 @@
     {
      "outbound_date": "2027-04-08",
      "return_date": "2027-04-15",
-     "price": 495,
+     "price": 518,
      "low": true
     },
     {
@@ -4943,8 +4925,8 @@
     {
      "outbound_date": "2027-04-15",
      "return_date": "2027-04-22",
-     "price": 518,
-     "low": true
+     "price": 524,
+     "low": false
     },
     {
      "outbound_date": "2027-04-16",
@@ -4967,8 +4949,8 @@
     {
      "outbound_date": "2027-04-19",
      "return_date": "2027-04-26",
-     "price": 500,
-     "low": true
+     "price": 523,
+     "low": false
     },
     {
      "outbound_date": "2027-04-20",
@@ -4987,6 +4969,24 @@
      "return_date": "2027-04-29",
      "price": 518,
      "low": true
+    },
+    {
+     "outbound_date": "2027-04-23",
+     "return_date": "2027-04-30",
+     "price": 495,
+     "low": true
+    },
+    {
+     "outbound_date": "2027-04-24",
+     "return_date": "2027-05-01",
+     "price": 500,
+     "low": true
+    },
+    {
+     "outbound_date": "2027-04-25",
+     "return_date": "2027-05-02",
+     "price": 529,
+     "low": false
     }
    ]
   },
@@ -4995,42 +4995,24 @@
    "name": "Jamaica",
    "arrival": "MBJ",
    "round_trip_days": 7,
-   "updated_at": "2026-11-23T21:29:29Z",
+   "updated_at": "2026-11-26T19:05:48Z",
    "prices": [
-    {
-     "outbound_date": "2026-12-07",
-     "return_date": "2026-12-14",
-     "price": 486,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "price": 481,
-     "low": false
-    },
-    {
-     "outbound_date": "2026-12-09",
-     "return_date": "2026-12-16",
-     "price": 504,
-     "low": false
-    },
     {
      "outbound_date": "2026-12-10",
      "return_date": "2026-12-17",
-     "price": 525,
+     "price": 515,
      "low": false
     },
     {
      "outbound_date": "2026-12-11",
      "return_date": "2026-12-18",
-     "price": 526,
+     "price": 525,
      "low": false
     },
     {
      "outbound_date": "2026-12-12",
      "return_date": "2026-12-19",
-     "price": 520,
+     "price": 514,
      "low": false
     },
     {
@@ -5042,25 +5024,25 @@
     {
      "outbound_date": "2026-12-14",
      "return_date": "2026-12-21",
-     "price": 504,
+     "price": 508,
      "low": false
     },
     {
      "outbound_date": "2026-12-15",
      "return_date": "2026-12-22",
-     "price": 472,
+     "price": 503,
      "low": false
     },
     {
      "outbound_date": "2026-12-16",
      "return_date": "2026-12-23",
-     "price": 531,
+     "price": 530,
      "low": false
     },
     {
      "outbound_date": "2026-12-17",
      "return_date": "2026-12-24",
-     "price": 853,
+     "price": 807,
      "low": false
     },
     {
@@ -5072,109 +5054,109 @@
     {
      "outbound_date": "2026-12-19",
      "return_date": "2026-12-26",
-     "price": 626,
+     "price": 604,
      "low": false
     },
     {
      "outbound_date": "2026-12-20",
      "return_date": "2026-12-27",
-     "price": 582,
+     "price": 609,
      "low": false
     },
     {
      "outbound_date": "2026-12-21",
      "return_date": "2026-12-28",
-     "price": 694,
+     "price": 527,
      "low": false
     },
     {
      "outbound_date": "2026-12-22",
      "return_date": "2026-12-29",
-     "price": 750,
+     "price": 559,
      "low": false
     },
     {
      "outbound_date": "2026-12-23",
      "return_date": "2026-12-30",
-     "price": 767,
+     "price": 524,
      "low": false
     },
     {
      "outbound_date": "2026-12-24",
      "return_date": "2026-12-31",
-     "price": 538,
-     "low": false
+     "price": 399,
+     "low": true
     },
     {
      "outbound_date": "2026-12-25",
      "return_date": "2027-01-01",
-     "price": 914,
+     "price": 714,
      "low": false
     },
     {
      "outbound_date": "2026-12-26",
      "return_date": "2027-01-02",
-     "price": 1571,
+     "price": 1487,
      "low": false
     },
     {
      "outbound_date": "2026-12-27",
      "return_date": "2027-01-03",
-     "price": 878,
+     "price": 931,
      "low": false
     },
     {
      "outbound_date": "2026-12-28",
      "return_date": "2027-01-04",
-     "price": 665,
+     "price": 633,
      "low": false
     },
     {
      "outbound_date": "2026-12-29",
      "return_date": "2027-01-05",
-     "price": 631,
+     "price": 673,
      "low": false
     },
     {
      "outbound_date": "2026-12-30",
      "return_date": "2027-01-06",
-     "price": 533,
+     "price": 448,
      "low": false
     },
     {
      "outbound_date": "2026-12-31",
      "return_date": "2027-01-07",
-     "price": 478,
-     "low": false
+     "price": 393,
+     "low": true
     },
     {
      "outbound_date": "2027-01-01",
      "return_date": "2027-01-08",
-     "price": 530,
-     "low": false
+     "price": 393,
+     "low": true
     },
     {
      "outbound_date": "2027-01-02",
      "return_date": "2027-01-09",
-     "price": 591,
-     "low": false
+     "price": 393,
+     "low": true
     },
     {
      "outbound_date": "2027-01-03",
      "return_date": "2027-01-10",
-     "price": 394,
+     "price": 398,
      "low": true
     },
     {
      "outbound_date": "2027-01-04",
      "return_date": "2027-01-11",
-     "price": 510,
-     "low": false
+     "price": 393,
+     "low": true
     },
     {
      "outbound_date": "2027-01-05",
      "return_date": "2027-01-12",
-     "price": 384,
+     "price": 383,
      "low": true
     },
     {
@@ -5186,7 +5168,7 @@
     {
      "outbound_date": "2027-01-07",
      "return_date": "2027-01-14",
-     "price": 389,
+     "price": 383,
      "low": true
     },
     {
@@ -5198,7 +5180,7 @@
     {
      "outbound_date": "2027-01-09",
      "return_date": "2027-01-16",
-     "price": 394,
+     "price": 384,
      "low": true
     },
     {
@@ -5210,13 +5192,13 @@
     {
      "outbound_date": "2027-01-11",
      "return_date": "2027-01-18",
-     "price": 439,
+     "price": 443,
      "low": false
     },
     {
      "outbound_date": "2027-01-12",
      "return_date": "2027-01-19",
-     "price": 383,
+     "price": 384,
      "low": true
     },
     {
@@ -5228,31 +5210,31 @@
     {
      "outbound_date": "2027-01-14",
      "return_date": "2027-01-21",
-     "price": 443,
+     "price": 438,
      "low": false
     },
     {
      "outbound_date": "2027-01-15",
      "return_date": "2027-01-22",
-     "price": 443,
-     "low": false
+     "price": 389,
+     "low": true
     },
     {
      "outbound_date": "2027-01-16",
      "return_date": "2027-01-23",
-     "price": 388,
+     "price": 394,
      "low": true
     },
     {
      "outbound_date": "2027-01-17",
      "return_date": "2027-01-24",
-     "price": 389,
+     "price": 398,
      "low": true
     },
     {
      "outbound_date": "2027-01-18",
      "return_date": "2027-01-25",
-     "price": 389,
+     "price": 393,
      "low": true
     },
     {
@@ -5264,8 +5246,8 @@
     {
      "outbound_date": "2027-01-20",
      "return_date": "2027-01-27",
-     "price": 413,
-     "low": false
+     "price": 389,
+     "low": true
     },
     {
      "outbound_date": "2027-01-21",
@@ -5306,13 +5288,13 @@
     {
      "outbound_date": "2027-01-27",
      "return_date": "2027-02-03",
-     "price": 399,
+     "price": 398,
      "low": true
     },
     {
      "outbound_date": "2027-01-28",
      "return_date": "2027-02-04",
-     "price": 389,
+     "price": 384,
      "low": true
     },
     {
@@ -5336,7 +5318,7 @@
     {
      "outbound_date": "2027-02-01",
      "return_date": "2027-02-08",
-     "price": 388,
+     "price": 389,
      "low": true
     },
     {
@@ -5378,43 +5360,43 @@
     {
      "outbound_date": "2027-02-08",
      "return_date": "2027-02-15",
-     "price": 393,
+     "price": 383,
      "low": true
     },
     {
      "outbound_date": "2027-02-09",
      "return_date": "2027-02-16",
-     "price": 428,
-     "low": false
+     "price": 384,
+     "low": true
     },
     {
      "outbound_date": "2027-02-10",
      "return_date": "2027-02-17",
-     "price": 478,
-     "low": false
+     "price": 399,
+     "low": true
     },
     {
      "outbound_date": "2027-02-11",
      "return_date": "2027-02-18",
-     "price": 393,
+     "price": 394,
      "low": true
     },
     {
      "outbound_date": "2027-02-12",
      "return_date": "2027-02-19",
-     "price": 388,
+     "price": 394,
      "low": true
     },
     {
      "outbound_date": "2027-02-13",
      "return_date": "2027-02-20",
-     "price": 390,
+     "price": 393,
      "low": true
     },
     {
      "outbound_date": "2027-02-14",
      "return_date": "2027-02-21",
-     "price": 400,
+     "price": 398,
      "low": true
     },
     {
@@ -5426,19 +5408,19 @@
     {
      "outbound_date": "2027-02-16",
      "return_date": "2027-02-23",
-     "price": 388,
+     "price": 383,
      "low": true
     },
     {
      "outbound_date": "2027-02-17",
      "return_date": "2027-02-24",
-     "price": 398,
+     "price": 384,
      "low": true
     },
     {
      "outbound_date": "2027-02-18",
      "return_date": "2027-02-25",
-     "price": 393,
+     "price": 389,
      "low": true
     },
     {
@@ -5450,7 +5432,7 @@
     {
      "outbound_date": "2027-02-20",
      "return_date": "2027-02-27",
-     "price": 388,
+     "price": 383,
      "low": true
     },
     {
@@ -5474,7 +5456,7 @@
     {
      "outbound_date": "2027-02-24",
      "return_date": "2027-03-03",
-     "price": 384,
+     "price": 383,
      "low": true
     },
     {
@@ -5486,13 +5468,13 @@
     {
      "outbound_date": "2027-02-26",
      "return_date": "2027-03-05",
-     "price": 393,
+     "price": 388,
      "low": true
     },
     {
      "outbound_date": "2027-02-27",
      "return_date": "2027-03-06",
-     "price": 383,
+     "price": 384,
      "low": true
     },
     {
@@ -5522,25 +5504,25 @@
     {
      "outbound_date": "2027-03-04",
      "return_date": "2027-03-11",
-     "price": 394,
+     "price": 384,
      "low": true
     },
     {
      "outbound_date": "2027-03-05",
      "return_date": "2027-03-12",
-     "price": 473,
+     "price": 501,
      "low": false
     },
     {
      "outbound_date": "2027-03-06",
      "return_date": "2027-03-13",
-     "price": 586,
+     "price": 559,
      "low": false
     },
     {
      "outbound_date": "2027-03-07",
      "return_date": "2027-03-14",
-     "price": 394,
+     "price": 384,
      "low": true
     },
     {
@@ -5564,13 +5546,13 @@
     {
      "outbound_date": "2027-03-11",
      "return_date": "2027-03-18",
-     "price": 518,
+     "price": 441,
      "low": false
     },
     {
      "outbound_date": "2027-03-12",
      "return_date": "2027-03-19",
-     "price": 685,
+     "price": 466,
      "low": false
     },
     {
@@ -5582,19 +5564,19 @@
     {
      "outbound_date": "2027-03-14",
      "return_date": "2027-03-21",
-     "price": 616,
+     "price": 563,
      "low": false
     },
     {
      "outbound_date": "2027-03-15",
      "return_date": "2027-03-22",
-     "price": 395,
-     "low": true
+     "price": 403,
+     "low": false
     },
     {
      "outbound_date": "2027-03-16",
      "return_date": "2027-03-23",
-     "price": 388,
+     "price": 384,
      "low": true
     },
     {
@@ -5606,25 +5588,25 @@
     {
      "outbound_date": "2027-03-18",
      "return_date": "2027-03-25",
-     "price": 455,
-     "low": false
+     "price": 395,
+     "low": true
     },
     {
      "outbound_date": "2027-03-19",
      "return_date": "2027-03-26",
-     "price": 544,
+     "price": 570,
      "low": false
     },
     {
      "outbound_date": "2027-03-20",
      "return_date": "2027-03-27",
-     "price": 585,
+     "price": 533,
      "low": false
     },
     {
      "outbound_date": "2027-03-21",
      "return_date": "2027-03-28",
-     "price": 531,
+     "price": 538,
      "low": false
     },
     {
@@ -5648,19 +5630,19 @@
     {
      "outbound_date": "2027-03-25",
      "return_date": "2027-04-01",
-     "price": 435,
+     "price": 484,
      "low": false
     },
     {
      "outbound_date": "2027-03-26",
      "return_date": "2027-04-02",
-     "price": 528,
+     "price": 598,
      "low": false
     },
     {
      "outbound_date": "2027-03-27",
      "return_date": "2027-04-03",
-     "price": 570,
+     "price": 642,
      "low": false
     },
     {
@@ -5672,25 +5654,25 @@
     {
      "outbound_date": "2027-03-29",
      "return_date": "2027-04-05",
-     "price": 389,
+     "price": 393,
      "low": true
     },
     {
      "outbound_date": "2027-03-30",
      "return_date": "2027-04-06",
-     "price": 388,
+     "price": 389,
      "low": true
     },
     {
      "outbound_date": "2027-03-31",
      "return_date": "2027-04-07",
-     "price": 398,
+     "price": 383,
      "low": true
     },
     {
      "outbound_date": "2027-04-01",
      "return_date": "2027-04-08",
-     "price": 393,
+     "price": 383,
      "low": true
     },
     {
@@ -5750,13 +5732,13 @@
     {
      "outbound_date": "2027-04-11",
      "return_date": "2027-04-18",
-     "price": 398,
+     "price": 393,
      "low": true
     },
     {
      "outbound_date": "2027-04-12",
      "return_date": "2027-04-19",
-     "price": 393,
+     "price": 388,
      "low": true
     },
     {
@@ -5768,7 +5750,7 @@
     {
      "outbound_date": "2027-04-14",
      "return_date": "2027-04-21",
-     "price": 388,
+     "price": 399,
      "low": true
     },
     {
@@ -5780,13 +5762,13 @@
     {
      "outbound_date": "2027-04-16",
      "return_date": "2027-04-23",
-     "price": 388,
+     "price": 393,
      "low": true
     },
     {
      "outbound_date": "2027-04-17",
      "return_date": "2027-04-24",
-     "price": 393,
+     "price": 388,
      "low": true
     },
     {
@@ -5817,6 +5799,24 @@
      "outbound_date": "2027-04-22",
      "return_date": "2027-04-29",
      "price": 393,
+     "low": true
+    },
+    {
+     "outbound_date": "2027-04-23",
+     "return_date": "2027-04-30",
+     "price": 389,
+     "low": true
+    },
+    {
+     "outbound_date": "2027-04-24",
+     "return_date": "2027-05-01",
+     "price": 385,
+     "low": true
+    },
+    {
+     "outbound_date": "2027-04-25",
+     "return_date": "2027-05-02",
+     "price": 398,
      "low": true
     }
    ]

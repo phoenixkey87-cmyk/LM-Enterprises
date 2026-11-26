@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T21:29:29Z",
+ "updated_at": "2026-11-26T19:05:48Z",
  "stale_hours": 120,
  "currency": "USD",
  "destinations": [
@@ -63,21 +63,84 @@
     {
      "id": "grand-saigon",
      "name": "Hotel Grand Saigon",
-     "property_token": null,
-     "link": null,
-     "rating": null,
-     "review_count": null,
-     "hotel_class": null,
-     "address": null,
-     "nightly_rate": null,
-     "rate_check_in": null,
-     "rate_check_out": null,
-     "price_updated_at": null,
+     "property_token": "ChgI29ag_8jE78LoARoLL2cvMTIxMXI3dDAQAQ",
+     "link": "http://www.hotelgrandsaigon.com/",
+     "rating": 4.4,
+     "review_count": 4183,
+     "hotel_class": 5,
+     "address": "8 Đồng Khởi, Sài Gòn, Hồ Chí Minh 70000, Vietnam",
+     "nightly_rate": 131,
+     "rate_check_in": "2027-01-10",
+     "rate_check_out": "2027-01-11",
+     "price_updated_at": "2026-11-26T19:05:48Z",
      "calendar": [],
-     "photos": [],
-     "photos_updated_at": null,
-     "reviews": [],
-     "reviews_updated_at": null
+     "photos": [
+      {
+       "thumb": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLktd4BAgfh_vdMpR3fIVj3xKw77wRkL53fWRsKutEzlStJbaMJv_xKxJnNdZnObXQfZC4M2NcC5UUoKyHqGijDaPIPUHENj9UcM329fTHuM009QSid_vk-YIZLXii5bHJGUXOqafv0qbk=w253-h168-k-no",
+       "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLktd4BAgfh_vdMpR3fIVj3xKw77wRkL53fWRsKutEzlStJbaMJv_xKxJnNdZnObXQfZC4M2NcC5UUoKyHqGijDaPIPUHENj9UcM329fTHuM009QSid_vk-YIZLXii5bHJGUXOqafv0qbk=s2002",
+       "alt": ""
+      },
+      {
+       "thumb": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TPjZWtjP0a2_Ts6mATOCGTncKzrXd7QP3pUk5VmdO_9xvmcBx6HcB8ORRpRHveIBdX8_yQ8pW4lUsYjycBSSM-B869tWUnH7QfLrrfmt3dQtm1SNtiSp8fG4ZdBZdzyXeZZ9qXuA=w253-h449-k-no",
+       "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TPjZWtjP0a2_Ts6mATOCGTncKzrXd7QP3pUk5VmdO_9xvmcBx6HcB8ORRpRHveIBdX8_yQ8pW4lUsYjycBSSM-B869tWUnH7QfLrrfmt3dQtm1SNtiSp8fG4ZdBZdzyXeZZ9qXuA=s2160",
+       "alt": ""
+      },
+      {
+       "thumb": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T9pCpzpkaHinF4zCuUfPQ-86mJq4PuGgiBxVYEIAmml6lLgATtDhubdM_aB03yVxRHq7Y32trz7QLKwb59amq-Dk8KdMi6iguHHl14mwymvCKlnfzc1Ul1RZv46ruTEeFYUUciXcaDcXOA=w253-h189-k-no",
+       "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T9pCpzpkaHinF4zCuUfPQ-86mJq4PuGgiBxVYEIAmml6lLgATtDhubdM_aB03yVxRHq7Y32trz7QLKwb59amq-Dk8KdMi6iguHHl14mwymvCKlnfzc1Ul1RZv46ruTEeFYUUciXcaDcXOA=s5712",
+       "alt": ""
+      },
+      {
+       "thumb": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RhI_vE2trVEyVSEalh6nMDfk2L7sufMd3H_CrYm49h5YfbZA_7pdwuE7JltYNxdaHgg2KCeH5A7xp4TS7xHe5k4mcXUW3cW2gX7L2s3KIT4TK28vvnhI1Uo1x87TZm_h_YRTsZ=w253-h253-k-no",
+       "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RhI_vE2trVEyVSEalh6nMDfk2L7sufMd3H_CrYm49h5YfbZA_7pdwuE7JltYNxdaHgg2KCeH5A7xp4TS7xHe5k4mcXUW3cW2gX7L2s3KIT4TK28vvnhI1Uo1x87TZm_h_YRTsZ=s750",
+       "alt": ""
+      },
+      {
+       "thumb": "https://lh3.googleusercontent.com/proxy/6TEEGxp1Rt_gbpR65QHDyxJEqzOUuUcIEQaP-aMJM-ZhoWhj-R-6CFaQiv5AuHKbX6qopheQQdv9s2nbMUuFOWsEnXAQTn90WTVczij5YP6UyPC15e3k4MJZZqY4p03pfkqi5gMm7xS3BdPEkLtFLWwKfX9V3Zw=w253-h168-k-no",
+       "url": "https://photos.hotelbeds.com/giata/original/07/079775/079775a_hb_ro_237_20250401_194917.jpg",
+       "alt": ""
+      },
+      {
+       "thumb": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sci1m2VGrnwD2wODI95jS-TAzxatYYoiYhY6pnbP8GWuX-mtHYNuvv5i2XAOwP-4UTatwaaoh4rNo81QdHsetF-L4Jm9nsIf8I0Bqe3m8EBTNCdHMrGZLLknymXpPm1hSJDVF5=w253-h379-k-no",
+       "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sci1m2VGrnwD2wODI95jS-TAzxatYYoiYhY6pnbP8GWuX-mtHYNuvv5i2XAOwP-4UTatwaaoh4rNo81QdHsetF-L4Jm9nsIf8I0Bqe3m8EBTNCdHMrGZLLknymXpPm1hSJDVF5=s800",
+       "alt": ""
+      },
+      {
+       "thumb": "https://lh5.googleusercontent.com/proxy/zBK-xoCOPaCO8v0Bk0mSqtulgaAuQD_tEZGjBsZLcNm7A3uKFX_5PsK-Va6q9DPuNhREBJ2S17tFwFmz7bCjhs7dAGf0kdy1QOzZL7wwoEuKAiEGalnjmJZKPcH93xVbND6ZYUEmfTKRx_nWf75SCrC52t_vYw=w253-h168-k-no",
+       "url": "https://photos.hotelbeds.com/giata/original/07/079775/079775a_hb_r_008.jpg",
+       "alt": ""
+      },
+      {
+       "thumb": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R1iFaZRIj1EvM4FIfGgY57q8pbtK036X3RhbogaftUCH9HM5NAhgs-v04iSDYVps5Vnnpsf7Nuu4Y5HFSxKIs38ABlZEK5aGqTRLsaif5-dqG9bvMGcbARglz-VykdbvenFakRmA=w253-h142-k-no",
+       "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R1iFaZRIj1EvM4FIfGgY57q8pbtK036X3RhbogaftUCH9HM5NAhgs-v04iSDYVps5Vnnpsf7Nuu4Y5HFSxKIs38ABlZEK5aGqTRLsaif5-dqG9bvMGcbARglz-VykdbvenFakRmA=s1920",
+       "alt": ""
+      }
+     ],
+     "photos_updated_at": "2026-11-26T19:05:48Z",
+     "reviews": [
+      {
+       "text": "I had a fantastic stay at the Hotel Grand Saigon. Being an old building with a mix of French colonial architecture, the property and its surrounding area are truly beautiful and full of classic charm. From the moment I…",
+       "rating": 4,
+       "source": "Google",
+       "author": "David Sá Machado",
+       "date": "a week ago"
+      },
+      {
+       "text": "Beautiful old building and extremely gracious staff on all levels. Perfect location that is in walking distance to most everything. Our Room was very tired and small, most of the furniture was uncomfortable. The bed was…",
+       "rating": 4,
+       "source": "Google",
+       "author": "Jan Librio",
+       "date": "4 days ago"
+      },
+      {
+       "text": "A Comfortable Stay with Some Disappointments, but Genuine Hospitality I stayed at Hotel Grand Saigon from October 3 to October 12, 2026. The hotel’s central location is a significant advantage. I appreciated the early…",
+       "rating": 4,
+       "source": "Google",
+       "author": "yılmaz taykutgül",
+       "date": "a month ago"
+      }
+     ],
+     "reviews_updated_at": "2026-11-26T19:05:48Z"
     }
    ]
   }
